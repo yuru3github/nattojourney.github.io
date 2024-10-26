@@ -58,6 +58,9 @@ header .main-nav a {
 .start img {
   width: 700px;
 }
+.click {
+  display: none;
+}
 
 /* 地図 */
 .map {
