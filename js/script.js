@@ -9,6 +9,11 @@ $(function() {
         
         localStorage.setItem('visited', 'true');
     }
+    else {
+        setTimeout(function() {
+            $('.start').fadeOut(10);
+        }, 10);
+    }
 });
 
 $('.index .content div').ready(function() {
