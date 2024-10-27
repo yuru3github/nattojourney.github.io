@@ -67,7 +67,7 @@ header .main-nav a {
 	transform: translate(-50%, -50%);
 	display: none;
 	z-index: 9999;
-	width: 280px;
+	width: 400px;
 }
 
 /* 地図 */
