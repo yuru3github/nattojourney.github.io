@@ -1,10 +1,14 @@
 $(function() {
-	setTimeout(function(){
-		$('.start p').fadeIn(1600);
-	},500);
-	setTimeout(function(){
-		$('.start').fadeOut(500);
-	},2500);
+    if (!localStorage.getItem('visited')) {
+        setTimeout(function() {
+            $('.start p').fadeIn(1600);
+        }, 500);
+        setTimeout(function() {
+            $('.start').fadeOut(500);
+        }, 2500);
+        
+        localStorage.setItem('visited', 'true');
+    }
 });
 
 $('.index .content div').ready(function() {
