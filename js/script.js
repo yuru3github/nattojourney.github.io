@@ -43,10 +43,6 @@ $('.matching').ready(function() {
     }
 });
 
-$('.match, .card-show').ready(function() {
-    $('.anim, .card').fadeIn(3000);
-});
-
 $('.nippon area').ready(function() {
     var hash = window.location.hash;
     if (hash) {
