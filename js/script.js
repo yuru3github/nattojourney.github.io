@@ -91,7 +91,7 @@ $('.end').on('click',function(){
     } else ( box == bdfh ){
         $('#answer_16').css("display","");
     }
-  });
+});
 
 $('.nippon area').ready(function() {
     var hash = window.location.hash;
