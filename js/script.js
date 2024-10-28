@@ -52,6 +52,12 @@ $('.matching').ready(function() {
     }
 });
 
+$(".btn").on("click", function () {
+    $(this).closest("div").css("display", "none");
+    id = $(this).attr("href");
+    $(id).addClass("fit").fadeIn("slow").show();
+});
+
 $('.match').ready(function() {
     $('.anim').fadeIn(3000);
 });
