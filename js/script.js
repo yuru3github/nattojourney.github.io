@@ -52,6 +52,10 @@ $('.matching').ready(function() {
     }
 });
 
+$('.match').ready(function() {
+    $('.anim').fadeIn(3000);
+});
+
 $('.nippon area').ready(function() {
     var hash = window.location.hash;
     if (hash) {
