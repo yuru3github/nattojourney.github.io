@@ -88,7 +88,7 @@ $('.end').on('click',function(){
         $('#answer_14').css("display","");
     } else if ( box == bdfg ){
         $('#answer_15').css("display","");
-    } else if ( box == bdfh ){
+    } else ( box == bdfh ){
         $('#answer_16').css("display","");
     }
   });
