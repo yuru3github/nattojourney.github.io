@@ -11,8 +11,8 @@ $(function() {
     }
     else {
         setTimeout(function() {
-            $('.start').fadeOut(0);
-        }, 0);
+            $('.start').fadeOut(5);
+        }, 5);
     }
 });
 
