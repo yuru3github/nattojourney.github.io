@@ -459,9 +459,6 @@ header .main-nav a {
   border: dotted;
   padding: 20px;
 }
-.match .anim {
-  display: none;
-}
 
 /* レシピ、参考 */
 .recipe, .pull {
