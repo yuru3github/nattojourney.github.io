@@ -293,12 +293,12 @@ header {
 
 /* 診断 */
 
-.matching1, .matching2, .matching3, .matching4, .match {
+.matching, .match {
     text-align: center;
     margin: 100px 100px 500px;
 }
 
-.matching1, .matching2, .matching3, .matching4 {
+.matching {
     h4 {
         margin: 50px 0px 100px;
     }
@@ -326,111 +326,9 @@ header {
     }
 }
 
-.matching1 {
+.matching {
     position: relative;
     .nattomini1, .ito1, .nattomini2, .ito2, .nattomini3, .ito3 {
-        position: absolute;
-    }
-    .nattomini1 {
-        top: 150px;
-        left: 20px;
-    }
-    .ito1 {
-        top: 300px;
-        left: 70px;
-        transform: rotate(-20deg);
-    }
-    .nattomini2 {
-        top: 570px;
-        left: 400px;
-    }
-    .ito2 {
-        top: 600px;
-        left: 650px;
-        transform: rotate(70deg);
-    }
-    .nattomini3 {
-        top: 400px;
-        left: 1100px;
-    }
-    .ito3 {
-        top: 200px;
-        left: 1200px;
-        transform: rotate(20deg);
-    }
-}
-
-.matching2 {
-    position: relative;
-    .nattomini1, .ito1, .nattomini2, .ito2, .nattomini3, .ito3{
-        position: absolute;
-    }
-    .nattomini1 {
-        top: 150px;
-        left: 20px;
-    }
-    .ito1 {
-        top: 300px;
-        left: 70px;
-        transform: rotate(-20deg);
-    }
-    .nattomini2 {
-        top: 570px;
-        left: 400px;
-    }
-    .ito2 {
-        top: 600px;
-        left: 650px;
-        transform: rotate(70deg);
-    }
-    .nattomini3 {
-        top: 400px;
-        left: 1100px;
-    }
-    .ito3 {
-        top: 200px;
-        left: 1200px;
-        transform: rotate(20deg);
-    }
-}
-
-.matching3 {
-    position: relative;
-    .nattomini1, .ito1, .nattomini2, .ito2, .nattomini3, .ito3{
-        position: absolute;
-    }
-    .nattomini1 {
-        top: 150px;
-        left: 20px;
-    }
-    .ito1 {
-        top: 300px;
-        left: 70px;
-        transform: rotate(-20deg);
-    }
-    .nattomini2 {
-        top: 570px;
-        left: 400px;
-    }
-    .ito2 {
-        top: 600px;
-        left: 650px;
-        transform: rotate(70deg);
-    }
-    .nattomini3 {
-        top: 400px;
-        left: 1100px;
-    }
-    .ito3 {
-        top: 200px;
-        left: 1200px;
-        transform: rotate(20deg);
-    }
-}
-
-.matching4 {
-    position: relative;
-    .nattomini1, .ito1, .nattomini2, .ito2, .nattomini3, .ito3{
         position: absolute;
     }
     .nattomini1 {
