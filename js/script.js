@@ -1,4 +1,4 @@
-$(window).on('load', function() {
+$('.start').ready(function() {
     $('.start').fadeOut(3000);
 });
 
