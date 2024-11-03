@@ -59,6 +59,10 @@ header .main-nav a {
   width: 700px;
 }
 
+.click {
+  display: none;
+}
+
 /* 地図 */
 .map {
   margin: 50px 0px 100px;
