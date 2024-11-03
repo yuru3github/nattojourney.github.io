@@ -51,16 +51,22 @@ header .main-nav a {
 }
 
 /* スタート */
-.start, .click {
+.start {
   margin: 50px;
   text-align: center;
 }
-.start img, .click img {
+.start img {
   width: 700px;
 }
 
 .click {
-  display: none;
+  margin: 50px;
+  position: absolute;
+  top: 600px;
+  left: 600px;
+}
+.click img {
+    width: 100px;
 }
 
 /* 地図 */
