@@ -282,7 +282,7 @@ header .main-nav a {
 /* 診断 */
 .matching, .match {
   text-align: center;
-  margin: 100px 100px 500px;
+  margin: 100px 100px 300px;
 }
 
 .matching h4 {
@@ -303,7 +303,6 @@ header .main-nav a {
 }
 .matching .button {
   width: 300px;
-  padding: 80px;
   border-radius: 100px;
   font-size: 25px;
   background-color: rgb(38, 217, 217);
