@@ -1,13 +1,6 @@
 $('.start').ready(function() {
-        setTimeout(function() {
-            $('.start').fadeOut(500);
-        }, 2500);
-});
-
-$('.click').ready(function() {
-        setTimeout(function() {
-            $('.click').fadeIn(500);
-        }, 2500);
+    $('.start').fadeOut(3000);
+    $('.click').fadeIn(500);
 });
 
 $('.index .content div').ready(function() {
