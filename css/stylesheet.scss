@@ -295,7 +295,7 @@ header {
 
 .matching, .match {
     text-align: center;
-    margin: 100px 100px 500px;
+    margin: 100px 100px 300px;
 }
 
 .matching {
@@ -310,10 +310,10 @@ header {
         display: flex;
         justify-content: center;
         li {
+            width: 300px;
             margin: 30px;
             .button {
                 width: 300px;
-                padding: 80px;
                 border-radius: 100px;
                 font-size: 25px;
                 background-color: rgb(38, 217, 217);
