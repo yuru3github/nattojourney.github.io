@@ -3,16 +3,16 @@ $(function() {
         setTimeout(function() {
             $('.start p').fadeIn(1600);
         }, 500);
+
         setTimeout(function() {
-            $('.start').fadeOut(500);
+            $('.start').fadeOut(500, function() {
+                $('.start').off('click');
+            });
         }, 2500);
-        
+
         localStorage.setItem('visited', 'true');
-    }
-    else {
-        setTimeout(function() {
-            $('.start').fadeOut(5);
-        }, 5);
+    } else {
+        $('.start').fadeOut(5).off('click');
     }
 });
 
