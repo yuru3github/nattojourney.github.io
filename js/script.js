@@ -26,15 +26,15 @@ $('.match').ready(function() {
 });
 
 $('.btn').on('click', function () {
-    $(this).closest("div").css("display", "none");
-    id = $(this).attr("href");
-    $(id).addClass("fit").fadeIn("slow").show();
+    $(this).closest('div').css('display', 'none');
+    id = $(this).attr('href');
+    $(id).addClass('fit').fadeIn('slow').show();
 });
 
 var box =[];
 $('.btn').each(function(){
     $(this).on('click',function(){
-        var value = $(this).data("value");
+        var value = $(this).data('value');
         box.push(value);
     });
 });
