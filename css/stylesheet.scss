@@ -52,16 +52,23 @@ header {
 
 /* スタート */
 
-.start, .click {
+.start {
   margin: 50px;
   text-align: center;
+  position: relative;
   img {
     width: 700px;
   }
 }
 
 .click {
-    display: none;
+  margin: 50px;
+  position: absolute;
+  top: 600px;
+  left: 600px;
+  img {
+    width: 100px;
+  }
 }
 
 /* 地図 */
