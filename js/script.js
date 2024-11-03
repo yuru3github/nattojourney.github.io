@@ -25,14 +25,14 @@ $('.match').ready(function() {
     }
 });
 
-$(".btn").on("click", function () {
+$('.btn').on('click', function () {
     $(this).closest("div").css("display", "none");
     id = $(this).attr("href");
     $(id).addClass("fit").fadeIn("slow").show();
 });
 
 var box =[];
-$(".btn").each(function(){
+$('.btn').each(function(){
     $(this).on('click',function(){
         var value = $(this).data("value");
         box.push(value);
@@ -40,37 +40,37 @@ $(".btn").each(function(){
 });
 
 $('.end').on('click',function(){
-    if( box == aceg ) {
+    if( box === "aceg" ) {
         $('#answer_01').css("display","");
-    } else if ( box == aceh ){
+    } else if ( box === "aceh" ){
         $('#answer_02').css("display","");
-    } else if ( box == acfg ){
+    } else if ( box === "acfg" ){
         $('#answer_03').css("display","");
-    } else if ( box == acfh ){
+    } else if ( box === "acfh" ){
         $('#answer_04').css("display","");
-    } else if ( box == adeg ){
+    } else if ( box === "adeg" ){
         $('#answer_05').css("display","");
-    } else if ( box == adeh ){
+    } else if ( box === "adeh" ){
         $('#answer_06').css("display","");
-    } else if ( box == adfg ){
+    } else if ( box === "adfg" ){
         $('#answer_07').css("display","");
-    } else if ( box == adfh ){
+    } else if ( box === "adfh" ){
         $('#answer_08').css("display","");
-    } else if ( box == bceg ){
+    } else if ( box === "bceg" ){
         $('#answer_09').css("display","");
-    } else if ( box == bceh ){
+    } else if ( box === "bceh" ){
         $('#answer_10').css("display","");
-    } else if ( box == bcfg ){
+    } else if ( box === "bcfg" ){
         $('#answer_11').css("display","");
-    } else if ( box == bcfh ){
+    } else if ( box === "bcfh" ){
         $('#answer_12').css("display","");
-    } else if ( box == bdeg ){
+    } else if ( box === "bdeg" ){
         $('#answer_13').css("display","");
-    } else if ( box == bdeh ){
+    } else if ( box === "bdeh" ){
         $('#answer_14').css("display","");
-    } else if ( box == bdfg ){
+    } else if ( box === "bdfg" ){
         $('#answer_15').css("display","");
-    } else ( box == bdfh ){
+    } else ( box === "bdfh" ){
         $('#answer_16').css("display","");
     }
 });
