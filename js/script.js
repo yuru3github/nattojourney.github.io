@@ -1,4 +1,4 @@
-$('.start').ready(function() {
+$(function() {
     $('.start').fadeOut(3000);
 });
 
