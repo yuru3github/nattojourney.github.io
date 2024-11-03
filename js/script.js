@@ -1,7 +1,3 @@
-$('.start').ready(function() {
-    $('.start').fadeOut(3000);
-});
-
 $('.index .content div').ready(function() {
     var hash = window.location.hash;
     if (hash) {
