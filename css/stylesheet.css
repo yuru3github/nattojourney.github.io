@@ -282,7 +282,7 @@ header .main-nav a {
 /* 診断 */
 .matching, .match {
   text-align: center;
-  margin: 100px 100px 300px;
+  margin: 100px;
 }
 
 .matching h4 {
@@ -295,7 +295,6 @@ header .main-nav a {
   list-style: none;
   display: flex;
   justify-content: center;
-  margin-top: 100px;
 }
 .matching li {
   margin: 30px;
