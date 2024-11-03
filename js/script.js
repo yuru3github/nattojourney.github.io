@@ -1,6 +1,5 @@
 $('.start').ready(function() {
     $('.start').fadeOut(3000);
-    $('.click').fadeIn(500);
 });
 
 $('.index .content div').ready(function() {
