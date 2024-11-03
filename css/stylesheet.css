@@ -298,11 +298,11 @@ header .main-nav a {
   margin-top: 100px;
 }
 .matching li {
-  width: 300px;
   margin: 30px;
 }
 .matching .button {
   width: 300px;
+  padding: 80px;
   border-radius: 100px;
   font-size: 25px;
   background-color: rgb(38, 217, 217);
