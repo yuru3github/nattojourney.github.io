@@ -1,19 +1,10 @@
 $(function() {
-    if (!localStorage.getItem('visited')) {
         setTimeout(function() {
             $('.start p').fadeIn(1600);
         }, 500);
-
         setTimeout(function() {
-            $('.start').fadeOut(500, function() {
-                $('.start').off('click');
-            });
+            $('.start').fadeOut(500);
         }, 2500);
-
-        localStorage.setItem('visited', 'true');
-    } else {
-        $('.start').fadeOut(5).off('click');
-    }
 });
 
 $('.index .content div').ready(function() {
