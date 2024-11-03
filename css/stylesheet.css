@@ -295,6 +295,7 @@ header .main-nav a {
   list-style: none;
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 .matching li {
   margin: 30px;
@@ -302,7 +303,7 @@ header .main-nav a {
 .matching .button {
   width: 300px;
   padding: 80px;
-  border-radius: 100px;
+  border-radius: 50px;
   font-size: 25px;
   background-color: rgb(38, 217, 217);
 }
