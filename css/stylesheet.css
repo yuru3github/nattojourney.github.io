@@ -296,10 +296,10 @@ header .main-nav a {
   display: flex;
   justify-content: center;
 }
-.matching ul li {
+.matching li {
   margin: 30px;
 }
-.matching ul li .button {
+.matching .button {
   width: 300px;
   padding: 80px;
   border-radius: 100px;
