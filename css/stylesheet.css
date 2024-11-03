@@ -51,23 +51,12 @@ header .main-nav a {
 }
 
 /* スタート */
-.start {
-	background: rgb(209, 243, 230);
-	position: fixed;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	z-index: 9000;
+.start, .click {
+  margin: 50px;
+  text-align: center;
 }
-.start p {
-	position: fixed;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	display: none;
-	z-index: 9999;
-	width: 400px;
+.start img, .click img {
+  width: 700px;
 }
 
 /* 地図 */
