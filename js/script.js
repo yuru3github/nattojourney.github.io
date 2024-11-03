@@ -4,6 +4,12 @@ $('.start').ready(function() {
         }, 2500);
 });
 
+$('.click').ready(function() {
+        setTimeout(function() {
+            $('.click').fadeIn(500);
+        }, 2500);
+});
+
 $('.index .content div').ready(function() {
     var hash = window.location.hash;
     if (hash) {
