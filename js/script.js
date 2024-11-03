@@ -25,21 +25,21 @@ $('.match').ready(function() {
     }
 });
 
-$('.btn').on('click', function () {
-    $(this).closest('div').css('display', 'none');
+$('.btn').click(function () {
+    $(this).closest('div').css("display", "none");
     id = $(this).attr('href');
-    $(id).addClass('fit').fadeIn('slow').show();
+    $(id).addClass("fit").fadeIn().show();
 });
 
 var box =[];
 $('.btn').each(function(){
-    $(this).on('click',function(){
+    $(this).click(function(){
         var value = $(this).data('value');
         box.push(value);
     });
 });
 
-$('.end').on('click',function(){
+$('.end').click(function(){
     if( box === "aceg" ) {
         $('#answer_01').css("display","");
     } else if ( box === "aceh" ){
