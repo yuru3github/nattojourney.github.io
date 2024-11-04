@@ -368,4 +368,10 @@ header .main-nav a {
   margin-bottom: 20px;
 }
 
+.pull .border {
+  margin-top: 50px;
+  padding-top: 50px;
+  border-top: solid rgba(188, 195, 51, 0.948);
+}
+
 /* レスポンシブ *//*# sourceMappingURL=stylesheet.css.map */
