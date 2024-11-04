@@ -378,6 +378,7 @@ header {
 
 .recipe, .pull {
     margin: 100px 200px;
+    overflow-wrap: anywhere;
     ul {
         margin-top: 50px;
         li {
