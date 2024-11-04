@@ -368,6 +368,10 @@ header .main-nav a {
 .recipe ul li, .pull ul li {
   margin-bottom: 20px;
 }
+.recipe ul li img, .pull ul li img {
+　width: 20px;
+  padding-right: 5px;
+}
 
 .pull .border {
   margin-top: 50px;
