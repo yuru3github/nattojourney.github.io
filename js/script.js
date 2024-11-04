@@ -25,54 +25,55 @@ $('.match').ready(function() {
     }
 });
 
-$('.btn').click(function (event) {
+let box = [];
+
+$('.btn').click(function(event) {
     event.preventDefault();
+
     $(this).closest('div').hide();
+
+    let value = $(this).data('value');
+    box.push(value);
+
     let id = $(this).attr('href');
     $(id).fadeIn();
 });
 
-var box =[];
-$('.btn').each(function(){
-    $(this).click(function(){
-        var value = $(this).data('value');
-        box.push(value);
-    });
-});
+$('.end').click(function() {
+    let result = box.join('');
 
-$('.end').click(function(){
-    if( box === "aceg" ) {
-        $('#answer_01').css("display","");
-    } else if ( box === "aceh" ){
-        $('#answer_02').css("display","");
-    } else if ( box === "acfg" ){
-        $('#answer_03').css("display","");
-    } else if ( box === "acfh" ){
-        $('#answer_04').css("display","");
-    } else if ( box === "adeg" ){
-        $('#answer_05').css("display","");
-    } else if ( box === "adeh" ){
-        $('#answer_06').css("display","");
-    } else if ( box === "adfg" ){
-        $('#answer_07').css("display","");
-    } else if ( box === "adfh" ){
-        $('#answer_08').css("display","");
-    } else if ( box === "bceg" ){
-        $('#answer_09').css("display","");
-    } else if ( box === "bceh" ){
-        $('#answer_10').css("display","");
-    } else if ( box === "bcfg" ){
-        $('#answer_11').css("display","");
-    } else if ( box === "bcfh" ){
-        $('#answer_12').css("display","");
-    } else if ( box === "bdeg" ){
-        $('#answer_13').css("display","");
-    } else if ( box === "bdeh" ){
-        $('#answer_14').css("display","");
-    } else if ( box === "bdfg" ){
-        $('#answer_15').css("display","");
-    } else ( box === "bdfh" ){
-        $('#answer_16').css("display","");
+    if (result === "aceg") {
+        $('#answer_01').show();
+    } else if (result === "aceh") {
+        $('#answer_02').show();
+    } else if (result === "acfg") {
+        $('#answer_03').show();
+    } else if (result === "acfh") {
+        $('#answer_04').show();
+    } else if (result === "adeg") {
+        $('#answer_05').show();
+    } else if (result === "adeh") {
+        $('#answer_06').show();
+    } else if (result === "adfg") {
+        $('#answer_07').show();
+    } else if (result === "adfh") {
+        $('#answer_08').show();
+    } else if (result === "bceg") {
+        $('#answer_09').show();
+    } else if (result === "bceh") {
+        $('#answer_10').show();
+    } else if (result === "bcfg") {
+        $('#answer_11').show();
+    } else if (result === "bcfh") {
+        $('#answer_12').show();
+    } else if (result === "bdeg") {
+        $('#answer_13').show();
+    } else if (result === "bdeh") {
+        $('#answer_14').show();
+    } else if (result === "bdfg") {
+        $('#answer_15').show();
+    } else if (result === "bdfh") {
+        $('#answer_16').show();
     }
 });
 
