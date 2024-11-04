@@ -25,7 +25,8 @@ $('.match').ready(function() {
     }
 });
 
-$('.btn').click(function () {
+$('.btn').click(function (event) {
+    event.preventDefault();
     $(this).closest('div').hide();
     let id = $(this).attr('href');
     $(id).fadeIn().show();
