@@ -26,9 +26,9 @@ $('.match').ready(function() {
 });
 
 $('.btn').click(function () {
-    $(this).closest('div').css("display", "none");
-    id = $(this).attr('href');
-    $(id).addClass("fit").fadeIn().show();
+    $(this).closest('div').hide();
+    let id = $(this).attr('href');
+    $(id).fadeIn().show();
 });
 
 var box =[];
