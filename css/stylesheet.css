@@ -360,6 +360,7 @@ header .main-nav a {
 /* レシピ、参考 */
 .recipe, .pull {
   margin: 100px 200px;
+  overflow-wrap: anywhere;
 }
 .recipe ul, .pull ul {
   margin-top: 50px;
