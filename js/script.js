@@ -29,7 +29,7 @@ $('.btn').click(function (event) {
     event.preventDefault();
     $(this).closest('div').hide();
     let id = $(this).attr('href');
-    $(id).fadeIn().show();
+    $(id).fadeIn();
 });
 
 var box =[];
