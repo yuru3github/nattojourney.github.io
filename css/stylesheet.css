@@ -301,22 +301,11 @@ header .main-nav a {
 }
 .matching .button {
   display: inline-block;
-  text-align: center;
   width: 300px;
   padding: 80px;
   border-radius: 100px;
   font-size: 25px;
   background-color: rgb(38, 217, 217);
-}
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    cursor: pointer;
 }
 .matching img {
   width: 70px;
