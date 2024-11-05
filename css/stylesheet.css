@@ -186,7 +186,7 @@ header .main-nav a {
   display: block;
 }
 .side-index .side ul.side-nav li:hover ul .button {
-  font-size: 15px;
+  font-size: 13px;
   padding: 2px 30px;
   border: 0.5px solid;
 }
@@ -374,9 +374,259 @@ header .main-nav a {
 
 
 
-/* レスポンシブ */
+/* -------------------------------------------- レスポンシブ1000px -------------------------------------------- */
+
+@media (max-width: 1000px) {
+
+/* 地図 */
+.map .nippon img {
+  position: relative;
+}
+.map h1, .map .nattoman, .map .nattomini1, .map .ito1, .map .nattomini2, .map .ito2, .map .nattomini3, .map .ito3 {
+  position: absolute;
+}
+.map h1 {
+  top: 150px;
+  left: 200px;
+  font-size: 2rem;
+}
+.map .nattoman {
+  top: 250px;
+  left: 200px;
+}
+.map .nattoman img {
+  width: 100px;
+  margin-right: 15px;
+}
+.map .nattomini1, .map .nattomini2, .map .nattomini3 {
+  width: 50px;
+}
+.map .ito1, .map .ito2, .map .ito3 {
+  width: 70px;
+}
+.map .nattomini1 {
+  top: 200px;
+  left: 70px;
+}
+.map .ito1 {
+  top: 300px;
+  left: 90px;
+}
+.map .nattomini2 {
+  top: 650px;
+  left: 350px;
+}
+.map .ito2 {
+  top: 600px;
+  left: 400px;
+}
+.map .nattomini3 {
+  top: 400px;
+  left: 600px;
+}
+.map .ito3 {
+  top: 300px;
+  left: 650px;
+}
+
+/* 詳細 */
+.index-show .item-show .left-right .left img {
+  width: 300px;
+}
+
+/* 診断 */
+.matching {
+  position: relative;
+}
+.matching .nattomini1, .matching .ito1, .matching .nattomini2, .matching .ito2, .matching .nattomini3, .matching .ito3 {
+  position: absolute;
+}
+.matching .nattomini1 {
+  top: 200px;
+  left: 70px;
+}
+.matching .ito1 {
+  top: 300px;
+  left: 90px;
+}
+.matching .nattomini2 {
+  top: 650px;
+  left: 350px;
+}
+.matching .ito2 {
+  top: 600px;
+  left: 400px;
+}
+.matching .nattomini3 {
+  top: 400px;
+  left: 600px;
+}
+.matching .ito3 {
+  top: 300px;
+  left: 650px;
+}
+
+}
+
+/* -------------------------------------------- レスポンシブ800px -------------------------------------------- */
 
 @media (max-width: 800px) {
+
+.button {
+  border-radius: 20px;
+  padding: 15px;
+}
+
+/* ヘッダー */
+header {
+  border-bottom: 3px solid rgb(79, 168, 107);
+}
+header .logo {
+  width: 70px;
+  margin: 0px 0px 0px 70px;
+}
+header .main-nav {
+  margin: 30px;
+}
+header .main-nav li {
+  padding-right: 40px;
+}
+
+/* スタート */
+.start {
+  margin: 40px;
+}
+.start img {
+  width: 500px;
+}
+.click {
+  margin: 40px;
+  position: absolute;
+  top: 350px;
+  left: 650px;
+}
+.click img {
+  width: 100px;
+}
+
+/* 地図 */
+.map {
+  margin: 40px 0px 70px;
+}
+.map .nippon img {
+  position: relative;
+}
+.map h1, .map .nattoman, .map .nattomini1, .map .ito1, .map .nattomini2, .map .ito2, .map .nattomini3, .map .ito3 {
+  position: absolute;
+}
+.map h1 {
+  top: 150px;
+  left: 200px;
+  font-size: 2rem;
+}
+.map .nattoman {
+  top: 250px;
+  left: 200px;
+}
+.map .nattoman img {
+  width: 100px;
+  margin-right: 15px;
+}
+.map .nattomini1, .map .nattomini2, .map .nattomini3 {
+  width: 50px;
+}
+.map .ito1, .map .ito2, .map .ito3 {
+  width: 70px;
+}
+.map .nattomini1 {
+  top: 200px;
+  left: 70px;
+}
+.map .ito1 {
+  top: 300px;
+  left: 90px;
+}
+.map .nattomini2 {
+  top: 650px;
+  left: 350px;
+}
+.map .ito2 {
+  top: 600px;
+  left: 400px;
+}
+.map .nattomini3 {
+  top: 400px;
+  left: 600px;
+}
+.map .ito3 {
+  top: 300px;
+  left: 650px;
+}
+
+/* 一覧 */
+.side-index .side .side-nav .button {
+  border-radius: 18px;
+}
+.side-index .side ul.side-nav li:hover ul .button {
+  padding: 1.5px 20px;
+}
+
+/* 診断 */
+.matching {
+  position: relative;
+}
+.matching .nattomini1, .matching .ito1, .matching .nattomini2, .matching .ito2, .matching .nattomini3, .matching .ito3 {
+  position: absolute;
+}
+.matching .nattomini1 {
+  top: 200px;
+  left: 70px;
+}
+.matching .ito1 {
+  top: 300px;
+  left: 90px;
+}
+.matching .nattomini2 {
+  top: 650px;
+  left: 350px;
+}
+.matching .ito2 {
+  top: 600px;
+  left: 400px;
+}
+.matching .nattomini3 {
+  top: 400px;
+  left: 600px;
+}
+.matching .ito3 {
+  top: 300px;
+  left: 650px;
+}
+
+/* レシピ、参考 */
+.recipe, .pull {
+  margin: 70px 150px;
+}
+.recipe ul, .pull ul {
+  margin-top: 30px;
+}
+.recipe ul li, .pull ul li {
+  margin-bottom: 15px;
+}
+.recipe ul li img, .pull ul li img {
+  width: 15px;
+  padding-right: 3px;
+}
+.pull .border {
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+}
+
+/* -------------------------------------------- レスポンシブ600px -------------------------------------------- */
+
+@media (max-width: 600px) {
 
 .button {
   border-radius: 20px;
@@ -664,7 +914,5 @@ header .main-nav li {
 }
 
 }
-
-
 
 /*# sourceMappingURL=stylesheet.css.map */
