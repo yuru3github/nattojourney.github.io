@@ -1,20 +1,17 @@
 @charset "UTF-8";
 body {
   background-color: rgb(209, 243, 230);
-  font-size: 1.1vw;
 }
 a {
   text-decoration: none;
   color: rgb(33, 164, 164);
-  font-size: 1.1vw;
 }
 .button {
   background-color: rgb(84, 176, 190);
   color: rgb(253, 253, 253);
-  border-radius: 2vw;
-  padding: 1vw 2vw;
+  border-radius: 30px;
+  padding: 20px;
   cursor: pointer;
-  display: inline-block;
 }
 a:hover, .button:hover {
   opacity: 0.5;
@@ -23,56 +20,54 @@ a:hover, .button:hover {
 /* ヘッダー */
 header {
   background-color: rgb(98, 213, 134);
-  border-bottom: 0.35vw solid rgb(79, 168, 107);
+  border-bottom: 5px solid rgb(79, 168, 107);
   display: flex;
   justify-content: space-between;
-  padding: 1vw 2vw;
-  position: sticky;
-  top: 0;
+  position: fixed;
   z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: sticky;
 }
 header .logo {
-  width: 6vw;
-  margin: 0 0 0 6.94vw;
+  width: 100px;
+  margin: 0px 0px 0px 100px;
 }
 header .main-nav {
-  margin: 2vw;
+  margin: 40px;
   list-style: none;
   display: flex;
-  gap: 3vw;
 }
 header .main-nav li {
-  padding-right: 3.47vw;
+  padding-right: 50px;
 }
 header .main-nav a {
   color: rgb(253, 253, 253);
   font-weight: bold;
-  font-size: 1.1vw;
 }
 
 /* スタート */
 .start {
-  margin: 3vw;
+  margin: 50px;
   text-align: center;
-  position: relative;
 }
 .start img {
-  width: 50vw;
+  width: 700px;
 }
 .click {
-  margin: 3vw;
+  margin: 50px;
   position: absolute;
-  top: 31.25vw;
-  left: 59.03vw;
+  top: 450px;
+  left: 850px;
 }
 .click img {
-  width: 10vw;
+  width: 150px;
 }
 
 /* 地図 */
 .map {
-  margin: 3vw 0 6vw;
-  position: relative;
+  margin: 50px 0px 100px;
 }
 .map .map-center {
   text-align: center;
@@ -84,204 +79,212 @@ header .main-nav a {
   position: absolute;
 }
 .map h1 {
-  top: 13.89vw;
-  left: 20.83vw;
-  font-size: 2.5vw;
+  top: 200px;
+  left: 300px;
+  font-size: 2.5rem;
   font-weight: lighter;
 }
 .map .nattoman {
-  top: 20.83vw;
-  left: 20.83vw;
+  top: 300px;
+  left: 300px;
 }
 .map .nattoman p {
-  margin-bottom: 0.7vw;
-  font-size: 1.2vw;
+  margin-bottom: 10px;
 }
 .map .nattoman .fukidashi {
   position: relative;
-  width: 18.75vw;
-  height: 4.86vw;
-  line-height: 4.86vw;
+  width: 270px;
+  height: 70px;
+  line-height: 70px;
   text-align: center;
   background-color: floralwhite;
-  border-radius: 2vw;
+  border-radius: 50%;
   box-sizing: border-box;
 }
 .map .nattoman .fukidashi:before {
   content: "";
   position: absolute;
-  bottom: -1.5vw;
+  bottom: -20px;
   left: 40%;
-  margin-left: -1.5vw;
-  border: 1vw solid transparent;
-  border-top: 1vw solid floralwhite;
+  margin-left: -12px;
+  border: 12px solid transparent;
+  border-top: 12px solid floralwhite;
   z-index: 0;
 }
 .map .nattoman img {
-  width: 10.42vw;
-  margin-right: 1.39vw;
+  width: 150px;
+  margin-right: 20px;
 }
 .map .nattomini1, .map .nattomini2, .map .nattomini3 {
-  width: 4.86vw;
+  width: 70px;
 }
 .map .ito1, .map .ito2, .map .ito3 {
-  width: 6.94vw;
+  width: 100px;
 }
 .map .nattomini1 {
-  top: 20.83vw;
-  left: 1.39vw;
+  top: 300px;
+  left: 100px;
 }
 .map .ito1 {
-  top: 41.67vw;
-  left: 4.86vw;
+  top: 400px;
+  left: 120px;
   transform: rotate(-20deg);
 }
 .map .nattomini2 {
-  top: 39.58vw;
-  left: 27.78vw;
+  top: 650px;
+  left: 750px;
 }
 .map .ito2 {
-  top: 41.67vw;
-  left: 45.14vw;
+  top: 600px;
+  left: 950px;
   transform: rotate(50deg);
 }
 .map .nattomini3 {
-  top: 27.78vw;
-  left: 76.39vw;
+  top: 550px;
+  left: 1150px;
 }
 .map .ito3 {
-  top: 13.89vw;
-  left: 83.33vw;
+  top: 400px;
+  left: 1250px;
   transform: rotate(20deg);
 }
 
 /* 一覧 */
 .side-index {
   display: flex;
-  width: 100%;
 }
 .side-index .side {
-  width: 25%;
-  padding: 2vw;
+  width: 300px;
+  height: 1000px;
+  margin-left: 100px;
   position: sticky;
-  top: 7vw;
-  left: 7vw;
+  top: 100px;
+  left: 100px;
+  padding-top: 100px;
 }
 .side-index .side .side-nav {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 1.5vw;
+  gap: 20px;
+  width: -moz-fit-content;
   width: fit-content;
 }
 .side-index .side .side-nav .button {
-  width: 13.89vw;
+  width: 200px;
   display: inline-flex;
   background-color: floralwhite;
   color: black;
-  border-radius: 1.39vw;
-  border: 0.1vw solid;
+  border-radius: 20px;
+  border: 1.5px solid;
+}
+.side-index .side .side-nav ul {
+  list-style: none;
+  display: none;
+}
+.side-index .side ul.side-nav li:hover ul {
+  display: block;
+}
+.side-index .side ul.side-nav li:hover ul .button {
+  font-size: 15px;
+  padding: 2px 30px;
+  border: 0.5px solid;
 }
 .side-index .index {
-  width: 75%;
-  margin: 6vw;
+  margin: 100px;
 }
 .side-index .index h2 {
   font-weight: lighter;
-  font-size: 2vw;
 }
 .side-index .index .home {
-  margin: 3vw 0;
-  padding-top: 3vw;
+  margin: 50px 0px 0px;
+  padding: 50px 0px 0px;
   border-top: solid rgba(188, 195, 51, 0.948);
 }
+.side-index .index .home h3 {
+  margin-bottom: 50px;
+}
 .side-index .index .home .item {
-  margin-top: 3vw;
-  position: relative;
+  margin-top: 50px;
 }
 .side-index .index .home .item h4 img {
-  width: 1.39vw;
-  padding-right: 0.35vw;
+  width: 20px;
+  padding-right: 5px;
 }
 .side-index .index .home .item p {
-  margin-top: 1.39vw;
+  margin-top: 20px;
 }
 .side-index .index .home .item .content {
   display: flex;
-  gap: 2vw;
 }
 .side-index .index .home .item .content img {
-  width: 10.42vw;
-  margin: 1.39vw 3.47vw 0 0;
+  width: 150px;
+  margin: 20px 50px 0px 0px;
+}
+.side-index .index .home .item .content p {
+  float: left;
 }
 .side-index .index .home .item .content a {
   float: left;
-  margin-top: 2vw;
+  margin-top: 30px;
   border: dotted;
-  padding: 1vw;
+  padding: 10px;
 }
 
 /* 詳細 */
 .index-show h2 {
-  margin: 6vw 0 0 6vw;
-  font-size: 2vw;
+  margin: 100px 0px 0px 100px;
 }
 .index-show .item-show {
   overflow-wrap: anywhere;
-  margin: 3.47vw 6vw 6vw;
-  padding: 3.47vw 0;
-  border-top: solid 0.24vw rgba(188, 195, 51, 0.948);
+  margin: 50px 100px 100px;
+  padding: 50px 0px;
+  border-top: solid rgba(188, 195, 51, 0.948);
 }
 .index-show .item-show h2 {
-  margin: 3vw 0 1.39vw;
-  font-size: 2vw;
+  margin: 50px 0px 20px;
 }
 .index-show .item-show .left-right {
   display: flex;
-  gap: 3vw;
 }
 .index-show .item-show .left-right .left p {
-  width: 34.72vw;
+  width: 500px;
 }
 .index-show .item-show .left-right .left img {
-  width: 100%;
-  max-width: 34.72vw;
+  width: 500px;
+  margin-top: 50px;
 }
 .index-show .item-show .left-right .right {
   float: left;
-  margin-left: 6.94vw;
+  margin-left: 100px;
 }
 .index-show .item-show .left-right .right h3 {
-  margin: 3vw 0;
-  font-size: 1.5vw;
+  margin: 50px 0px;
 }
 .index-show .item-show .left-right .right p {
-  margin-top: 1.39vw;
+  margin-top: 20px;
 }
 .index-show .item-show .left-right .right p img {
-  width: 1.39vw;
-  padding-right: 0.35vw;
+  width: 20px;
+  padding-right: 5px;
 }
 .index-show .item-show .review-show {
-  margin-top: 3.47vw;
+  margin-top: 50px;
   background-color: floralwhite;
-  border-radius: 1.39vw;
-  padding: 1.39vw;
+  border-radius: 20px;
+  padding: 20px;
 }
 
 /* 診断 */
 .matching, .match {
   text-align: center;
-  margin: 6vw;
-  position: relative;
+  margin: 100px;
 }
 .matching h4 {
-  margin: 3vw 0 6vw;
-  font-size: 2vw;
+  margin: 50px 0px 100px;
 }
 .matching h3 {
-  margin-bottom: 1.39vw;
-  font-size: 1.8vw;
+  margin-bottom: 20px;
 }
 .matching ul {
   list-style: none;
@@ -289,113 +292,84 @@ header .main-nav a {
   justify-content: center;
 }
 .matching li {
-  margin: 2vw;
+  margin: 30px;
 }
 .matching .button {
   display: inline-block;
-  width: 20.83vw;
-  padding: 5vw;
-  border-radius: 6.94vw;
-  font-size: 1.8vw;
+  width: 300px;
+  padding: 80px;
+  border-radius: 100px;
+  font-size: 25px;
   background-color: rgb(38, 217, 217);
 }
 .matching img {
-  width: 4.86vw;
+  width: 70px;
+}
+.matching {
+  position: relative;
 }
 .matching .nattomini1, .matching .ito1, .matching .nattomini2, .matching .ito2, .matching .nattomini3, .matching .ito3 {
   position: absolute;
 }
 .matching .nattomini1 {
-  top: 10.42vw;
-  left: 1.39vw;
+  top: 150px;
+  left: 20px;
 }
 .matching .ito1 {
-  top: 20.83vw;
-  left: 4.86vw;
+  top: 300px;
+  left: 70px;
   transform: rotate(-20deg);
 }
 .matching .nattomini2 {
-  top: 39.58vw;
-  left: 27.78vw;
+  top: 570px;
+  left: 400px;
 }
 .matching .ito2 {
-  top: 41.67vw;
-  left: 45.14vw;
+  top: 600px;
+  left: 650px;
   transform: rotate(70deg);
 }
 .matching .nattomini3 {
-  top: 27.78vw;
-  left: 76.39vw;
+  top: 400px;
+  left: 1100px;
 }
 .matching .ito3 {
-  top: 13.89vw;
-  left: 83.33vw;
+  top: 200px;
+  left: 1200px;
   transform: rotate(20deg);
 }
 .match div {
-  margin: 3.47vw 0;
+  margin: 50px 0px;
 }
 .match div img {
-  width: 100%;
-  max-width: 24.31vw;
+  width: 350px;
+  margin: 20px 0px 50px;
 }
 .match div a {
   border: dotted;
-  padding: 1.39vw;
-  font-size: 1.5vw;
+  padding: 20px;
 }
 
 /* レシピ、参考 */
 .recipe, .pull {
-  margin: 6vw;
+  margin: 100px 200px;
   overflow-wrap: anywhere;
 }
 .recipe ul, .pull ul {
   list-style: none;
-  margin-top: 3.47vw;
+  margin-top: 50px;
 }
 .recipe ul li, .pull ul li {
-  margin-bottom: 1.39vw;
+  margin-bottom: 20px;
 }
 .recipe ul li img, .pull ul li img {
-  width: 1.39vw;
-  padding-right: 0.35vw;
+  width: 20px;
+  padding-right: 5px;
 }
 .pull .border {
-  margin-top: 3.47vw;
-  padding-top: 3.47vw;
-  border-top: solid 0.24vw rgba(188, 195, 51, 0.948);
-}
-
-
-
-/* モバイル */
-
-@media (max-width: 768px) {
-
-body {
-    font-size: 14px;
-  }
-
-  header .logo {
-    width: 50px;
-  }
-
-  .button {
-    padding: 10px 20px;
-    font-size: 14px;
-  }
-
-  .start img, .click img {
-    width: 100%;
-  }
-
-  .matching .button {
-    width: 200px;
-    padding: 40px;
-    font-size: 16px;
-  }
-  
+  margin-top: 50px;
+  padding-top: 50px;
+  border-top: solid rgba(188, 195, 51, 0.948);
 }
 
 
