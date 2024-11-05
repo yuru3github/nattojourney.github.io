@@ -374,4 +374,594 @@ header .main-nav a {
 
 
 
+/* レスポンシブ */
+
+@media (max-width: 800px) {
+
+.button {
+  border-radius: 30px;
+  padding: 20px;
+}
+
+/* ヘッダー */
+header {
+  border-bottom: 5px solid rgb(79, 168, 107);
+}
+header .logo {
+  width: 100px;
+  margin: 0px 0px 0px 100px;
+}
+header .main-nav {
+  margin: 40px;
+}
+header .main-nav li {
+  padding-right: 50px;
+}
+
+/* スタート */
+.start {
+  margin: 50px;
+}
+.start img {
+  width: 700px;
+}
+.click {
+  margin: 50px;
+  position: absolute;
+  top: 450px;
+  left: 850px;
+}
+.click img {
+  width: 150px;
+}
+
+/* 地図 */
+.map {
+  margin: 50px 0px 100px;
+}
+.map .nippon img {
+  position: relative;
+}
+.map h1, .map .nattoman, .map .nattomini1, .map .ito1, .map .nattomini2, .map .ito2, .map .nattomini3, .map .ito3 {
+  position: absolute;
+}
+.map h1 {
+  top: 200px;
+  left: 300px;
+  font-size: 2.5rem;
+}
+.map .nattoman {
+  top: 300px;
+  left: 300px;
+}
+.map .nattoman p {
+  margin-bottom: 10px;
+}
+.map .nattoman .fukidashi {
+  position: relative;
+  width: 270px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+}
+.map .nattoman .fukidashi:before {
+  position: absolute;
+  bottom: -20px;
+  left: 40%;
+  margin-left: -12px;
+  border: 12px solid transparent;
+  border-top: 12px solid floralwhite;
+}
+.map .nattoman img {
+  width: 150px;
+  margin-right: 20px;
+}
+.map .nattomini1, .map .nattomini2, .map .nattomini3 {
+  width: 70px;
+}
+.map .ito1, .map .ito2, .map .ito3 {
+  width: 100px;
+}
+.map .nattomini1 {
+  top: 300px;
+  left: 100px;
+}
+.map .ito1 {
+  top: 400px;
+  left: 120px;
+  transform: rotate(-20deg);
+}
+.map .nattomini2 {
+  top: 650px;
+  left: 750px;
+}
+.map .ito2 {
+  top: 600px;
+  left: 950px;
+  transform: rotate(50deg);
+}
+.map .nattomini3 {
+  top: 550px;
+  left: 1150px;
+}
+.map .ito3 {
+  top: 400px;
+  left: 1250px;
+  transform: rotate(20deg);
+}
+
+/* 一覧 */
+.side-index .side {
+  width: 300px;
+  height: 1000px;
+  margin-left: 100px;
+  top: 100px;
+  left: 100px;
+  padding-top: 100px;
+}
+.side-index .side .side-nav {
+  gap: 20px;
+}
+.side-index .side .side-nav .button {
+  width: 200px;
+  border-radius: 20px;
+  border: 1.5px solid;
+}
+.side-index .side ul.side-nav li:hover ul .button {
+  font-size: 15px;
+  padding: 2px 30px;
+  border: 0.5px solid;
+}
+.side-index .index {
+  margin: 100px;
+}
+.side-index .index .home {
+  margin: 50px 0px 0px;
+  padding: 50px 0px 0px;
+  border-top: solid rgba(188, 195, 51, 0.948);
+}
+.side-index .index .home h3 {
+  margin-bottom: 50px;
+}
+.side-index .index .home .item {
+  margin-top: 50px;
+}
+.side-index .index .home .item h4 img {
+  width: 20px;
+  padding-right: 5px;
+}
+.side-index .index .home .item p {
+  margin-top: 20px;
+}
+.side-index .index .home .item .content img {
+  width: 150px;
+  margin: 20px 50px 0px 0px;
+}
+.side-index .index .home .item .content a {
+  margin-top: 30px;
+  padding: 10px;
+}
+
+/* 詳細 */
+.index-show h2 {
+  margin: 100px 0px 0px 100px;
+}
+.index-show .item-show {
+  margin: 50px 100px 100px;
+  padding: 50px 0px;
+  border-top: solid rgba(188, 195, 51, 0.948);
+}
+.index-show .item-show h2 {
+  margin: 50px 0px 20px;
+}
+.index-show .item-show .left-right .left p {
+  width: 500px;
+}
+.index-show .item-show .left-right .left img {
+  width: 500px;
+  margin-top: 50px;
+}
+.index-show .item-show .left-right .right {
+  margin-left: 100px;
+}
+.index-show .item-show .left-right .right h3 {
+  margin: 50px 0px;
+}
+.index-show .item-show .left-right .right p {
+  margin-top: 20px;
+}
+.index-show .item-show .left-right .right p img {
+  width: 20px;
+  padding-right: 5px;
+}
+.index-show .item-show .review-show {
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+/* 診断 */
+.matching, .match {
+  margin: 100px;
+}
+.matching h4 {
+  margin: 50px 0px 100px;
+}
+.matching h3 {
+  margin-bottom: 20px;
+}
+.matching li {
+  margin: 30px;
+}
+.matching .button {
+  width: 300px;
+  padding: 80px;
+  border-radius: 100px;
+  font-size: 25px;
+}
+.matching img {
+  width: 70px;
+}
+.matching {
+  position: relative;
+}
+.matching .nattomini1, .matching .ito1, .matching .nattomini2, .matching .ito2, .matching .nattomini3, .matching .ito3 {
+  position: absolute;
+}
+.matching .nattomini1 {
+  top: 150px;
+  left: 20px;
+}
+.matching .ito1 {
+  top: 300px;
+  left: 70px;
+  transform: rotate(-20deg);
+}
+.matching .nattomini2 {
+  top: 570px;
+  left: 400px;
+}
+.matching .ito2 {
+  top: 600px;
+  left: 650px;
+  transform: rotate(70deg);
+}
+.matching .nattomini3 {
+  top: 400px;
+  left: 1100px;
+}
+.matching .ito3 {
+  top: 200px;
+  left: 1200px;
+  transform: rotate(20deg);
+}
+.match div {
+  margin: 50px 0px;
+}
+.match div img {
+  width: 350px;
+  margin: 20px 0px 50px;
+}
+.match div a {
+  padding: 20px;
+}
+
+/* レシピ、参考 */
+.recipe, .pull {
+  margin: 100px 200px;
+}
+.recipe ul, .pull ul {
+  margin-top: 50px;
+}
+.recipe ul li, .pull ul li {
+  margin-bottom: 20px;
+}
+.recipe ul li img, .pull ul li img {
+  width: 20px;
+  padding-right: 5px;
+}
+.pull .border {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+}
+
+
+
+/* モバイル */
+
+@media (max-width: 600px) {
+
+.button {
+  border-radius: 30px;
+  padding: 20px;
+}
+
+/* ヘッダー */
+header {
+  border-bottom: 5px solid rgb(79, 168, 107);
+}
+header .logo {
+  width: 100px;
+  margin: 0px 0px 0px 100px;
+}
+header .main-nav {
+  margin: 40px;
+}
+header .main-nav li {
+  padding-right: 50px;
+}
+
+/* スタート */
+.start {
+  margin: 50px;
+}
+.start img {
+  width: 700px;
+}
+.click {
+  margin: 50px;
+  position: absolute;
+  top: 450px;
+  left: 850px;
+}
+.click img {
+  width: 150px;
+}
+
+/* 地図 */
+.map {
+  margin: 50px 0px 100px;
+}
+.map .nippon img {
+  position: relative;
+}
+.map h1, .map .nattoman, .map .nattomini1, .map .ito1, .map .nattomini2, .map .ito2, .map .nattomini3, .map .ito3 {
+  position: absolute;
+}
+.map h1 {
+  top: 200px;
+  left: 300px;
+  font-size: 2.5rem;
+}
+.map .nattoman {
+  top: 300px;
+  left: 300px;
+}
+.map .nattoman p {
+  margin-bottom: 10px;
+}
+.map .nattoman .fukidashi {
+  position: relative;
+  width: 270px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+}
+.map .nattoman .fukidashi:before {
+  position: absolute;
+  bottom: -20px;
+  left: 40%;
+  margin-left: -12px;
+  border: 12px solid transparent;
+  border-top: 12px solid floralwhite;
+}
+.map .nattoman img {
+  width: 150px;
+  margin-right: 20px;
+}
+.map .nattomini1, .map .nattomini2, .map .nattomini3 {
+  width: 70px;
+}
+.map .ito1, .map .ito2, .map .ito3 {
+  width: 100px;
+}
+.map .nattomini1 {
+  top: 300px;
+  left: 100px;
+}
+.map .ito1 {
+  top: 400px;
+  left: 120px;
+  transform: rotate(-20deg);
+}
+.map .nattomini2 {
+  top: 650px;
+  left: 750px;
+}
+.map .ito2 {
+  top: 600px;
+  left: 950px;
+  transform: rotate(50deg);
+}
+.map .nattomini3 {
+  top: 550px;
+  left: 1150px;
+}
+.map .ito3 {
+  top: 400px;
+  left: 1250px;
+  transform: rotate(20deg);
+}
+
+/* 一覧 */
+.side-index .side {
+  width: 300px;
+  height: 1000px;
+  margin-left: 100px;
+  top: 100px;
+  left: 100px;
+  padding-top: 100px;
+}
+.side-index .side .side-nav {
+  gap: 20px;
+}
+.side-index .side .side-nav .button {
+  width: 200px;
+  border-radius: 20px;
+  border: 1.5px solid;
+}
+.side-index .side ul.side-nav li:hover ul .button {
+  font-size: 15px;
+  padding: 2px 30px;
+  border: 0.5px solid;
+}
+.side-index .index {
+  margin: 100px;
+}
+.side-index .index .home {
+  margin: 50px 0px 0px;
+  padding: 50px 0px 0px;
+  border-top: solid rgba(188, 195, 51, 0.948);
+}
+.side-index .index .home h3 {
+  margin-bottom: 50px;
+}
+.side-index .index .home .item {
+  margin-top: 50px;
+}
+.side-index .index .home .item h4 img {
+  width: 20px;
+  padding-right: 5px;
+}
+.side-index .index .home .item p {
+  margin-top: 20px;
+}
+.side-index .index .home .item .content img {
+  width: 150px;
+  margin: 20px 50px 0px 0px;
+}
+.side-index .index .home .item .content a {
+  margin-top: 30px;
+  padding: 10px;
+}
+
+/* 詳細 */
+.index-show h2 {
+  margin: 100px 0px 0px 100px;
+}
+.index-show .item-show {
+  margin: 50px 100px 100px;
+  padding: 50px 0px;
+  border-top: solid rgba(188, 195, 51, 0.948);
+}
+.index-show .item-show h2 {
+  margin: 50px 0px 20px;
+}
+.index-show .item-show .left-right .left p {
+  width: 500px;
+}
+.index-show .item-show .left-right .left img {
+  width: 500px;
+  margin-top: 50px;
+}
+.index-show .item-show .left-right .right {
+  margin-left: 100px;
+}
+.index-show .item-show .left-right .right h3 {
+  margin: 50px 0px;
+}
+.index-show .item-show .left-right .right p {
+  margin-top: 20px;
+}
+.index-show .item-show .left-right .right p img {
+  width: 20px;
+  padding-right: 5px;
+}
+.index-show .item-show .review-show {
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+/* 診断 */
+.matching, .match {
+  margin: 100px;
+}
+.matching h4 {
+  margin: 50px 0px 100px;
+}
+.matching h3 {
+  margin-bottom: 20px;
+}
+.matching li {
+  margin: 30px;
+}
+.matching .button {
+  width: 300px;
+  padding: 80px;
+  border-radius: 100px;
+  font-size: 25px;
+}
+.matching img {
+  width: 70px;
+}
+.matching {
+  position: relative;
+}
+.matching .nattomini1, .matching .ito1, .matching .nattomini2, .matching .ito2, .matching .nattomini3, .matching .ito3 {
+  position: absolute;
+}
+.matching .nattomini1 {
+  top: 150px;
+  left: 20px;
+}
+.matching .ito1 {
+  top: 300px;
+  left: 70px;
+  transform: rotate(-20deg);
+}
+.matching .nattomini2 {
+  top: 570px;
+  left: 400px;
+}
+.matching .ito2 {
+  top: 600px;
+  left: 650px;
+  transform: rotate(70deg);
+}
+.matching .nattomini3 {
+  top: 400px;
+  left: 1100px;
+}
+.matching .ito3 {
+  top: 200px;
+  left: 1200px;
+  transform: rotate(20deg);
+}
+.match div {
+  margin: 50px 0px;
+}
+.match div img {
+  width: 350px;
+  margin: 20px 0px 50px;
+}
+.match div a {
+  padding: 20px;
+}
+
+/* レシピ、参考 */
+.recipe, .pull {
+  margin: 100px 200px;
+}
+.recipe ul, .pull ul {
+  margin-top: 50px;
+}
+.recipe ul li, .pull ul li {
+  margin-bottom: 20px;
+}
+.recipe ul li img, .pull ul li img {
+  width: 20px;
+  padding-right: 5px;
+}
+.pull .border {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+}
+
+
+
 /*# sourceMappingURL=stylesheet.css.map */
