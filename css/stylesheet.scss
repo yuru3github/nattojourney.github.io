@@ -1,12 +1,10 @@
 body {
     background-color:rgb(209, 243, 230);
 }
-
 a {
     text-decoration: none;
     color: rgb(33, 164, 164);
 }
-
 .button {
     background-color: rgb(84, 176, 190);
     color:rgb(253, 253, 253);
@@ -14,13 +12,11 @@ a {
     padding: 20px;
     cursor: pointer;
 }
-
 a:hover, .button:hover {
     opacity: 0.5;
 }
 
 /* ヘッダー */
-
 header {
     background-color: rgb(98, 213, 134);
     border-bottom: 5px solid rgb(79, 168, 107);
@@ -51,7 +47,6 @@ header {
 }
 
 /* スタート */
-
 .start {
   margin: 50px;
   text-align: center;
@@ -60,7 +55,6 @@ header {
     width: 700px;
   }
 }
-
 .click {
   margin: 50px;
   position: absolute;
@@ -72,7 +66,6 @@ header {
 }
 
 /* 地図 */
-
 .map {
     margin: 50px 0px 100px;
     .map-center {
@@ -159,7 +152,6 @@ header {
 }
 
 /* 一覧 */
-
 .side-index {
     display: flex;
     .side {
@@ -243,7 +235,6 @@ header {
 }
 
 /* 詳細 */
-
 .index-show {
     h2 {
         margin: 100px 0px 0px 100px;
@@ -292,12 +283,10 @@ header {
 }
 
 /* 診断 */
-
 .matching, .match {
     text-align: center;
     margin: 100px;
 }
-
 .matching {
     h4 {
         margin: 50px 0px 100px;
@@ -325,7 +314,6 @@ header {
         width: 70px;
     }
 }
-
 .matching {
     position: relative;
     .nattomini1, .ito1, .nattomini2, .ito2, .nattomini3, .ito3 {
@@ -359,7 +347,6 @@ header {
         transform: rotate(20deg);
     }
 }
-
 .match {
     div {
         margin: 50px 0px;
@@ -375,7 +362,6 @@ header {
 }
 
 /* レシピ、参考 */
-
 .recipe, .pull {
     margin: 100px 200px;
     overflow-wrap: anywhere;
@@ -391,7 +377,6 @@ header {
         }
     }
 }
-
 .pull {
     .border {
         margin-top: 50px;
