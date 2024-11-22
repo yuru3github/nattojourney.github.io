@@ -68,29 +68,23 @@ header {
 /* 地図 */
 .map {
     margin: 50px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     .map-center {
         text-align:center;
     }
-    .nippon {
-        img {
-            position: relative;
-        }
-    }
-    h1, .nattoman, .nattomini1, .ito1, .nattomini2, .ito2, .nattomini3, .ito3{
-        position: absolute;
-    }
     h1 {
-        top: 200px;
-        left: 300px;
         font-size: 2.5rem;
         font-weight: lighter;
+        margin: 20px 0;
     }
     .nattoman {
-        top: 300px;
-        left: 300px;
-        p {
-            margin-bottom: 10px;
-        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
         .fukidashi {
             position: relative;
             width: 270px;
@@ -116,38 +110,24 @@ header {
             margin-right: 20px;
         }
     }
-    .nattomini1,.nattomini2,.nattomini3 {
-        width: 70px;
+    .nattomini {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        flex-wrap: wrap;
+        img {
+            width: 70px;
+        }
     }
-    .ito1, .ito2, .ito3 {
-        width: 100px;
-    }
-    .nattomini1 {
-        top: 300px;
-        left: 100px;
-    }
-    .ito1 {
-        top: 400px;
-        left: 120px;
-        transform: rotate(-20deg);
-    }
-    .nattomini2 {
-        top: 650px;
-        left: 750px;
-    }
-    .ito2 {
-        top: 600px;
-        left: 950px;
-        transform: rotate(50deg);
-    }
-    .nattomini3 {
-        top: 550px;
-        left: 1150px;
-    }
-    .ito3 {
-        top: 400px;
-        left: 1250px;
-        transform: rotate(20deg);
+    .nattomini-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        img {
+            max-width: 100%;
+            height: auto;
+        }
     }
 }
 
