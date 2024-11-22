@@ -287,39 +287,6 @@ header .main-nav a {
 .matching img {
   width: 70px;
 }
-.matching {
-  position: relative;
-}
-.matching .nattomini1, .matching .ito1, .matching .nattomini2, .matching .ito2, .matching .nattomini3, .matching .ito3 {
-  position: absolute;
-}
-.matching .nattomini1 {
-  top: 150px;
-  left: 20px;
-}
-.matching .ito1 {
-  top: 300px;
-  left: 70px;
-  transform: rotate(-20deg);
-}
-.matching .nattomini2 {
-  top: 570px;
-  left: 400px;
-}
-.matching .ito2 {
-  top: 600px;
-  left: 650px;
-  transform: rotate(70deg);
-}
-.matching .nattomini3 {
-  top: 400px;
-  left: 1100px;
-}
-.matching .ito3 {
-  top: 200px;
-  left: 1200px;
-  transform: rotate(20deg);
-}
 .match div {
   margin: 50px 0px;
 }
@@ -375,36 +342,7 @@ header .main-nav a {
 }
 
 /* 診断 */
-.matching {
-  position: relative;
-}
-.matching .nattomini1, .matching .ito1, .matching .nattomini2, .matching .ito2, .matching .nattomini3, .matching .ito3 {
-  position: absolute;
-}
-.matching .nattomini1 {
-  top: 200px;
-  left: 50px;
-}
-.matching .ito1 {
-  top: 300px;
-  left: 70px;
-}
-.matching .nattomini2 {
-  top: 650px;
-  left: 300px;
-}
-.matching .ito2 {
-  top: 600px;
-  left: 440px;
-}
-.matching .nattomini3 {
-  top: 400px;
-  left: 700px;
-}
-.matching .ito3 {
-  top: 300px;
-  left: 750px;
-}
+
 
 }
 
@@ -522,36 +460,7 @@ header .main-nav li {
 }
 
 /* 診断 */
-.matching {
-  position: relative;
-}
-.matching .nattomini1, .matching .ito1, .matching .nattomini2, .matching .ito2, .matching .nattomini3, .matching .ito3 {
-  position: absolute;
-}
-.matching .nattomini1 {
-  top: 200px;
-  left: 70px;
-}
-.matching .ito1 {
-  top: 300px;
-  left: 90px;
-}
-.matching .nattomini2 {
-  top: 650px;
-  left: 350px;
-}
-.matching .ito2 {
-  top: 600px;
-  left: 400px;
-}
-.matching .nattomini3 {
-  top: 400px;
-  left: 600px;
-}
-.matching .ito3 {
-  top: 300px;
-  left: 650px;
-}
+
 
 /* レシピ、参考 */
 .recipe, .pull {
@@ -659,34 +568,48 @@ header .main-nav li {
 .matching img {
   width: 50px;
 }
-.matching {
-  position: relative;
-}
-.matching .nattomini1, .matching .ito1, .matching .nattomini2, .matching .ito2, .matching .nattomini3, .matching .ito3 {
-  position: absolute;
-}
-.map .nattomini1 {
-  left: 30px;
-}
-.map .ito1 {
-  left: 50px;
-}
-.map .nattomini2 {
-  left: 150px;
-}
-.map .ito2 {
-  left: 200px;
-}
-.map .nattomini3 {
-  left: 300px;
-}
-.map .ito3 {
-  left: 350px;
-}
 
 /* レシピ、参考 */
 .recipe, .pull {
   margin: 70px 100px;
+}
+
+}
+
+
+
+/* -------------------------------------------- レスポンシブ430px -------------------------------------------- */
+
+@media (max-width: 430px) {
+
+/* 地図 */
+
+
+/* 一覧 */
+.side-index .side {
+  width: 120px;
+}
+.side-index .side .side-nav .button {
+  width: 100px;
+}
+.side-index .index {
+  margin: 50px 30px;
+}
+
+/* 詳細 */
+.index-show .item-show {
+  margin: 20px 30px 30px;
+}
+.index-show .item-show .left-right .right {
+  margin-left: 20px;
+}
+
+/* 診断 */
+
+
+/* レシピ、参考 */
+.recipe, .pull {
+  margin: 50px;
 }
 
 }
