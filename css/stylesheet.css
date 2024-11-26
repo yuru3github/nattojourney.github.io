@@ -367,6 +367,11 @@ header .main-nav a {
 
 @media (max-width: 1000px) {
 
+/* スタート */
+.click {
+  left: 650px;
+}
+  
 /* 地図 */
 
 
@@ -418,10 +423,8 @@ header .main-nav li {
   width: 500px;
 }
 .click {
-  margin: 40px;
-  position: absolute;
-  top: 350px;
-  left: 650px;
+  margin: 30px;
+  left: 550px;
 }
 .click img {
   width: 100px;
@@ -531,6 +534,21 @@ header .main-nav li {
 /* -------------------------------------------- レスポンシブ600px -------------------------------------------- */
 
 @media (max-width: 600px) {
+
+/* スタート */
+.start {
+  margin: 30px;
+}
+.start img {
+  width: 300px;
+}
+.click {
+  margin: 10px;
+  left: 450px;
+}
+.click img {
+  width: 50px;
+}
 
 /* 地図 */
 
