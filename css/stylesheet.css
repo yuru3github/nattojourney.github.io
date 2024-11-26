@@ -562,7 +562,6 @@ header .main-nav li {
 }
 .click {
   margin: 10px;
-  top: 250px;
   left: 350px;
 }
 .click img {
@@ -679,6 +678,7 @@ header .main-nav li {
   width: 300px;
 }
 .click {
+  top: 250px;
   left: 200px;
 }
 
