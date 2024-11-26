@@ -694,12 +694,186 @@ header .main-nav li {
 }
 
 /* 一覧 */
+@charset "UTF-8";
+body {
+  background-color: rgb(209, 243, 230);
+}
+a {
+  text-decoration: none;
+  color: rgb(33, 164, 164);
+}
+.button {
+  background-color: rgb(84, 176, 190);
+  color: rgb(253, 253, 253);
+  border-radius: 30px;
+  padding: 20px;
+  cursor: pointer;
+}
+a:hover, .button:hover {
+  opacity: 0.5;
+}
+
+/* ヘッダー */
+header {
+  background-color: rgb(98, 213, 134);
+  border-bottom: 5px solid rgb(79, 168, 107);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: sticky;
+}
+header .logo {
+  width: 100px;
+  margin: 0px 0px 0px 100px;
+}
+header .main-nav {
+  margin: 40px;
+  list-style: none;
+  display: flex;
+}
+header .main-nav li {
+  padding-right: 50px;
+}
+header .main-nav a {
+  color: rgb(253, 253, 253);
+  font-weight: bold;
+}
+
+/* スタート */
+.start {
+  margin: 50px;
+  text-align: center;
+}
+.start img {
+  width: 700px;
+}
+.click {
+  margin: 50px;
+  position: absolute;
+  top: 450px;
+  left: 850px;
+}
+.click img {
+  width: 150px;
+}
+
+/* 地図 */
+.map-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 100px 20px;
+}
+.map-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  text-align: left;
+}
+.map-left h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: light;
+}
+.nattoman {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.nattoman .fukidashi {
+  width: 200px;
+  line-height: 1.4;
+  text-align: center;
+  background-color: floralwhite;
+  border-radius: 30px;
+  padding: 10px;
+  position: relative;
+}
+.map .nattoman .fukidashi:before {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: 20px;
+  border: 10px solid transparent;
+  border-top: 10px solid floralwhite;
+}
+.nattoman img {
+  width: 100px;
+}
+.map-center-wrapper {
+  position: relative;
+}
+.map-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+}
+.nippon {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.nattomini-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.nattomini, .ito {
+  position: absolute;
+}
+.nattomini1 {
+  top: 15%;
+  left: 5%;
+  width: 50px;
+}
+.ito1 {
+  top: 20%;
+  left: 25%;
+  width: 70px;
+  transform: rotate(-20deg);
+}
+.nattomini2 {
+  top: 40%;
+  left: 70%;
+  width: 50px;
+}
+.ito2 {
+  top: 55%;
+  left: 80%;
+  width: 70px;
+  transform: rotate(30deg);
+}
+.nattomini3 {
+  top: 75%;
+  left: 10%;
+  width: 50px;
+}
+.ito3 {
+  top: 80%;
+  left: 35%;
+  width: 70px;
+  transform: rotate(15deg);
+}
+
+/* 一覧 */
 .side-index .side {
-  width: 130px;
+  width: 120px;
   margin-left: 10px;
 }
 .side-index .side .side-nav .button {
-  width: 120px;
+  width: 110px;
 }
 
 /* 詳細 */
