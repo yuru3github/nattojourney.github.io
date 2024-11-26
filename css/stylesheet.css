@@ -389,6 +389,11 @@ header .main-nav a {
 /* 診断 */
 
 
+/* レシピ、参考 */
+.recipe, .pull {
+  margin: 100px 150px;
+}
+
 }
 
 /* -------------------------------------------- レスポンシブ800px -------------------------------------------- */
@@ -425,9 +430,6 @@ header .main-nav li {
 .click {
   margin: 30px;
   left: 450px;
-}
-.click img {
-  width: 100px;
 }
 
 /* 地図 */
@@ -512,7 +514,7 @@ header .main-nav li {
 
 /* レシピ、参考 */
 .recipe, .pull {
-  margin: 70px 150px;
+  margin: 70px 100px;
 }
 .recipe ul, .pull ul {
   margin-top: 30px;
@@ -544,10 +546,11 @@ header .main-nav li {
 }
 .click {
   margin: 10px;
+  top: 250px;
   left: 350px;
 }
 .click img {
-  width: 80px;
+  width: 100px;
 }
 
 /* 地図 */
@@ -629,7 +632,7 @@ header .main-nav li {
 
 /* レシピ、参考 */
 .recipe, .pull {
-  margin: 70px 100px;
+  margin: 70px 50px;
 }
 
 }
@@ -680,7 +683,7 @@ header .main-nav li {
 
 /* レシピ、参考 */
 .recipe, .pull {
-  margin: 50px;
+  margin: 30px;
 }
 
 }
