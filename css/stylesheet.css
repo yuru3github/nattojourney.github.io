@@ -369,6 +369,7 @@ header .main-nav a {
 
 /* スタート */
 .click {
+  top: 650px;
   left: 650px;
 }
   
@@ -417,14 +418,14 @@ header .main-nav li {
 
 /* スタート */
 .start {
-  margin: 40px;
+  margin: 30px;
 }
 .start img {
   width: 500px;
 }
 .click {
   margin: 30px;
-  left: 550px;
+  left: 450px;
 }
 .click img {
   width: 100px;
@@ -537,17 +538,16 @@ header .main-nav li {
 
 /* スタート */
 .start {
-  margin: 30px;
+  margin: 10px;
 }
 .start img {
   width: 300px;
 }
 .click {
   margin: 10px;
-  left: 450px;
 }
 .click img {
-  width: 50px;
+  width: 80px;
 }
 
 /* 地図 */
