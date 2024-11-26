@@ -544,13 +544,13 @@ header .main-nav li {
 
 /* ヘッダー */
 header .logo {
-  margin: 30px 0px 0px 70px;
+  margin: 10px 0px 0px 50px;
 }
 header .main-nav {
   margin: 30px;
 }
 header .main-nav li {
-  padding-right: 30px;
+  padding-right: 20px;
 }
 
 /* スタート */
@@ -663,13 +663,13 @@ header .main-nav li {
 
 /* ヘッダー */
 header .logo {
-  margin: 50px 0px 0px 30px;
+  margin: 30px 0px 0px 30px;
 }
 header .main-nav {
   margin: 20px;
 }
 header .main-nav li {
-  padding-right: 20px;
+  padding-right: 10px;
 }
 
 /* スタート */
@@ -691,6 +691,7 @@ header .main-nav li {
 /* 一覧 */
 .side-index .side {
   width: 120px;
+  margin-left: 10px;
 }
 .side-index .side .side-nav .button {
   width: 100px;
@@ -700,11 +701,14 @@ header .main-nav li {
 .index-show .item-show {
   margin: 20px 30px 30px;
 }
+.index-show .item-show .left-right .left p {
+  width: 170px;
+}
 .index-show .item-show .left-right .left img {
   width: 150px;
 }
 .index-show .item-show .left-right .right {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 /* 診断 */
