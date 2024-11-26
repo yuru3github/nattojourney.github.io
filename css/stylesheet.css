@@ -49,8 +49,8 @@ header .main-nav a {
 
 /* スタート */
 .start {
-  justify-content: center;
   margin: 50px;
+  text-align: center;
 }
 .start img {
   width: 700px;
