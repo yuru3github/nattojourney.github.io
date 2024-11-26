@@ -376,6 +376,10 @@ header .main-nav a {
 
 
 /* 詳細 */
+.side-index .side {
+  margin-left: 50px;
+}
+
 .index-show .item-show .left-right .left p {
   width: 300px;
 }
@@ -470,6 +474,7 @@ header .main-nav li {
 .side-index .index .home .item .content img {
   width: 150px;
   height: 150px;
+  margin: 20px 30px 0px 0px;
 }
 
 /* 詳細 */
@@ -477,7 +482,7 @@ header .main-nav li {
   margin: 70px 0px 0px 70px;
 }
 .index-show .item-show {
-  margin: 30px 70px 70px;
+  margin: 30px 50px 70px;
   padding: 30px 0px;
 }
 .index-show .item-show h2 {
@@ -491,7 +496,7 @@ header .main-nav li {
   margin-top: 30px;
 }
 .index-show .item-show .left-right .right {
-  margin-left: 70px;
+  margin-left: 50px;
 }
 .index-show .item-show .left-right .right h3 {
   margin: 30px 0px;
@@ -559,16 +564,18 @@ header .main-nav li {
 /* 一覧 */
 .side-index .side {
   width: 150px;
+  margin-left: 30px;
 }
 .side-index .side .side-nav .button {
   width: 130px;
 }
 .side-index .index {
-  margin: 70px 50px;
+  margin: 70px 30px;
 }
 .side-index .index .home .item .content img {
   width: 80px;
   height: 80px;
+  margin: 20px 30px 0px 0px;
 }
 
 /* 詳細 */
@@ -590,7 +597,7 @@ header .main-nav li {
   margin-top: 20px;
 }
 .index-show .item-show .left-right .right {
-  margin-left: 10px;
+  margin-left: 30px;
 }
 .index-show .item-show .left-right .right h3 {
   margin: 20px 0px;
