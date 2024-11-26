@@ -49,8 +49,8 @@ header .main-nav a {
 
 /* スタート */
 .start {
+  justify-content: center;
   margin: 50px;
-  text-align: center;
 }
 .start img {
   width: 700px;
@@ -434,6 +434,7 @@ header .main-nav li {
 .click {
   margin: 30px;
   left: 450px;
+  top: 350px;
 }
 
 /* 地図 */
@@ -554,10 +555,10 @@ header .main-nav li {
 
 /* スタート */
 .start {
-  margin: 10px;
+  margin: 30px;
 }
 .start img {
-  width: 300px;
+  width: 500px;
 }
 .click {
   margin: 10px;
@@ -674,8 +675,11 @@ header .main-nav li {
 }
 
 /* スタート */
+.start img {
+  width: 300px;
+}
 .click {
-  left: 250px;
+  left: 200px;
 }
 
 /* 地図 */
