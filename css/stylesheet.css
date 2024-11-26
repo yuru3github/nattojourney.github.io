@@ -197,7 +197,7 @@ header .main-nav a {
   display: inline-flex;
   background-color: floralwhite;
   color: black;
-  border-radius: 20px;
+  border-radius: 30px;
   border: 1.5px solid;
 }
 .side-index .side .side-nav ul {
@@ -462,7 +462,6 @@ header .main-nav li {
 }
 .side-index .side .side-nav .button {
   width: 150px;
-  border-radius: 18px;
 }
 .side-index .side ul.side-nav li:hover ul .button {
   font-size: 12px;
@@ -580,11 +579,10 @@ header .main-nav li {
 }
 .side-index .side .side-nav .button {
   width: 130px;
-  border-radius: 30px;
   border: 1.3px solid;
 }
 .side-index .index {
-  margin: 50px 30px 30px 50px;
+  margin: 50px 30px 30px 30px;
 }
 .side-index .index .home .item .content img {
   width: 80px;
@@ -669,7 +667,7 @@ header .logo {
   margin: 10px 0px 0px 30px;
 }
 header .main-nav {
-  margin: 20px;
+  margin: 30px 20px 0px 20px;
 }
 header .main-nav li {
   padding-right: 15px;
