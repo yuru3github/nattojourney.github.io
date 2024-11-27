@@ -439,12 +439,12 @@ header .main-nav li {
 }
 
 /* 地図 */
-.map-left {
-  top: 2%;
-  left: 20%;
-}
-.map-left h1 {
+h1 {
   font-size: 1.8rem;
+}
+.nattoman {
+  top: 12%;
+  left: 20%;
 }
 .nattoman img {
   width: 100px;
