@@ -453,7 +453,6 @@ header .main-nav li {
   font-size: 1.8rem;
 }
 .map-left {
-  top: 12%;
   left: 20%;
 }
 .nattoman img {
@@ -591,15 +590,15 @@ header .main-nav li {
 /* 地図 */
 .nattomini1 {
   top: 0%;
-  left: 0%;
+  left: 5%;
 }
 .ito1 {
   top: 10%;
-  left: -10%;
+  left: 0%;
 }
 .nattomini3 {
   top: 70%;
-  right: -2%;
+  right: 0%;
 }
 .ito3 {
   right: 0%;
