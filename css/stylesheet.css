@@ -369,10 +369,12 @@ header .main-nav a {
   
 /* 地図 */
 .nattomini1 {
-  left: -40%;
+  top: 55%;
+  left: -30%;
 }
 .ito1 {
-  left: -30%;
+  top: 65%;
+  left: -20%;
 }
 .nattomini3 {
   right: -30%;
@@ -458,11 +460,9 @@ header .main-nav li {
   width: 100px;
 }
 .nattomini1 {
-  top: 55%;
   left: -15%;
 }
 .ito1 {
-  top: 65%;
   left: -10%;
 }
 .nattomini3 {
