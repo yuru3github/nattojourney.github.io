@@ -75,8 +75,8 @@ header .main-nav a {
 }
 .map-left {
   position: absolute;
-  top: 10%;
-  left: 5%;
+  top: 5%;
+  left: 15%;
   z-index: 2;
   display: flex;
   flex-direction: column;
@@ -85,7 +85,7 @@ header .main-nav a {
 }
 .map-left h1 {
   font-size: 2rem;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 .nattoman {
   display: flex;
@@ -99,13 +99,13 @@ header .main-nav a {
   text-align: center;
   background-color: floralwhite;
   border-radius: 30px;
-  padding: 10px;
+  padding: 15px;
   position: relative;
 }
 .map .nattoman .fukidashi:before {
   content: "";
   position: absolute;
-  bottom: -50px;
+  bottom: -100px;
   left: 20px;
   border: 10px solid transparent;
   border-top: 10px solid floralwhite;
@@ -117,7 +117,7 @@ header .main-nav a {
   position: relative;
 }
 .nippon {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   display: block;
 }
@@ -133,13 +133,13 @@ header .main-nav a {
   position: absolute;
 }
 .nattomini1 {
-  top: 30%;
-  left: -10%;
+  top: 20%;
+  left: -30%;
   width: 50px;
 }
 .ito1 {
-  top: 35%;
-  left: 0%;
+  top: 50%;
+  left: -10%;
   width: 70px;
   transform: rotate(-20deg);
 }
@@ -149,19 +149,19 @@ header .main-nav a {
   width: 50px;
 }
 .ito2 {
-  bottom: -5%;
-  left: 50%;
+  bottom: -10%;
+  left: 60%;
   width: 70px;
   transform: rotate(30deg);
 }
 .nattomini3 {
   top: 30%;
-  right: -10%;
+  right: -30%;
   width: 50px;
 }
 .ito3 {
-  top: 35%;
-  right: 0%;
+  top: 50%;
+  right: -10%;
   width: 70px;
   transform: rotate(15deg);
 }
@@ -434,11 +434,11 @@ header .main-nav li {
 
 /* 地図 */
 .map-left {
-  top: 5%;
-  left: 2%;
+  top: 2%;
+  left: 10%;
 }
 .map-left h1 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 .nattoman img {
   width: 100px;
@@ -674,7 +674,7 @@ header .main-nav li {
 }
 
 /* 地図 */
-.map-left h2 {
+.map-left h1 {
   font-size: 1.6rem;
 }
 .nattoman img {
