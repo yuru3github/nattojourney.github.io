@@ -23,7 +23,6 @@ header {
   border-bottom: 5px solid rgb(79, 168, 107);
   display: flex;
   justify-content: space-between;
-  position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
