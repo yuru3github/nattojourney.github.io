@@ -766,6 +766,9 @@ header .main-nav li {
 .match div img {
   width: 200px;
 }
+.match div a {
+  padding: 10px;
+}
 
 /* レシピ、参考 */
 .recipe, .pull {
