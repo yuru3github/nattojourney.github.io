@@ -72,25 +72,19 @@ header .main-nav a {
   position: relative;
   margin: 80px auto;
 }
-.map-left {
+h1 {
+  font-size: 2rem;
+  margin: 0px 0px 30px 20%;
+  font-weight: lighter;
+}
+.nattoman {
   position: absolute;
-  top: 0;
+  top: 10%;
   left: 25%;
-  z-index: 2;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-}
-.map-left h1 {
-  font-size: 2rem;
-  margin-bottom: 30px;
-  font-weight: lighter;
-}
-.nattoman {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   gap: 10px;
 }
 .nattoman .fukidashi {
@@ -597,7 +591,7 @@ header .main-nav li {
   left: 0%;
 }
 .nattomini3 {
-  top: 60%;
+  top: 70%;
   right: -2%;
 }
 .ito3 {
