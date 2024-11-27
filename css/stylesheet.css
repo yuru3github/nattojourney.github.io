@@ -73,13 +73,13 @@ header .main-nav a {
   margin: 50px auto;
 }
 .map-left {
-    position: absolute;
-    top: 5%;
-    left: 25%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
 }
 .map-left h1 {
   font-size: 2rem;
@@ -127,6 +127,7 @@ header .main-nav a {
   left: 0;
   width: 100%;
   height: 100%;
+  pointer-events: none;
 }
 .nattomini, .ito {
   position: absolute;
@@ -457,9 +458,11 @@ header .main-nav li {
   width: 100px;
 }
 .nattomini1 {
-  left: -20%;
+  top: 55%;
+  left: -15%;
 }
 .ito1 {
+  top: 65%;
   left: -10%;
 }
 .nattomini3 {
