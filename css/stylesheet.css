@@ -123,6 +123,9 @@ header .main-nav a {
   height: auto;
   display: block;
 }
+.map-center map {
+  max-width: 100%;
+}
 .nattomini-wrapper {
   position: absolute;
   top: 0;
@@ -445,6 +448,12 @@ header .main-nav li {
 .nattoman img {
   width: 100px;
 }
+.nippon {
+  max-width: 80%;
+}
+.map-center map {
+  max-width: 80%;
+}
 
 /* 一覧 */
 .side-index .side {
@@ -683,6 +692,12 @@ header .main-nav li {
 }
 .nattoman img {
   width: 80px;
+}
+.nippon {
+  max-width: 60%;
+}
+.map-center map {
+  max-width: 60%;
 }
 .nattomini1, .ito1, .nattomini2, .ito2, .nattomini3, .ito3 {
   width: 40px;
