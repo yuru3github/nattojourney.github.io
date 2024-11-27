@@ -143,8 +143,8 @@ header .main-nav a {
   width: 50px;
 }
 .ito1 {
-  top: 50%;
-  left: -30%;
+  top: 60%;
+  left: -40%;
   width: 70px;
   transform: rotate(-20deg);
 }
@@ -373,7 +373,18 @@ header .main-nav a {
 }
   
 /* 地図 */
-
+.nattomini1 {
+  left: -40%;
+}
+.ito1 {
+  left: -30%;
+}
+.nattomini3 {
+  right: -30%;
+}
+.ito3 {
+  right: -20%;
+}
 
 /* 詳細 */
 .side-index .side {
@@ -440,7 +451,7 @@ header .main-nav li {
 /* 地図 */
 .map-left {
   top: 2%;
-  left: 10%;
+  left: 20%;
 }
 .map-left h1 {
   font-size: 1.8rem;
@@ -572,7 +583,7 @@ header .main-nav li {
 
 /* 地図 */
 .nattoman .fukidashi {
-  width: 180px;
+  width: 150px;
 }
 
 /* 一覧 */
