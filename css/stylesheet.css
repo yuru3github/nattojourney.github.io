@@ -69,21 +69,17 @@ header .main-nav a {
 .map-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  position: relative;
   margin: 100px auto;
 }
-.map-center-wrapper {
-  display: grid;
-  grid-template-areas: "map-left map-center";
-  grid-template-columns: auto 1fr;
-  gap: 20px;
-  position: relative;
-}
 .map-left {
-  grid-area: map-left;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  z-index: 2;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
   text-align: left;
 }
@@ -109,19 +105,15 @@ header .main-nav a {
 .map .nattoman .fukidashi:before {
   content: "";
   position: absolute;
-  bottom: -10px;
+  bottom: -50px;
   left: 20px;
   border: 10px solid transparent;
   border-top: 10px solid floralwhite;
 }
 .nattoman img {
-  width: 100px;
+  width: 130px;
 }
 .map-center {
-  grid-area: map-center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
 }
 .nippon {
@@ -141,35 +133,35 @@ header .main-nav a {
   position: absolute;
 }
 .nattomini1 {
-  top: 5%;
+  top: 30%;
   left: -10%;
   width: 50px;
 }
 .ito1 {
-  top: 15%;
-  left: 110%;
+  top: 35%;
+  left: 0%;
   width: 70px;
   transform: rotate(-20deg);
 }
 .nattomini2 {
-  bottom: 5%;
-  right: -15%;
+  bottom: -10%;
+  left: 40%;
   width: 50px;
 }
 .ito2 {
-  bottom: 20%;
-  right: 115%;
+  bottom: -5%;
+  left: 50%;
   width: 70px;
   transform: rotate(30deg);
 }
 .nattomini3 {
-  top: -5%;
-  left: 105%;
+  top: 30%;
+  right: -10%;
   width: 50px;
 }
 .ito3 {
-  bottom: -10%;
-  left: -5%;
+  top: 35%;
+  right: 0%;
   width: 70px;
   transform: rotate(15deg);
 }
@@ -442,16 +434,14 @@ header .main-nav li {
 
 /* 地図 */
 .map-left {
-  text-align: center;
+  top: 5%;
+  left: 2%;
 }
 .map-left h1 {
   font-size: 1.6rem;
 }
 .nattoman img {
-  width: 80px;
-}
-.nattomini1, .ito1, .nattomini2, .ito2, .nattomini3, .ito3 {
-  width: 40px;
+  width: 100px;
 }
 
 /* 一覧 */
@@ -685,13 +675,13 @@ header .main-nav li {
 
 /* 地図 */
 .map-left h2 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 .nattoman img {
-  width: 60px;
+  width: 80px;
 }
 .nattomini1, .ito1, .nattomini2, .ito2, .nattomini3, .ito3 {
-  width: 30px;
+  width: 40px;
 }
 
 /* 一覧 */
