@@ -589,12 +589,13 @@ header .main-nav li {
 
 /* 地図 */
 .nattomini1 {
-  top: 0%;
-  left: 5%;
+  top: -5%;
+  left: 10%;
 }
 .ito1 {
   top: 10%;
   left: 0%;
+  transform: rotate(-20deg);
 }
 .nattomini3 {
   top: 70%;
