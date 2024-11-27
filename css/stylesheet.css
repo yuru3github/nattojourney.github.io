@@ -590,13 +590,15 @@ header .main-nav li {
   width: 180px;
 }
 .nattomini1 {
-  left: -10%;
+  top: 40%;
+  left: 0%;
 }
 .ito1 {
   left: 0%;
 }
 .nattomini3 {
-  right: -10%;
+  top: 60%;
+  right: -2%;
 }
 .ito3 {
   right: 0%;
