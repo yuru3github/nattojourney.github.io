@@ -456,11 +456,11 @@ header .main-nav li {
   width: 100px;
 }
 .nattomini1 {
-  left: -10%;
+  left: -20%;
 }
 .ito1 {
   top: 50%;
-  left: 0%;
+  left: -10%;
 }
 .nattomini3 {
   right: -10%;
@@ -590,16 +590,16 @@ header .main-nav li {
   width: 180px;
 }
 .nattomini1 {
-  left: 0%;
+  left: -10%;
 }
 .ito1 {
-  left: 10%;
+  left: 0%;
 }
 .nattomini3 {
-  right: 0%;
+  right: -10%;
 }
 .ito3 {
-  right: 10%;
+  right: 0%;
 }
 
 /* 一覧 */
