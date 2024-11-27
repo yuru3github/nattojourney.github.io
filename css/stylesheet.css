@@ -132,13 +132,13 @@ header .main-nav a {
   position: absolute;
 }
 .nattomini1 {
-  top: 20%;
+  top: 60%;
   left: -50%;
   width: 50px;
 }
 .ito1 {
-  top: 60%;
-  left: -40%;
+  top: 70%;
+  left: -30%;
   width: 70px;
   transform: rotate(-20deg);
 }
@@ -443,10 +443,13 @@ header .main-nav li {
 }
 
 /* 地図 */
-h1 {
+.nattoman .fukidashi {
+  width: 180px;
+}
+.map-left h1 {
   font-size: 1.8rem;
 }
-.nattoman {
+.map-left {
   top: 12%;
   left: 20%;
 }
@@ -584,9 +587,6 @@ header .main-nav li {
 }
 
 /* 地図 */
-.nattoman .fukidashi {
-  width: 180px;
-}
 .nattomini1 {
   top: 40%;
   left: 0%;
