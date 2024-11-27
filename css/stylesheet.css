@@ -459,13 +459,14 @@ header .main-nav li {
   left: -10%;
 }
 .ito1 {
+  top: 50%;
   left: 0%;
 }
 .nattomini3 {
   right: -10%;
 }
 .ito3 {
-  top: 60%;
+  top: 55%;
   right: 0%;
 }
 
@@ -589,11 +590,10 @@ header .main-nav li {
   width: 180px;
 }
 .nattomini1 {
-  left: 10%;
+  left: 0%;
 }
 .ito1 {
-  top: 70%;
-  left: 30%;
+  left: 10%;
 }
 .nattomini3 {
   right: 0%;
@@ -714,6 +714,9 @@ header .main-nav li {
 }
 
 /* 地図 */
+.nattoman .fukidashi {
+  width: 160px;
+}
 .map-left h1 {
   font-size: 1.6rem;
 }
