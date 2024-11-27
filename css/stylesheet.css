@@ -70,7 +70,7 @@ header .main-nav a {
   justify-content: center;
   align-items: flex-start;
   position: relative;
-  margin: 80px auto;
+  margin: 50px auto;
 }
 .map-left {
     position: absolute;
@@ -460,7 +460,6 @@ header .main-nav li {
   left: -20%;
 }
 .ito1 {
-  top: 50%;
   left: -10%;
 }
 .nattomini3 {
@@ -588,11 +587,12 @@ header .main-nav li {
 
 /* 地図 */
 .nattomini1 {
-  top: 40%;
+  top: 0%;
   left: 0%;
 }
 .ito1 {
-  left: 0%;
+  top: 10%;
+  left: -10%;
 }
 .nattomini3 {
   top: 70%;
