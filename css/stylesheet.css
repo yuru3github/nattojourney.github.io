@@ -198,6 +198,8 @@ header .main-nav a {
 .side-index .side .side-nav ul {
   list-style: none;
   display: none;
+  margin: 0;
+  padding: 0;
 }
 .side-index .side ul.side-nav li:hover ul {
   display: block;
@@ -205,8 +207,12 @@ header .main-nav a {
 .side-index .side ul.side-nav li:hover ul .button {
   font-size: 12px;
   gap: 0px;
-  padding: 1px 30px;
+  padding: 2px 20px;
   border: 0.5px solid;
+  margin: 0;
+}
+.side-index .side ul.side-nav li:hover ul li {
+  margin: 0;
 }
 .side-index .index {
   margin: 100px;
