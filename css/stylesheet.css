@@ -116,11 +116,17 @@ header .main-nav a {
 .map-center {
   position: relative;
 }
-.nippon {
+.map-center img.nippon {
   width: 100%;
   max-width: 800px;
   height: auto;
   display: block;
+  position: relative;
+  margin: 0 auto;
+}
+.map-center map area {
+    cursor: pointer;
+    outline: none;
 }
 .nattomini-wrapper {
   position: absolute;
@@ -713,6 +719,10 @@ header .main-nav li {
 /* -------------------------------------------- レスポンシブ430px -------------------------------------------- */
 
 @media (max-width: 430px) {
+
+html {
+    scroll-padding-top: 70px; /* 固定ヘッダーの高さ分を設定 */
+}
 
 /* ヘッダー */
 header .logo {
