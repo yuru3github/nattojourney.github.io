@@ -203,8 +203,8 @@ header .main-nav a {
   display: block;
 }
 .side-index .side ul.side-nav li:hover ul .button {
-  font-size: 13px;
-  padding: 2px 30px;
+  font-size: 10px;
+  padding: 1.5px 30px;
   border: 0.5px solid;
 }
 .side-index .index {
@@ -384,9 +384,7 @@ header .main-nav a {
 }
 
 /* 一覧 */
-.side-index .side ul.side-nav li:hover ul .button {
-  font-size: 12px;
-}
+
 
 /* 詳細 */
 .side-index .side {
