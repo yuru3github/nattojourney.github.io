@@ -53,7 +53,7 @@
         </div>
         <script type="text/javascript" src="js/script.js">
             document.addEventListener("DOMContentLoaded", function () {
-                if (window.ImageMapResize) {
+                if (typeof ImageMapResize === "function") {
                     ImageMapResize();
                 }
             });
