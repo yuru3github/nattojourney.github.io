@@ -829,6 +829,9 @@ header .main-nav li {
 .side-index .side {
   margin-left: 10px;
 }
+.side-index .index .home .item .content {
+  flex-direction: column;
+}
 
 /* 詳細 */
 .index-show .item-show {
