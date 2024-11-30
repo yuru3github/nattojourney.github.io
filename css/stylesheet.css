@@ -356,6 +356,42 @@ header .main-nav a {
   border: dotted;
   padding: 20px;
 }
+.nattomini, .ito {
+  position: absolute;
+}
+.nattomini1 {
+  top: 60%;
+  left: -50%;
+  width: 50px;
+}
+.ito1 {
+  top: 70%;
+  left: -30%;
+  width: 70px;
+  transform: rotate(-20deg);
+}
+.nattomini2 {
+  bottom: -5%;
+  left: 40%;
+  width: 50px;
+}
+.ito2 {
+  bottom: 0%;
+  left: 70%;
+  width: 70px;
+  transform: rotate(30deg);
+}
+.nattomini3 {
+  top: 30%;
+  right: -50%;
+  width: 50px;
+}
+.ito3 {
+  top: 50%;
+  right: -30%;
+  width: 70px;
+  transform: rotate(15deg);
+}
 
 /* レシピ、参考 */
 .recipe, .pull {
