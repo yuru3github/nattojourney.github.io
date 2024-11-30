@@ -776,9 +776,6 @@ header .main-nav li {
   flex-direction: column;
   justify-content: center;
 }
-.matching li {
-  margin: 10px;
-}
 .matching img {
   width: 50px;
 }
@@ -859,10 +856,6 @@ header .main-nav li {
 }
 .matching h4 {
   margin: 30px 0px 50px;
-}
-.matching .button {
-  width: 170px;
-  padding: 40px 20px;
 }
 .match div img {
   width: 200px;
