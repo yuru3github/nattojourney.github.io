@@ -777,6 +777,7 @@ header .main-nav li {
 }
 .matching .button {
   display: block;
+  justify-content: center;
 }
 .matching li {
   margin: 10px;
