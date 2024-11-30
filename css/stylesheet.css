@@ -127,8 +127,9 @@ header .main-nav a {
   margin: 0 auto;
 }
 .map-center map area {
-    cursor: pointer;
-    outline: none;
+  cursor: pointer;
+  outline: none;
+  margin: 0 auto;
 }
 .nattomini-wrapper {
   position: absolute;
