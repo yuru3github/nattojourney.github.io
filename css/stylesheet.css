@@ -774,10 +774,10 @@ header .main-nav li {
 /* 診断 */
 .matching ul {
   flex-flow: column;
+  justify-content: center;
 }
 .matching .button {
   display: block;
-  justify-content: center;
 }
 .matching li {
   margin: 10px;
