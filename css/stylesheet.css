@@ -294,7 +294,7 @@ header .main-nav a {
   width: 500px;
 }
 .index-show .item-show .left-right .left img {
-  width: 500px;
+  width: 400px;
   margin-top: 50px;
 }
 .index-show .item-show .left-right .right {
@@ -593,7 +593,7 @@ header .main-nav li {
   width: 300px;
 }
 .index-show .item-show .left-right .left img {
-  width: 300px;
+  width: 250px;
   margin-top: 30px;
 }
 .index-show .item-show .left-right .right {
@@ -737,11 +737,14 @@ header .main-nav li {
 .index-show .item-show h2 {
   margin: 20px 0px 10px;
 }
+.index-show .item-show .left-right {
+  flex-direction: column;
+}
 .index-show .item-show .left-right .left p {
   width: 200px;
 }
 .index-show .item-show .left-right .left img {
-  width: 200px;
+  width: 300px;
   margin-top: 20px;
 }
 .index-show .item-show .left-right .right {
@@ -766,9 +769,7 @@ header .main-nav li {
 .matching ul {
   flex-direction: column;
   justify-content: center;
-}
-.matching ul {
-  gap: 10px;
+  gap: 15px;
 }
 
 /* レシピ、参考 */
@@ -835,7 +836,7 @@ header .main-nav li {
   width: 170px;
 }
 .index-show .item-show .left-right .left img {
-  width: 150px;
+  width: 200px;
 }
 .index-show .item-show .left-right .right {
   margin-left: 10px;
