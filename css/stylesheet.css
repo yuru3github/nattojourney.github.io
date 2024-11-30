@@ -336,7 +336,7 @@ header .main-nav a {
   justify-content: center;
 }
 .matching li {
-  margin: 30px;
+  gap: 30px;
 }
 .matching .button {
   display: inline-block;
@@ -769,6 +769,9 @@ header .main-nav li {
   flex-direction: column;
   justify-content: center;
 }
+.matching li {
+  margin: 10px;
+}
 
 /* レシピ、参考 */
 .recipe, .pull {
@@ -843,6 +846,12 @@ header .main-nav li {
 /* 診断 */
 .matching, .match {
   margin: 70px 30px;
+}
+.matching h4 {
+  margin: 20px 0px 50px;
+}
+.matching li {
+  margin: 5px;
 }
 .match div img {
   width: 200px;
