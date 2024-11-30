@@ -831,7 +831,7 @@ header .main-nav li {
 
 /* 診断 */
 .matching, .match {
-  margin: 50px;
+  margin: 70px 30px;
 }
 .matching h4 {
   margin: 30px 0px 50px;
@@ -847,7 +847,7 @@ header .main-nav li {
   width: 200px;
 }
 .match div a {
-  width: 180px;
+  width: 200px;
 }
 
 /* レシピ、参考 */
