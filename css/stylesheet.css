@@ -118,6 +118,9 @@ header .main-nav a {
   padding: 0;
   border: none;
 }
+.nippon {
+  display: block;
+}
 .map-center img.nippon {
   width: 100%;
   max-width: 800px;
