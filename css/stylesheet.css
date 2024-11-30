@@ -321,7 +321,6 @@ header .main-nav a {
 /* 診断 */
 .matching, .match {
   text-align: center;
-  align-items: center;
   position: relative;
   margin: 100px;
 }
@@ -773,8 +772,11 @@ header .main-nav li {
 }
 
 /* 診断 */
-.matching .button {
+.matching ul {
   flex-flow: column;
+}
+.matching .button {
+  display: block;
 }
 .matching li {
   margin: 10px;
