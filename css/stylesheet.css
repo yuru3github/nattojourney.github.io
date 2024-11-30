@@ -126,13 +126,6 @@ header .main-nav a {
   position: relative;
   margin: 0 auto;
 }
-.map-center map {
-  width: 100%;
-  max-width: 800px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
 .map-center map area {
   cursor: pointer;
   outline: none;
@@ -325,6 +318,7 @@ header .main-nav a {
 /* 診断 */
 .matching, .match {
   text-align: center;
+  position: relative;
   margin: 100px;
 }
 .matching h4 {
