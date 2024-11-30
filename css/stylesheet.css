@@ -762,10 +762,16 @@ header .main-nav li {
 }
 
 /* 診断 */
+.matching, .match {
+  margin: 70px 50px;
+}
 .matching ul {
   flex-direction: column;
   justify-content: center;
   gap: 15px;
+}
+.match div img {
+  width: 300px;
 }
 
 /* レシピ、参考 */
@@ -846,9 +852,6 @@ header .main-nav li {
   margin: 20px 0px 50px;
 }
 .match div img {
-  width: 200px;
-}
-.match div a {
   width: 200px;
 }
 
