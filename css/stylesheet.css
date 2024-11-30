@@ -383,6 +383,11 @@ header .main-nav a {
   right: -20%;
 }
 
+/* 一覧 */
+.side-index .side ul.side-nav li:hover ul .button {
+  font-size: 12px;
+}
+
 /* 詳細 */
 .side-index .side {
   margin-left: 50px;
