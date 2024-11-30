@@ -772,6 +772,12 @@ header .main-nav li {
 }
 
 /* 診断 */
+.matching ul {
+  display: block;
+}
+.matching .button {
+  display: block;
+}
 .matching li {
   margin: 10px;
 }
