@@ -77,6 +77,17 @@ $('.end').click(function() {
     }
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    if (typeof ImageMapResize === "function") {
+        ImageMapResize();
+    }
+});
+document.querySelector('.nippon').addEventListener('load', function () {
+    if (typeof ImageMapResize === "function") {
+        ImageMapResize(); // 初期化
+    }
+});
+
 $('.nippon area').ready(function() {
     var hash = window.location.hash;
     if (hash) {
