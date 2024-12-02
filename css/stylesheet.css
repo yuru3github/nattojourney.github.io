@@ -118,6 +118,7 @@ header .main-nav a {
   max-width: 486px;
   margin: 0 auto;
   padding: 0;
+  position: relative;
   border: none;
 }
 .nippon {
@@ -868,10 +869,10 @@ html {
 
 /* ヘッダー */
 header .logo {
-  margin: 10px 0px 0px 15px;
+  margin: 10px 0px 0px 10px;
 }
 header .main-nav {
-  margin: 20px 12px 0px 20px;
+  margin: 30px 10px 0px 15px;
 }
 header .main-nav li {
   padding-right: 12px;
