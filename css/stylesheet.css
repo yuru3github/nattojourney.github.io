@@ -70,7 +70,7 @@ header .main-nav a {
   justify-content: center;
   align-items: flex-start;
   position: relative;
-  margin: 0 auto;
+  margin: auto;
 }
 .map-left {
   position: absolute;
@@ -325,7 +325,7 @@ header .main-nav a {
 .matching, .match {
   text-align: center;
   position: relative;
-  margin: 0 auto;
+  margin: auto;
 }
 .matching h4 {
   margin: 50px 0px 100px;
