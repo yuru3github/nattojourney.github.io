@@ -797,10 +797,10 @@ html {
 
 /* ヘッダー */
 header .logo {
-  margin: 10px 0px 0px 20px;
+  margin: 10px 0px 0px 15px;
 }
 header .main-nav {
-  margin: 30px 15px 0px 20px;
+  margin: 30px 12px 0px 20px;
 }
 header .main-nav li {
   padding-right: 12px;
