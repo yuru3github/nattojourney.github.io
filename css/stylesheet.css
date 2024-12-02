@@ -373,12 +373,12 @@ header .main-nav a {
 }
 .nattomini1 {
   top: 20%;
-  left: 7%;
+  left: 10%;
   width: 50px;
 }
 .ito1 {
   top: 40%;
-  left: 10%;
+  left: 12%;
   width: 70px;
   transform: rotate(-20deg);
 }
@@ -494,20 +494,20 @@ header .main-nav a {
   left: 10%;
 }
 .nattomini2 {
-  bottom: 0%;
+  bottom: 10%;
   left: 45%;
 }
 .ito2 {
-  bottom: 2%;
+  bottom: 12%;
   left: 55%;
 }
 .nattomini3 {
   top: 30%;
-  right: 8%;
+  right: 5%;
 }
 .ito3 {
-  top: 55%;
-  right: 10%;
+  top: 45%;
+  right: 8%;
 }
 
 /* レシピ、参考 */
