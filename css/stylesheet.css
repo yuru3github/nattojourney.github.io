@@ -374,12 +374,12 @@ header .main-nav a {
 }
 .nattomini1 {
   top: 20%;
-  left: 10%;
+  left: 12%;
   width: 50px;
 }
 .ito1 {
   top: 40%;
-  left: 12%;
+  left: 15%;
   width: 70px;
   transform: rotate(-20deg);
 }
@@ -533,7 +533,7 @@ header {
 }
 header .logo {
   width: 70px;
-  margin: 0px 0px 0px 70px;
+  margin: 5px 0px 0px 70px;
 }
 header .main-nav {
   margin: 30px;
@@ -674,19 +674,19 @@ header .main-nav li {
   left: 8%;
 }
 .nattomini2 {
-  bottom: 10%;
-  left: 25%;
+  bottom: 20%;
+  left: 50%;
 }
 .ito2 {
-  bottom: 12%;
-  left: 30%;
+  bottom: 22%;
+  left: 60%;
 }
 .nattomini3 {
-  top: 20%;
+  top: 40%;
   right: 3%;
 }
 .ito3 {
-  top: 35%;
+  top: 55%;
   right: 5%;
 }
 
@@ -827,26 +827,26 @@ header .main-nav li {
 }
 .nattomini1 {
   top: 15%;
-  left: 5%;
+  left: 3%;
 }
 .ito1 {
   top: 30%;
-  left: 8%;
+  left: 5%;
 }
 .nattomini2 {
-  bottom: 10%;
-  left: 25%;
+  bottom: 5%;
+  left: 40%;
 }
 .ito2 {
-  bottom: 12%;
-  left: 30%;
+  bottom: 8%;
+  left: 50%;
 }
 .nattomini3 {
-  top: 20%;
+  top: 30%;
   right: 3%;
 }
 .ito3 {
-  top: 35%;
+  top: 45%;
   right: 5%;
 }
 
@@ -939,19 +939,19 @@ header .main-nav li {
   left: 5%;
 }
 .nattomini2 {
-  bottom: 20%;
-  left: 15%;
+  bottom: 2%;
+  left: 30%;
 }
 .ito2 {
-  bottom: 22%;
-  left: 20%;
+  bottom: 5%;
+  left: 45%;
 }
 .nattomini3 {
-  top: 10%;
+  top: 40%;
   right: 0%;
 }
 .ito3 {
-  top: 25%;
+  top: 55%;
   right: 3%;
 }
 
