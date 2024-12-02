@@ -682,11 +682,11 @@ header .main-nav li {
   left: 60%;
 }
 .nattomini3 {
-  top: 40%;
+  top: 30%;
   right: 3%;
 }
 .ito3 {
-  top: 55%;
+  top: 45%;
   right: 5%;
 }
 
@@ -835,11 +835,11 @@ header .main-nav li {
 }
 .nattomini2 {
   bottom: 5%;
-  left: 40%;
+  left: 50%;
 }
 .ito2 {
   bottom: 8%;
-  left: 50%;
+  left: 65%;
 }
 .nattomini3 {
   top: 30%;
@@ -869,7 +869,7 @@ html {
 
 /* ヘッダー */
 header .logo {
-  margin: 10px 0px 0px 10px;
+  margin: 15px 0px 0px 10px;
 }
 header .main-nav {
   margin: 30px 10px 0px 15px;
