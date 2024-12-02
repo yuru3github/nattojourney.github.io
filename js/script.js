@@ -77,12 +77,7 @@ $('.end').click(function() {
     }
 });
 
-$(document).querySelector('.nippon').addEventListener('load', function () {
-    if (typeof ImageMapResize === "function") {
-        ImageMapResize();
-    }
-});
-$(document).addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
     if (typeof ImageMapResize === "function") {
         ImageMapResize();
     }
