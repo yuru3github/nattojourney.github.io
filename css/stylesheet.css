@@ -323,8 +323,7 @@ header .main-nav a {
 
 /* 診断 */
 .matching, .match {
-  align-items: center
-  justify-content: center
+  text-align: center;
   position: relative;
   margin-top: 100px;
 }
