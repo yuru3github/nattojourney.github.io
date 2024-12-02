@@ -1,29 +1,25 @@
-$('.index .content div').ready(function() {
+$(document).ready(function () {
     var hash = window.location.hash;
     if (hash) {
-        $('.index-show').animate({
-            scrollTop: $(hash).offset().top()
-        }, 1000);
+        var target = $(hash);
+        if (target.length) {
+            $('html, body').animate({
+                scrollTop: target.offset().top - 70
+            }, 1000);
+        }
     }
 });
 
-$('.side-nav').ready(function() {
-    var hash = window.location.hash;
-    if (hash) {
-        $('.index').animate({
-            scrollTop: $(hash).offset().top()
-        }, 1000);
-    }
-});
 
-$('.match').ready(function() {
-    var hash = window.location.hash;
-    if (hash) {
-        $('.index-show').animate({
-            scrollTop: $(hash).offset().top()
-        }, 1000);
-    }
-});
+const mapImage = document.querySelector('.nippon');
+if (mapImage) {
+    mapImage.addEventListener('load', function () {
+        if (typeof ImageMapResize === "function") {
+            ImageMapResize();
+        }
+    });
+}
+
 
 let box = [];
 
@@ -74,20 +70,5 @@ $('.end').click(function() {
         $('#answer_15').show();
     } else if (result === "bdfh") {
         $('#answer_16').show();
-    }
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-    if (typeof ImageMapResize === "function") {
-        ImageMapResize();
-    }
-});
-
-$('.nippon area').ready(function() {
-    var hash = window.location.hash;
-    if (hash) {
-        $('.index').animate({
-            scrollTop: $(hash).offset().top()
-        }, 1000);
     }
 });
