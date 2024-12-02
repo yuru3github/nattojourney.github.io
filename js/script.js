@@ -11,14 +11,14 @@ $(document).ready(function () {
 });
 
 
-const mapImage = document.querySelector('.nippon');
-if (mapImage) {
-    mapImage.addEventListener('load', function () {
-        if (typeof ImageMapResize === "function") {
-            ImageMapResize();
-        }
-    });
-}
+document.addEventListener("DOMContentLoaded", function () {
+    const mapImage = document.querySelector('.nippon');
+    if (mapImage.complete) {
+        ImageMapResize();
+    } else {
+        mapImage.addEventListener('load', ImageMapResize);
+    }
+});
 
 
 let box = [];
