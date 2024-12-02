@@ -324,7 +324,7 @@ header .main-nav a {
 /* 診断 */
 .matching, .match {
   align-items: center
-  text-align: center;
+  justify-content: center
   position: relative;
   margin-top: 100px;
 }
