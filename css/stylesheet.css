@@ -68,9 +68,9 @@ header .main-nav a {
 .map-container {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   position: relative;
-  margin: auto;
+  margin-top: 50px;
 }
 .map-left {
   position: absolute;
@@ -323,9 +323,10 @@ header .main-nav a {
 
 /* 診断 */
 .matching, .match {
+  align-items: center
   text-align: center;
   position: relative;
-  margin: auto;
+  margin-top: 100px;
 }
 .matching h4 {
   margin: 50px 0px 100px;
