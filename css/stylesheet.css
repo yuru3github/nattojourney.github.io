@@ -374,7 +374,7 @@ header .main-nav a {
 }
 .nattomini1 {
   top: 20%;
-  left: 30%;
+  left: 25%;
   width: 50px;
 }
 .ito1 {
@@ -401,7 +401,7 @@ header .main-nav a {
 }
 .ito3 {
   top: 55%;
-  right: 20%;
+  right: 18%;
   width: 70px;
   transform: rotate(15deg);
 }
@@ -482,7 +482,7 @@ header .main-nav a {
 }
 .matching .button {
   width: 250px;
-  padding: 70px;
+  padding: 65px;
   border-radius: 85px;
 }
 
@@ -796,13 +796,13 @@ html {
 
 /* ヘッダー */
 header .logo {
-  margin: 10px 0px 0px 30px;
+  margin: 10px 0px 0px 20px;
 }
 header .main-nav {
-  margin: 30px 20px 0px 20px;
+  margin: 30px 15px 0px 20px;
 }
 header .main-nav li {
-  padding-right: 15px;
+  padding-right: 12px;
 }
 
 /* スタート */
