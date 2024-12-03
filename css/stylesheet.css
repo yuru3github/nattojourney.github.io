@@ -888,6 +888,12 @@ header .main-nav li {
 }
 
 /* 地図 */
+.large-map {
+  display: none;
+}
+.small-map {
+  display: block;
+}
 .nattoman .fukidashi {
   width: 160px;
 }
