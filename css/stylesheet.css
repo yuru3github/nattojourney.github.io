@@ -93,7 +93,7 @@ header .main-nav a {
   gap: 10px;
 }
 .nattoman .fukidashi {
-  width: 270px;
+  width: 200px;
   line-height: 1.4;
   text-align: center;
   background-color: floralwhite;
@@ -893,6 +893,20 @@ header .main-nav li {
 }
 
 /* 地図 */
+.map-left {
+  top: 3%;
+  left: 15%;
+}
+.map-left h1 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+.nattoman .fukidashi {
+  width: 160px;
+}
+.nattoman img {
+  width: 80px;
+}
 .nippon {
   width: 330px;
   height: auto;
@@ -902,15 +916,6 @@ header .main-nav li {
 }
 .small-map {
   display: block;
-}
-.nattoman .fukidashi {
-  width: 160px;
-}
-.map-left h1 {
-  font-size: 1.6rem;
-}
-.nattoman img {
-  width: 80px;
 }
 .nattomini1, .ito1, .nattomini2, .ito2, .nattomini3, .ito3 {
   width: 40px;
