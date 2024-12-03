@@ -792,7 +792,7 @@ header .main-nav li {
   flex-direction: column;
 }
 .index-show .item-show .left-right .left p {
-  width: 200px;
+  width: 350px;
 }
 .index-show .item-show .left-right .left img {
   width: 300px;
@@ -920,7 +920,7 @@ header .main-nav li {
   margin: 20px 30px 30px;
 }
 .index-show .item-show .left-right .left p {
-  width: 170px;
+  width: 250px;
 }
 .index-show .item-show .left-right .left img {
   width: 200px;
