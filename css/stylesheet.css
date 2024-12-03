@@ -297,6 +297,7 @@ header .main-nav a {
 }
 .index-show .item-show .left-right .left img {
   width: 400px;
+  height: auto;
   margin-top: 50px;
 }
 .index-show .item-show .left-right .right {
