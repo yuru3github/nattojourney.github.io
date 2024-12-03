@@ -773,9 +773,12 @@ header .main-nav li {
 .side-index .index {
   margin: 50px 30px 30px 30px;
 }
+.side-index .index .home .item .content {
+  flex-direction: column;
+}
 .side-index .index .home .item .content img {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   margin: 20px 20px 0px 0px;
 }
 
@@ -917,9 +920,6 @@ header .main-nav li {
 .side-index .side {
   margin-left: 10px;
 }
-.side-index .index .home .item .content {
-  flex-direction: column;
-}
 
 /* 詳細 */
 .index-show .item-show {
@@ -929,7 +929,7 @@ header .main-nav li {
   width: 300px;
 }
 .index-show .item-show .left-right .left img {
-  width: 200px;
+  width: 250px;
 }
 .index-show .item-show .left-right .right {
   margin-left: 10px;
