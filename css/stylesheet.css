@@ -777,8 +777,8 @@ header .main-nav li {
   flex-direction: column;
 }
 .side-index .index .home .item .content img {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   margin: 20px 20px 0px 0px;
 }
 
@@ -919,6 +919,7 @@ header .main-nav li {
 /* 一覧 */
 .side-index .side {
   margin-left: 10px;
+  left: 20px;
 }
 
 /* 詳細 */
