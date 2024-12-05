@@ -111,6 +111,7 @@ header .main-nav a {
   z-index: 0;
 }
 .nattoman .fukidashi br {
+  all: unset;
   display: block;
   content: "";
   line-height: 0 !important;
@@ -905,7 +906,7 @@ header .main-nav li {
   margin-bottom: 20px;
 }
 .nattoman .fukidashi {
-  width: 160px;
+  width: 170px;
   padding: 10px;
 }
 .nattoman img {
