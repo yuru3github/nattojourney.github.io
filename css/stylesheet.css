@@ -110,13 +110,9 @@ header .main-nav a {
   border-top: 10px solid floralwhite;
   z-index: 0;
 }
-.nattoman .fukidashi br {
-  all: unset;
-  display: block;
-  content: "";
-  line-height: 0 !important;
-  height: 0 !important;
-  margin: 2px 0;
+.nattoman .fukidashi p {
+  white-space: pre-line;
+  line-height: 1;
 }
 .nattoman img {
   width: 130px;
