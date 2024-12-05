@@ -113,7 +113,7 @@ header .main-nav a {
 .nattoman .fukidashi br {
   display: block;
   content: "";
-  line-height: 0;
+  line-height: 0 !important;
   margin: 2px 0;
 }
 .nattoman img {
