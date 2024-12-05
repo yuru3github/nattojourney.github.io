@@ -95,7 +95,10 @@ header .main-nav a {
 .nattoman .fukidashi {
   width: 200px;
   line-height: 1.4;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
   background-color: floralwhite;
   border-radius: 50px;
   padding: 15px;
@@ -109,10 +112,6 @@ header .main-nav a {
   border: 10px solid transparent;
   border-top: 10px solid floralwhite;
   z-index: 0;
-}
-.nattoman .fukidashi p {
-  white-space: pre-line;
-  line-height: 1;
 }
 .nattoman img {
   width: 130px;
