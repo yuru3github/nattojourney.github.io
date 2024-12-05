@@ -331,10 +331,10 @@ header .main-nav a {
   margin-top: 100px;
 }
 .matching h4 {
-  margin: 50px 0px 100px;
+  margin: 50px 0px 80px;
 }
-.matching h3 {
-  margin-bottom: 50px;
+.matching p {
+  margin: 30px 0px;
 }
 .matching ul {
   list-style: none;
@@ -653,8 +653,8 @@ header .main-nav li {
 .matching h4 {
   margin: 30px 0px 70px;
 }
-.matching h3 {
-  margin-bottom: 35px;
+.matching p {
+  margin: 20px 0px;
 }
 .matching ul {
   gap: 20px;
