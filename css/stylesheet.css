@@ -115,6 +115,7 @@ header .main-nav a {
   display: block;
   content: "";
   line-height: 0 !important;
+  height: 0 !important;
   margin: 2px 0;
 }
 .nattoman img {
