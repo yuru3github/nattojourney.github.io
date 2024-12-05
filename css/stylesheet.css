@@ -331,8 +331,11 @@ header .main-nav a {
 .matching h4 {
   margin: 50px 0px 80px;
 }
+.matching h3 {
+  margin-bottom: 30px;
+}
 .matching p {
-  margin: 30px 0px;
+  margin-bottom: 30px;
 }
 .matching ul {
   list-style: none;
@@ -479,7 +482,7 @@ header .main-nav a {
   margin: 85px;
 }
 .matching h4 {
-  margin: 40px 0px 85px;
+  margin: 40px 0px 80px;
 }
 .matching .button {
   width: 250px;
@@ -649,10 +652,13 @@ header .main-nav li {
   margin: 70px;
 }
 .matching h4 {
-  margin: 30px 0px 70px;
+  margin: 30px 0px 60px;
+}
+.matching h3 {
+  margin-bottom: 20px;
 }
 .matching p {
-  margin: 20px 0px;
+  margin-bottom: 20px;
 }
 .matching ul {
   gap: 20px;
@@ -944,7 +950,7 @@ header .main-nav li {
 
 /* 診断 */
 .matching h4 {
-  margin: 20px 0px 50px;
+  margin: 20px 0px 40px;
 }
 .match div img {
   width: 200px;
