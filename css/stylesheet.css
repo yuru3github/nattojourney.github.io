@@ -111,8 +111,8 @@ header .main-nav a {
   position: absolute;
   bottom: -25px;
   left: 40px;
-  border: 20px solid transparent;
-  border-top: 20px solid floralwhite;
+  border: 15px solid transparent;
+  border-top: 30px solid floralwhite;
   z-index: 0;
 }
 .nattoman img {
