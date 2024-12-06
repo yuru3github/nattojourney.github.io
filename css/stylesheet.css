@@ -81,48 +81,50 @@ header .main-nav a {
   align-items: flex-start;
   text-align: left;
   position: relative;
-  margin-right: 30px;
+  margin-right: 2vw;
+  margin-top: -5vh;
 }
 .map-left h1 {
-  font-size: 2rem;
-  margin: 20px 20px 0 0;
+  font-size: 2vw;
+  margin-bottom: 1vh;
 }
 .nattoman {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 10px;
+  gap: 1vh;
 }
 .nattoman .fukidashi {
-  width: 200px;
+  width: 15vw;
   line-height: 1.4;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2px;
+  gap: 0.5vh;
   background-color: floralwhite;
   border-radius: 50px;
-  padding: 15px;
+  padding: 1vh;
   position: relative;
 }
 .nattoman .fukidashi:before {
   content: "";
   position: absolute;
-  bottom: -10px;
-  left: 20px;
-  border: 10px solid transparent;
-  border-top: 10px solid floralwhite;
+  bottom: -1vh;
+  left: 2vw;
+  border: 1vh solid transparent;
+  border-top: 1vh solid floralwhite;
   z-index: 0;
 }
 .nattoman img {
-  width: 130px;
+  width: 10vw;
 }
 .map-center {
-  max-width: 486px;
+  width: 486px;
+  height: auto;
   position: relative;
 }
 .map-center img.nippon {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   display: block;
 }
@@ -552,18 +554,6 @@ header .main-nav li {
 }
 
 /* 地図 */
-.nattoman .fukidashi {
-  width: 180px;
-}
-.map-left h1 {
-  font-size: 1.8rem;
-}
-.map-left {
-  left: 20%;
-}
-.nattoman img {
-  width: 100px;
-}
 .nattomini1 {
   left: -15%;
 }
@@ -891,22 +881,17 @@ header .main-nav li {
 }
 
 /* 地図 */
-.map-left {
-  top: 3%;
-  left: 15%;
-}
 .map-left h1 {
-  font-size: 1.6rem;
-  margin-bottom: 20px;
+  font-size: 4vw;
 }
 .nattoman .fukidashi {
-  width: 160px;
-  padding: 10px;
+  width: 25vw;
+  padding: 0.5vh;
 }
 .nattoman img {
-  width: 80px;
+  width: 15vw;
 }
-.nippon {
+.map-center {
   width: 330px;
   height: auto;
 }
