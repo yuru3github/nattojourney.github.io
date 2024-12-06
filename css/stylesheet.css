@@ -76,13 +76,12 @@ header .main-nav a {
   margin: 0;
 }
 .map-left {
-  position: absolute;
-  top: 5%;
-  left: 25%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
+  position: relative;
+  margin-right: 30px;
 }
 .map-left h1 {
   font-size: 2rem;
@@ -100,7 +99,7 @@ header .main-nav a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2px !important;
+  gap: 2px;
   background-color: floralwhite;
   border-radius: 50px;
   padding: 15px;
@@ -109,7 +108,7 @@ header .main-nav a {
 .nattoman .fukidashi:before {
   content: "";
   position: absolute;
-  bottom: -50px;
+  bottom: -10px;
   left: 20px;
   border: 10px solid transparent;
   border-top: 10px solid floralwhite;
@@ -119,7 +118,6 @@ header .main-nav a {
   width: 130px;
 }
 .map-center {
-  width: 100%;
   max-width: 486px;
   position: relative;
 }
