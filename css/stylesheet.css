@@ -85,7 +85,7 @@ header .main-nav a {
 }
 .map-left h1 {
   font-size: 2rem;
-  margin-bottom: 30px;
+  margin: 20px 20px 0 0;
 }
 .nattoman {
   display: flex;
