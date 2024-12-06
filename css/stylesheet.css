@@ -71,7 +71,9 @@ header .main-nav a {
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-top: 50px;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
 }
 .map-left {
   position: absolute;
@@ -119,20 +121,12 @@ header .main-nav a {
 .map-center {
   width: 100%;
   max-width: 486px;
-  margin: 0 auto;
-  padding: 0;
   position: relative;
-  border: none;
-}
-.nippon {
-  display: block;
 }
 .map-center img.nippon {
   max-width: 100%;
   height: auto;
   display: block;
-  position: relative;
-  margin: 0 auto;
 }
 .map-center map area {
   cursor: pointer;
