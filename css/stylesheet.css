@@ -77,15 +77,15 @@ header .main-nav a {
 }
 .map-left {
   position: absolute;
-  top: 10%;
-  left: 25%;
+  top: 15%;
+  left: 20%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
 }
 .map-left h1 {
-  font-size: 20px;
+  font-size: 1.6rem;
   margin-bottom: 30px;
 }
 .nattoman {
@@ -881,6 +881,15 @@ header .main-nav li {
 }
 
 /* 地図 */
+.map-left {
+  top: 10%;
+}
+.nattoman .fukidashi {
+  width: 180px;
+}
+.nattoman img {
+  width: 100px;
+}
 .map-center {
   width: 330px;
   height: auto;
