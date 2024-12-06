@@ -881,16 +881,6 @@ header .main-nav li {
 }
 
 /* 地図 */
-.map-left h1 {
-  font-size: 4vw;
-}
-.nattoman .fukidashi {
-  width: 25vw;
-  padding: 0.5vh;
-}
-.nattoman img {
-  width: 15vw;
-}
 .map-center {
   width: 330px;
   height: auto;
