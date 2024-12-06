@@ -76,47 +76,47 @@ header .main-nav a {
   margin: 0;
 }
 .map-left {
+  position: absolute;
+  top: 10%;
+  left: 25%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  position: relative;
-  margin-right: 2vw;
-  margin-top: -5vh;
 }
 .map-left h1 {
-  font-size: 2vw;
-  margin-bottom: 1vh;
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 .nattoman {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1vh;
+  gap: 10px;
 }
 .nattoman .fukidashi {
-  width: 15vw;
+  width: 200px;
   line-height: 1.4;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5vh;
+  gap: 2px;
   background-color: floralwhite;
   border-radius: 50px;
-  padding: 1vh;
+  padding: 10px;
   position: relative;
 }
 .nattoman .fukidashi:before {
   content: "";
   position: absolute;
-  bottom: -1vh;
-  left: 2vw;
-  border: 1vh solid transparent;
-  border-top: 1vh solid floralwhite;
+  bottom: -10px;
+  left: 20px;
+  border: 10px solid transparent;
+  border-top: 10px solid floralwhite;
   z-index: 0;
 }
 .nattoman img {
-  width: 10vw;
+  width: 130px;
 }
 .map-center {
   width: 486px;
