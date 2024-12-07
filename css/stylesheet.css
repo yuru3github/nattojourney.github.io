@@ -367,6 +367,7 @@ header .main-nav a {
   padding: 20px;
 }
 .haikei {
+  z-index: -1;
   opacity: 0.5;
 }
 .haikei img {
