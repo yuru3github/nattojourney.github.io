@@ -58,15 +58,15 @@ header .main-nav a {
   margin: 0;
 }
 .start img {
-  width: 70%;
+  width: 700px;
 }
 .click {
   position: absolute;
-  top: 55%;
-  left: 65%;
+  top: 57%;
+  left: 67%;
 }
 .click img {
-  width: 20%;
+  width: 200px;
 }
 
 /* 地図 */
@@ -423,7 +423,9 @@ header .main-nav a {
 }
   
 /* 地図 */
-
+.nattoman img {
+  width: 130px;
+}
 
 /* 一覧 */
 
@@ -498,7 +500,7 @@ header .main-nav li {
 
 /* 地図 */
 .nattoman img {
-  width: 130px;
+  width: 115px;
 }
 .nattomini {
   width: 50px;
@@ -760,9 +762,6 @@ header .main-nav li {
 }
 .nattoman .fukidashi {
   width: 170px;
-}
-.nattoman img {
-  width: 100px;
 }
 .map-center {
   width: 330px;
