@@ -318,7 +318,7 @@ header .main-nav a {
 }
 
 /* 診断 */
-.matching, .match {
+.matching {
   display: grid;
   place-content: center;
   text-align: center;
