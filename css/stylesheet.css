@@ -370,7 +370,7 @@ header .main-nav a {
   opacity: 0.5;
 }
 .haikei img {
-  width: 1000px;
+  width: 500px;
 }
 
 /* レシピ、参考 */
@@ -567,6 +567,9 @@ header .main-nav li {
 }
 .matching img {
   width: 50px;
+}
+.haikei img {
+  width: 300px;
 }
 
 /* レシピ、参考 */
@@ -780,6 +783,9 @@ header .main-nav li {
   margin: 20px 0px 40px;
 }
 .match div img {
+  width: 200px;
+}
+.haikei img {
   width: 200px;
 }
 
