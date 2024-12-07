@@ -82,7 +82,7 @@ header .main-nav a {
 .map-left {
   position: absolute;
   top: 15%;
-  left: 25%;
+  left: 22%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -646,10 +646,13 @@ header .main-nav li {
 /* 地図 */
 .map-left {
   top: 10%;
-  left: 20%;
+  left: 18%;
 }
 .map-left h1 {
   font-size: 1.8rem;
+}
+.nattoman .fukidashi {
+  padding: 15px 8px;
 }
 .nattoman img {
   width: 100px;
