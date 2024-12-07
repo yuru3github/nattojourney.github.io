@@ -319,13 +319,12 @@ header .main-nav a {
 
 /* 診断 */
 .matching, .match {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-content: center;
   text-align: center;
   width: 100vw;
   height: 100vh;
-  margin: 0;
+  margin: auto;
 }
 .matching h4 {
   margin: 50px 0px 80px;
