@@ -89,7 +89,7 @@ header .main-nav a {
   text-align: left;
 }
 .map-left h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   margin-bottom: 50px;
 }
 .nattoman {
@@ -423,6 +423,9 @@ header .main-nav a {
 }
   
 /* 地図 */
+.map-left h1 {
+  font-size: 2rem;
+}
 .nattoman img {
   width: 130px;
 }
@@ -644,6 +647,9 @@ header .main-nav li {
 .map-left {
   top: 10%;
   left: 20%;
+}
+.map-left h1 {
+  font-size: 1.8rem;
 }
 .nattoman img {
   width: 100px;
