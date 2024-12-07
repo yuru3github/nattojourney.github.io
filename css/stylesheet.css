@@ -143,38 +143,33 @@ header .main-nav a {
 }
 .nattomini, .ito {
   position: absolute;
+  width: 60px;
 }
 .nattomini1 {
   top: 25%;
   left: 3%;
-  width: 50px;
 }
 .ito1 {
   top: 40%;
   left: 7%;
-  width: 70px;
   transform: rotate(-20deg);
 }
 .nattomini2 {
   top: 82%;
   left: 45%;
-  width: 50px;
 }
 .ito2 {
   top: 75%;
   left: 65%;
-  width: 70px;
   transform: rotate(30deg);
 }
 .nattomini3 {
   top: 45%;
   right: 3%;
-  width: 50px;
 }
 .ito3 {
   top: 55%;
   right: 7%;
-  width: 70px;
   transform: rotate(15deg);
 }
 
@@ -496,7 +491,9 @@ header .main-nav li {
 }
 
 /* 地図 */
-
+.nattomini, .ito {
+  width: 50px;
+}
 
 /* 一覧 */
 .side-index .side {
@@ -770,7 +767,7 @@ header .main-nav li {
 .small-map {
   display: block;
 }
-.nattomini1, .ito1, .nattomini2, .ito2, .nattomini3, .ito3 {
+.nattomini, .ito {
   width: 40px;
 }
 
