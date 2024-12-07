@@ -355,6 +355,7 @@ header .main-nav a {
 }
 .match {
   flex-direction: column;
+  gap: 20%;
 }
 .match div img {
   width: 350px;
@@ -362,7 +363,6 @@ header .main-nav a {
 .match div a {
   border: dotted;
   padding: 20px;
-  margin-top: 30px;
 }
 
 /* レシピ、参考 */
