@@ -48,18 +48,22 @@ header .main-nav a {
 }
 
 /* スタート */
-.start {
-  margin: 50px;
-  text-align: center;
+.startin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
 }
 .start img {
   width: 700px;
 }
 .click {
-  margin: 50px;
   position: absolute;
-  top: 450px;
-  left: 850px;
+  top: 70%;
+  left: 80%;
 }
 .click img {
   width: 150px;
@@ -411,9 +415,7 @@ header .main-nav a {
 @media (max-width: 1000px) {
 
 /* スタート */
-.click {
-  left: 650px;
-}
+
   
 /* 地図 */
 
@@ -482,16 +484,8 @@ header .main-nav li {
 }
 
 /* スタート */
-.start {
-  margin: 30px;
-}
 .start img {
   width: 500px;
-}
-.click {
-  margin: 30px;
-  left: 450px;
-  top: 350px;
 }
 
 /* 地図 */
@@ -626,15 +620,8 @@ header .main-nav li {
 }
 
 /* スタート */
-.start {
-  margin: 30px;
-}
 .start img {
   width: 500px;
-}
-.click {
-  margin: 10px;
-  left: 350px;
 }
 .click img {
   width: 100px;
@@ -748,10 +735,6 @@ header .main-nav li {
 /* スタート */
 .start img {
   width: 300px;
-}
-.click {
-  top: 250px;
-  left: 200px;
 }
 
 /* 地図 */
