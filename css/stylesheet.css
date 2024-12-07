@@ -62,8 +62,8 @@ header .main-nav a {
 }
 .click {
   position: absolute;
-  top: 60%;
-  left: 70%;
+  top: 55%;
+  left: 65%;
 }
 .click img {
   width: 200px;
@@ -625,9 +625,6 @@ header .main-nav li {
 /* スタート */
 .start img {
   width: 500px;
-}
-.click img {
-  width: 120px;
 }
 
 /* 地図 */
