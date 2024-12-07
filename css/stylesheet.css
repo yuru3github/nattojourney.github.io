@@ -333,10 +333,10 @@ header .main-nav a {
   position: absolute;
   top: 0;
   left: 0;
-  width: 500px;
-  height: auto;
+  width: 100%;
+  height: 100%;
   background-image: url('../image/card2.png');
-  background-size: cover;
+  background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.5;
@@ -557,9 +557,6 @@ header .main-nav li {
 }
 
 /* 診断 */
-.matching::before {
-  width: 300px;
-}
 .matching h4 {
   margin: 30px 0px 60px;
 }
@@ -789,9 +786,6 @@ header .main-nav li {
 }
 
 /* 診断 */
-.matching::before {
-  width: 200px;
-}
 .matching h4 {
   margin: 20px 0px 40px;
 }
