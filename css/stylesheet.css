@@ -325,6 +325,22 @@ header .main-nav a {
   width: 100vw;
   height: 100vh;
   margin: auto;
+  position: relative;
+  display: inline-block;
+}
+.matching::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('image/card2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.3;
+  z-index: -1;
 }
 .matching h4 {
   margin: 50px 0px 80px;
@@ -365,13 +381,6 @@ header .main-nav a {
 .match div a {
   border: dotted;
   padding: 20px;
-}
-.haikei {
-  z-index: -1;
-  opacity: 0.5;
-}
-.haikei img {
-  width: 500px;
 }
 
 /* レシピ、参考 */
@@ -568,9 +577,6 @@ header .main-nav li {
 }
 .matching img {
   width: 50px;
-}
-.haikei img {
-  width: 300px;
 }
 
 /* レシピ、参考 */
@@ -784,9 +790,6 @@ header .main-nav li {
   margin: 20px 0px 40px;
 }
 .match div img {
-  width: 200px;
-}
-.haikei img {
   width: 200px;
 }
 
