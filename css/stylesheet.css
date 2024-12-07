@@ -438,6 +438,9 @@ header .main-nav a {
 }
 
 /* 診断 */
+.matching::before {
+  background-size: 550px;
+}
 .matching h4 {
   margin: 40px 0px 80px;
 }
