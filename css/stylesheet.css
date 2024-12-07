@@ -109,8 +109,8 @@ header .main-nav a {
 .nattoman .fukidashi:before {
   content: "";
   position: absolute;
-  bottom: -25px;
-  left: 50px;
+  bottom: -20px;
+  left: 60px;
   border-bottom: 5px solid transparent;
   border-left: 5px solid transparent;
   border-right: 15px solid transparent;
