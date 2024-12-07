@@ -150,14 +150,14 @@ header .main-nav a {
   width: 50px;
 }
 .ito1 {
-  top: 30%;
+  top: 35%;
   left: 10%;
   width: 70px;
   transform: rotate(-20deg);
 }
 .nattomini2 {
-  top: 80%;
-  left: 40%;
+  top: 85%;
+  left: 50%;
   width: 50px;
 }
 .ito2 {
@@ -168,12 +168,12 @@ header .main-nav a {
 }
 .nattomini3 {
   top: 30%;
-  right: 10%;
+  right: 5%;
   width: 50px;
 }
 .ito3 {
   top: 50%;
-  right: 15%;
+  right: 10%;
   width: 70px;
   transform: rotate(15deg);
 }
