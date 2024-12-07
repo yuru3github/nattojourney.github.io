@@ -319,9 +319,12 @@ header .main-nav a {
 
 /* 診断 */
 .matching, .match {
-  text-align: center;
-  position: relative;
-  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
 }
 .matching h4 {
   margin: 50px 0px 80px;
@@ -359,50 +362,6 @@ header .main-nav a {
 .match div a {
   border: dotted;
   padding: 20px;
-}
-.nattomini-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-}
-.nattomini, .ito {
-  position: absolute;
-}
-.nattomini1 {
-  top: 20%;
-  left: 12%;
-  width: 50px;
-}
-.ito1 {
-  top: 40%;
-  left: 15%;
-  width: 70px;
-  transform: rotate(-20deg);
-}
-.nattomini2 {
-  bottom: 0%;
-  left: 45%;
-  width: 50px;
-}
-.ito2 {
-  bottom: 2%;
-  left: 55%;
-  width: 70px;
-  transform: rotate(50deg);
-}
-.nattomini3 {
-  top: 30%;
-  right: 8%;
-  width: 50px;
-}
-.ito3 {
-  top: 55%;
-  right: 10%;
-  width: 70px;
-  transform: rotate(15deg);
 }
 
 /* レシピ、参考 */
@@ -460,9 +419,6 @@ header .main-nav a {
 }
 
 /* 診断 */
-.matching, .match {
-  margin: 85px;
-}
 .matching h4 {
   margin: 40px 0px 80px;
 }
@@ -471,30 +427,6 @@ header .main-nav a {
   padding: 65px;
   border-radius: 85px;
   font-size: 22px;
-}
-.nattomini1 {
-  top: 20%;
-  left: 7%;
-}
-.ito1 {
-  top: 40%;
-  left: 10%;
-}
-.nattomini2 {
-  bottom: 10%;
-  left: 45%;
-}
-.ito2 {
-  bottom: 12%;
-  left: 55%;
-}
-.nattomini3 {
-  top: 30%;
-  right: 5%;
-}
-.ito3 {
-  top: 45%;
-  right: 8%;
 }
 
 /* レシピ、参考 */
@@ -606,9 +538,6 @@ header .main-nav li {
 }
 
 /* 診断 */
-.matching, .match {
-  margin: 70px;
-}
 .matching h4 {
   margin: 30px 0px 60px;
 }
@@ -629,30 +558,6 @@ header .main-nav li {
 }
 .matching img {
   width: 50px;
-}
-.nattomini1 {
-  top: 15%;
-  left: 5%;
-}
-.ito1 {
-  top: 30%;
-  left: 8%;
-}
-.nattomini2 {
-  bottom: 20%;
-  left: 50%;
-}
-.ito2 {
-  bottom: 22%;
-  left: 60%;
-}
-.nattomini3 {
-  top: 30%;
-  right: 3%;
-}
-.ito3 {
-  top: 45%;
-  right: 5%;
 }
 
 /* レシピ、参考 */
@@ -770,9 +675,6 @@ header .main-nav li {
 }
 
 /* 診断 */
-.matching, .match {
-  margin: 70px 30px;
-}
 .matching ul {
   flex-direction: column;
   justify-content: center;
@@ -780,30 +682,6 @@ header .main-nav li {
 }
 .match div img {
   width: 300px;
-}
-.nattomini1 {
-  top: 15%;
-  left: 3%;
-}
-.ito1 {
-  top: 30%;
-  left: 5%;
-}
-.nattomini2 {
-  bottom: 5%;
-  left: 50%;
-}
-.ito2 {
-  bottom: 8%;
-  left: 65%;
-}
-.nattomini3 {
-  top: 30%;
-  right: 3%;
-}
-.ito3 {
-  top: 45%;
-  right: 5%;
 }
 
 /* レシピ、参考 */
@@ -894,30 +772,6 @@ header .main-nav li {
 }
 .match div img {
   width: 200px;
-}
-.nattomini1 {
-  top: 10%;
-  left: 3%;
-}
-.ito1 {
-  top: 20%;
-  left: 5%;
-}
-.nattomini2 {
-  bottom: 2%;
-  left: 30%;
-}
-.ito2 {
-  bottom: 5%;
-  left: 45%;
-}
-.nattomini3 {
-  top: 40%;
-  right: 0%;
-}
-.ito3 {
-  top: 55%;
-  right: 3%;
 }
 
 /* レシピ、参考 */
