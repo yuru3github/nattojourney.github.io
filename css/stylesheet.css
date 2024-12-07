@@ -355,13 +355,16 @@ header .main-nav a {
 }
 .match {
   flex-direction: column;
-  gap: 20%;
+}
+.match h3 {
+  margin: 30px 0 20px;
 }
 .match div img {
   width: 350px;
 }
 .match div a {
   border: dotted;
+  margin-top: 20px;
   padding: 20px;
 }
 
