@@ -415,7 +415,12 @@ header .main-nav a {
 @media (max-width: 1000px) {
 
 /* スタート */
-
+.start img {
+  width: 600px;
+}
+.click img {
+  width: 180px;
+}
   
 /* 地図 */
 
@@ -627,7 +632,10 @@ header .main-nav li {
 
 /* スタート */
 .start img {
-  width: 500px;
+  width: 400px;
+}
+.click img {
+  width: 120px;
 }
 
 /* 地図 */
@@ -741,6 +749,9 @@ header .main-nav li {
 /* スタート */
 .start img {
   width: 300px;
+}
+.click img {
+  width: 100px;
 }
 
 /* 地図 */
