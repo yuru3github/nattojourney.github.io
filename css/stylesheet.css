@@ -145,19 +145,19 @@ header .main-nav a {
   position: absolute;
 }
 .nattomini1 {
-  top: 20%;
-  left: 5%;
+  top: 25%;
+  left: 3%;
   width: 50px;
 }
 .ito1 {
-  top: 35%;
-  left: 10%;
+  top: 40%;
+  left: 7%;
   width: 70px;
   transform: rotate(-20deg);
 }
 .nattomini2 {
-  top: 85%;
-  left: 50%;
+  top: 80%;
+  left: 45%;
   width: 50px;
 }
 .ito2 {
@@ -167,12 +167,12 @@ header .main-nav a {
   transform: rotate(30deg);
 }
 .nattomini3 {
-  top: 35%;
+  top: 45%;
   right: 3%;
   width: 50px;
 }
 .ito3 {
-  top: 50%;
+  top: 55%;
   right: 7%;
   width: 70px;
   transform: rotate(15deg);
