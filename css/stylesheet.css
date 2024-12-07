@@ -763,6 +763,9 @@ header .main-nav li {
 .nattoman .fukidashi {
   width: 170px;
 }
+.nattoman img {
+  width: 80px;
+}
 .map-center {
   width: 330px;
   height: auto;
