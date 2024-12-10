@@ -1,4 +1,10 @@
-
+document.addEventListener("DOMContentLoaded", function () {
+  const elements = document.querySelectorAll('.fade-in');
+  elements.forEach(el => {
+    el.style.opacity = "1";
+    el.style.animation = "fadeIn 2s ease-out";
+  });
+});
 
 
 document.addEventListener("DOMContentLoaded", function () {
