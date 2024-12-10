@@ -1,13 +1,9 @@
-$(document).ready(function () {
-    var hash = window.location.hash;
-    if (hash) {
-        var target = $(hash);
-        if (target.length) {
-            $('html, body').animate({
-                scrollTop: target.offset().top - 70
-            }, 1000);
-        }
-    }
+document.addEventListener("DOMContentLoaded", function () {
+  const elements = document.querySelectorAll('.fade-in');
+  elements.forEach(el => {
+    el.style.opacity = "1";
+    el.style.animation = "fadeIn 2s ease-out";
+  });
 });
 
 
@@ -17,6 +13,19 @@ document.addEventListener("DOMContentLoaded", function () {
         ImageMapResize();
     } else {
         mapImage.addEventListener('load', ImageMapResize);
+    }
+});
+
+
+$(document).ready(function () {
+    var hash = window.location.hash;
+    if (hash) {
+        var target = $(hash);
+        if (target.length) {
+            $('html, body').animate({
+                scrollTop: target.offset().top - 70
+            }, 1000);
+        }
     }
 });
 
