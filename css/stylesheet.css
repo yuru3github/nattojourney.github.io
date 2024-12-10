@@ -400,7 +400,7 @@ header .main-nav a {
   }
 }
 .spin-in {
-  animation: spinIn 1.5s ease-out;
+  animation: spinIn 3s ease-out;
 }
 
 /* レシピ、参考 */
