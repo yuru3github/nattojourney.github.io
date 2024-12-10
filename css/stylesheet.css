@@ -850,6 +850,10 @@ header .main-nav li {
 .match div img {
   width: 200px;
 }
+.spin-in {
+    animation: spinIn 3s ease-out;
+    -webkit-animation: spinIn 3s ease-out;
+}
 
 /* レシピ、参考 */
 
