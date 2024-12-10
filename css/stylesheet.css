@@ -62,7 +62,7 @@ header .main-nav a {
   }
 }
 .fade-in {
-  animation: fadeIn 4s ease-out;
+  animation: fadeIn 5s ease-out;
   opacity: 0;
 }
 
@@ -395,14 +395,6 @@ header .main-nav a {
 .match h3 {
   margin: 50px 0 30px;
 }
-.match div img {
-  width: 350px;
-  margin-bottom: 50px;
-}
-.match div a {
-  border: dotted;
-  padding: 20px;
-}
 
 @keyframes spinIn {
   0% {
@@ -427,6 +419,16 @@ header .main-nav a {
 .spin-in {
   animation: spinIn 3s ease-out;
   -webkit-animation: spinIn 3s ease-out;
+  opacity: 0;
+}
+
+.match div img {
+  width: 350px;
+  margin-bottom: 50px;
+}
+.match div a {
+  border: dotted;
+  padding: 20px;
 }
 
 /* レシピ、参考 */
