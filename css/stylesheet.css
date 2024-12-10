@@ -386,6 +386,20 @@ header .main-nav a {
   padding: 20px;
 }
 
+@keyframes spinIn {
+  0% {
+    transform: rotateY(1080deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateY(0deg);
+    opacity: 1;
+  }
+}
+.spin-in {
+  animation: spinIn 1.5s ease-out;
+}
+
 /* レシピ、参考 */
 .recipe, .pull {
   margin: 100px 200px;
