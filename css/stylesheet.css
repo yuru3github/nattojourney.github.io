@@ -205,7 +205,7 @@ header .main-nav a {
 }
 .side-index .side {
   position: fixed;
-  top: 120px;
+  top: 110px;
   left: 0;
   right: 0;
   background-color: rgb(90, 180, 120);
@@ -224,7 +224,7 @@ header .main-nav a {
 }
 .side-index .side .side-nav .button {
   display: block;
-  padding: 10px 0;
+  padding: 15px 0;
   background-color: rgb(90, 180, 120);
   color: black;
   border-radius: 0;
@@ -249,7 +249,7 @@ header .main-nav a {
   font-size: 12px;
   text-align: left;
   flex-grow: 1;
-  padding: 5px 20px;
+  padding: 3px 20px;
   border: 0.5px solid;
   background-color: rgb(90, 180, 120);
   width: 100%;
@@ -556,12 +556,8 @@ header .main-nav li {
 .side-index .side {
   top: 80px;
 }
-.side-index .side ul.side-nav li:hover ul .button {
-  font-size: 12px;
-  padding: 3px 20px;
-}
 .side-index index {
-  margin: 50px;
+  margin: 30px;
 }
 .side-index .index .home .item .content img {
   width: 150px;
@@ -811,7 +807,12 @@ header .main-nav li {
 }
 
 /* 一覧 */
-
+.side-index .side {
+  top: 60px;
+}
+.side-index index {
+  margin: 20px;
+}
 
 /* 詳細 */
 .index-show .item-show {
