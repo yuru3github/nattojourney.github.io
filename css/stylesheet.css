@@ -205,22 +205,18 @@ header .main-nav a {
 }
 .side-index .side {
   position: sticky;
-  top: 70px;
+  top: 100px;
+  display: flex;
+  justify-content: center;
 }
 .side-index .side .side-nav {
   list-style: none;
-  display: flex;
-  justify-content: center;
-  position: sticky;
   gap: 50px;
   width: -moz-fit-content;
   width: fit-content;
 }
 .side-index .side .side-nav .button {
   width: 250px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: floralwhite;
   color: black;
   text-align: center;
