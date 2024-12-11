@@ -425,8 +425,8 @@ header .main-nav a {
   }
 }
 .spin-in {
-  animation: spinIn 3s ease-out;
-  -webkit-animation: spinIn 3s ease-out;
+  animation: spinIn 3s ease-out forwards;
+  -webkit-animation: spinIn 3s ease-out forwards;
   transform-style: preserve-3d;
   backface-visibility: hidden;
   will-change: transform, opacity;
