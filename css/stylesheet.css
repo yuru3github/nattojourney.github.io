@@ -205,7 +205,7 @@ header .main-nav a {
 }
 .side-index .side {
   position: fixed;
-  top: 100px;
+  top: 120px;
   left: 0;
   right: 0;
   background-color: rgb(90, 180, 120);
@@ -228,7 +228,7 @@ header .main-nav a {
   background-color: rgb(90, 180, 120);
   color: black;
   border-radius: 0;
-  border: 1.5px solid;
+  border: 1px solid;
 }
 .side-index .side .side-nav ul {
   list-style: none;
@@ -250,7 +250,7 @@ header .main-nav a {
   text-align: left;
   flex-grow: 1;
   padding: 5px 20px;
-  border: 1px solid;
+  border: 0.5px solid;
   background-color: rgb(90, 180, 120);
   width: 100%;
 }
@@ -553,6 +553,9 @@ header .main-nav li {
 }
 
 /* 一覧 */
+.side-index .side {
+  top: 80px;
+}
 .side-index .side ul.side-nav li:hover ul .button {
   font-size: 12px;
   padding: 3px 20px;
@@ -689,9 +692,6 @@ header .main-nav li {
 }
 
 /* 一覧 */
-.side-index .side .side-nav .button {
-  border: 1.3px solid;
-}
 .side-index .index .home .item .content img {
   width: 120px;
   height: 120px;
