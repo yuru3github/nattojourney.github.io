@@ -27,7 +27,7 @@ header {
   border-bottom: 5px solid rgb(79, 168, 107);
   display: flex;
   justify-content: space-between;
-  z-index: 2;
+  z-index: 10;
   top: 0;
   left: 0;
   right: 0;
@@ -205,9 +205,9 @@ header .main-nav a {
 }
 .side-index .side {
   position: sticky;
-  top: 0;
-  background-color: rgb(210, 260, 230);
-  z-index: 1;
+  top: 50px;
+  background-color: rgb(33, 164, 164);
+  z-index: 5;
 }
 .side-index .side .side-nav {
   list-style: none;
@@ -219,12 +219,11 @@ header .main-nav a {
 .side-index .side .side-nav li {
   flex-grow: 1;
   text-align: center;
-  border-right: 1px solid black;
 }
 .side-index .side .side-nav .button {
   display: block;
   padding: 10px 0;
-  background-color: rgb(210, 260, 230);
+  background-color: rgb(33, 164, 164);
   color: black;
   border-radius: 0;
   border: 1.5px solid;
@@ -233,7 +232,7 @@ header .main-nav a {
   list-style: none;
   display: none;
   position: absolute;
-  background-color: rgb(210, 260, 230);
+  background-color: rgb(33, 164, 164);
   margin: 0;
   padding: 0;
 }
@@ -246,12 +245,12 @@ header .main-nav a {
 .side-index .side ul.side-nav li:hover ul .button {
   font-size: 12px;
   text-align: left;
+  flex-grow: 1;
   padding: 5px 20px;
   border: 1px solid;
-  background-color: rgb(210, 260, 230);
+  background-color: rgb(33, 164, 164);
 }
 .side-index .side ul.side-nav li:hover ul li {
-  flex-grow: 1;
   margin: 0;
   padding: 0;
 }
