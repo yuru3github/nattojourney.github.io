@@ -201,39 +201,37 @@ header .main-nav a {
 
 /* 一覧 */
 .side-index {
-  margin: 70px 100px;
+  margin: 0px 100px 50px;
 }
 .side-index .side {
   position: sticky;
   top: 0;
-  background-color: floralwhite;
-  z-index: 1000;
+  background-color: rgb(209, 243, 235);
 }
 .side-index .side .side-nav {
   list-style: none;
   display: flex;
   justify-content: space-around;
-  padding: 10px 0;
+  padding: 0;
   margin: 0;
 }
 .side-index .side .side-nav .button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: floralwhite;
+  background-color: rgb(209, 243, 235);
   color: black;
   text-align: center;
   border-radius: 0;
-  border: none;
+  border: 1.5px solid;
 }
 .side-index .side .side-nav ul {
   list-style: none;
   display: none;
   position: absolute;
-  background-color: floralwhite;
+  background-color: rgb(209, 243, 235);
   margin: 0;
   padding: 10px 0;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
 }
 .side-index .side ul.side-nav li {
   position: relative;
@@ -246,7 +244,7 @@ header .main-nav a {
   text-align: left;
   padding: 5px 20px;
   border: none;
-  background-color: floralwhite;
+  background-color: rgb(209, 243, 235);
 }
 .side-index .side ul.side-nav li:hover ul li {
   margin: 0;
@@ -258,7 +256,7 @@ header .main-nav a {
   display: block;
 }
 .side-index .index {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 .side-index .index .home {
   margin: 50px 0px 0px;
