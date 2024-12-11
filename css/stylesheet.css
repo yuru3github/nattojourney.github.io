@@ -404,21 +404,17 @@ header .main-nav a {
   padding: 20px;
 }
 
-@keyframes spinIn {
+@keyframes fadeIn {
   0% {
-    transform: rotateY(720deg);
     opacity: 0;
   }
   100% {
-    transform: rotateY(0deg);
     opacity: 1;
   }
 }
-.spin-in {
-  animation: spinIn 2s linear forwards;
-  transform: translateZ(0);
-  backface-visibility: hidden;
-  will-change: transform, opacity;
+.fade-in {
+  animation: fadeIn 2s ease-out forwards;
+  opacity: 0;
 }
 
 /* レシピ、参考 */
