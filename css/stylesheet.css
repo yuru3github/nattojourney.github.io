@@ -275,15 +275,14 @@ header .main-nav a {
   border-top: solid rgba(188, 195, 51, 0.948);
 }
 .side-index .index .home h3 {
-  margin-bottom: 30px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .side-index .index .home .item {
   margin-top: 50px;
 }
 .side-index .index .home .item h4 img {
-  width: 25px;
-  padding-right: 5px;
+  width: 23px;
+  padding: 2px 5px 0 0;
 }
 .side-index .index .home .item p {
   margin-top: 20px;
