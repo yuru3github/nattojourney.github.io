@@ -90,8 +90,10 @@ $('.end').click(function () {
 
     if (answerId) {
         const answerElement = $(answerId);
-        resetAnimation(answerElement);
-        answerElement.show();
+        const animElement = answerElement.find('.anim');
+
+        answerElement.css({ display: 'block', opacity: 0 }).animate({ opacity: 1 }, 500);
+        resetAnimation(animElement);
     }
 });
 
