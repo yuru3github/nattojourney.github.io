@@ -555,8 +555,11 @@ header .main-nav li {
 .side-index .side {
   top: 80px;
 }
-.side-index index {
-  margin: 30px 10px;
+.side-index .side .side-nav .button {
+  padding: 15px 0;
+}
+.side-index .index {
+  margin: 50px;
 }
 .side-index .index .home .item .content img {
   width: 150px;
@@ -687,8 +690,8 @@ header .main-nav li {
 }
 
 /* 一覧 */
-.side-index index {
-  margin: 20px 5px;
+.side-index .index {
+  margin: 50px 30px;
 }
 .side-index .index .home .item .content img {
   width: 120px;
@@ -812,8 +815,8 @@ header .main-nav li {
 .side-index .side {
   top: 60px;
 }
-.side-index index {
-  margin: 10px 5px;
+.side-index .index {
+  margin: 30px 10px;
 }
 
 /* 詳細 */
