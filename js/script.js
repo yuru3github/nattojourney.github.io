@@ -45,9 +45,10 @@ $('.btn').click(function(event) {
 });
 
 function resetAnimation(el) {
-    el.removeClass('spin-in');
-    void el[0].offsetWidth;
-    el.addClass('spin-in');
+    el.removeClass('spin-in').delay(50).queue(function (next) {
+        $(this).addClass('spin-in');
+        next();
+    });
 }
 
 $('.end').click(function () {
