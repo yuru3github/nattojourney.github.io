@@ -44,84 +44,55 @@ $('.btn').click(function(event) {
     $(id).fadeIn();
 });
 
-$('.end').click(function() {
+function resetAnimation(el) {
+    el.removeClass('spin-in');
+    void el[0].offsetWidth;
+    el.addClass('spin-in');
+}
+
+$('.end').click(function () {
     let result = box.join('');
+    let answerId = '';
 
-  　document.addEventListener("DOMContentLoaded", function () {
-      const animElements = document.querySelectorAll('.anim');
-
-      animElements.forEach(el => {
-        el.style.opacity = "1";
-        el.classList.remove('spin-in');
-        void el.offsetWidth;
-        el.classList.add('spin-in');
-      });
-    });
-  
     if (result === "aceg") {
-        let el = $('#answer_01 .anim');
-        resetAnimation(el);
-        $('#answer_01').show();
+        answerId = '#answer_01';
     } else if (result === "aceh") {
-        let el = $('#answer_02 .anim');
-        resetAnimation(el);
-        $('#answer_02').show();
+        answerId = '#answer_02';
     } else if (result === "acfg") {
-        let el = $('#answer_03 .anim');
-        resetAnimation(el);
-        $('#answer_03').show();
+        answerId = '#answer_03';
     } else if (result === "acfh") {
-        let el = $('#answer_04 .anim');
-        resetAnimation(el);
-        $('#answer_04').show();
+        answerId = '#answer_04';
     } else if (result === "adeg") {
-        let el = $('#answer_05 .anim');
-        resetAnimation(el);
-        $('#answer_05').show();
+        answerId = '#answer_05';
     } else if (result === "adeh") {
-        let el = $('#answer_06 .anim');
-        resetAnimation(el);
-        $('#answer_06').show();
+        answerId = '#answer_06';
     } else if (result === "adfg") {
-        let el = $('#answer_07 .anim');
-        resetAnimation(el);
-        $('#answer_07').show();
+        answerId = '#answer_07';
     } else if (result === "adfh") {
-        let el = $('#answer_08 .anim');
-        resetAnimation(el);
-        $('#answer_08').show();
+        answerId = '#answer_08';
     } else if (result === "bceg") {
-        let el = $('#answer_09 .anim');
-        resetAnimation(el);
-        $('#answer_09').show();
+        answerId = '#answer_09';
     } else if (result === "bceh") {
-        let el = $('#answer_10 .anim');
-        resetAnimation(el);
-        $('#answer_10').show();
+        answerId = '#answer_10';
     } else if (result === "bcfg") {
-        let el = $('#answer_11 .anim');
-        resetAnimation(el);
-        $('#answer_11').show();
+        answerId = '#answer_11';
     } else if (result === "bcfh") {
-        let el = $('#answer_12 .anim');
-        resetAnimation(el);
-        $('#answer_12').show();
+        answerId = '#answer_12';
     } else if (result === "bdeg") {
-        let el = $('#answer_13 .anim');
-        resetAnimation(el);
-        $('#answer_13').show();
+        answerId = '#answer_13';
     } else if (result === "bdeh") {
-        let el = $('#answer_14 .anim');
-        resetAnimation(el);
-        $('#answer_14').show();
+        answerId = '#answer_14';
     } else if (result === "bdfg") {
-        let el = $('#answer_15 .anim');
-        resetAnimation(el);
-        $('#answer_15').show();
+        answerId = '#answer_15';
     } else if (result === "bdfh") {
-        let el = $('#answer_16 .anim');
-        resetAnimation(el);
-        $('#answer_16').show();
+        answerId = '#answer_16';
+    }
+
+    if (answerId) {
+        const answerElement = $(answerId);
+        resetAnimation(answerElement);
+        answerElement.show();
     }
 });
+
 
