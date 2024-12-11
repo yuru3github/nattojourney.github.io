@@ -44,13 +44,6 @@ $('.btn').click(function(event) {
     $(id).fadeIn();
 });
 
-function resetAnimation(el) {
-    el.removeClass('spin-in').delay(50).queue(function (next) {
-        $(this).addClass('spin-in');
-        next();
-    });
-}
-
 $('.end').click(function () {
     let result = box.join('');
     let answerId = '';
@@ -93,8 +86,8 @@ $('.end').click(function () {
         const answerElement = $(answerId);
         const animElement = answerElement.find('.anim');
 
-        answerElement.css({ display: 'block', opacity: 1 });
-        resetAnimation(animElement);
+        answerElement.css({ display: 'block' });
+        animElement.addClass('fade-in');
     }
 });
 
