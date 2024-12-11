@@ -275,7 +275,8 @@ header .main-nav a {
   border-top: solid rgba(188, 195, 51, 0.948);
 }
 .side-index .index .home h3 {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+  font-size: 1.8rem;
 }
 .side-index .index .home .item {
   margin-top: 50px;
@@ -814,6 +815,9 @@ header .main-nav li {
 /* 一覧 */
 .side-index .side {
   top: 60px;
+}
+.side-index .index {
+  margin: 50px 30px;
 }
 
 /* 詳細 */
