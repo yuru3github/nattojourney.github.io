@@ -545,10 +545,7 @@ header .main-nav li {
 /* 一覧 */
 .side-index .side {
   width: 200px;
-  margin-left: 50px;
-  top: 50px;
-  left: 50px;
-  padding-top: 50px;
+  top: 100px;
 }
 .side-index .side .side-nav .button {
   width: 150px;
@@ -558,7 +555,7 @@ header .main-nav li {
   padding: 3px 20px;
 }
 .side-index .index {
-  margin: 50px;
+  
 }
 .side-index .index .home .item .content img {
   width: 150px;
@@ -691,15 +688,13 @@ header .main-nav li {
 /* 一覧 */
 .side-index .side {
   width: 150px;
-  margin-left: 20px;
-  left: 30px;
 }
 .side-index .side .side-nav .button {
   width: 130px;
   border: 1.3px solid;
 }
 .side-index .index {
-  margin: 50px 30px 30px 30px;
+  
 }
 .side-index .index .home .item .content img {
   width: 120px;
@@ -820,10 +815,7 @@ header .main-nav li {
 }
 
 /* 一覧 */
-.side-index .side {
-  margin-left: 10px;
-  left: 20px;
-}
+
 
 /* 詳細 */
 .index-show .item-show {
