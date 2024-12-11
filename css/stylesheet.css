@@ -201,19 +201,17 @@ header .main-nav a {
 
 /* 一覧 */
 .side-index {
-  display: flex;
-  justify-content: center;
+  margin: 100px;
 }
 .side-index .side {
-  width: 300px;
+  width: 800px;
   height: 1000px;
   position: sticky;
-  margin-top: 150px;
 }
 .side-index .side .side-nav {
   list-style: none;
   display: flex;
-  gap: 50px;
+  gap: 40px;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -221,7 +219,6 @@ header .main-nav a {
   width: 200px;
   background-color: floralwhite;
   color: black;
-  padding: 0 auto;
   border-radius: 30px;
   border: 1.5px solid;
 }
@@ -253,7 +250,7 @@ header .main-nav a {
   display: block;
 }
 .side-index .index {
-  margin-top: 200px;
+  margin-top: 50px;
 }
 .side-index .index .home {
   margin: 50px 0px 0px;
