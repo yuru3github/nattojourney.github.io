@@ -550,6 +550,12 @@ header .main-nav li {
 }
 
 /* 一覧 */
+.side-index {
+  margin: 50px;
+}
+.side-index .side {
+  top: 100px;
+}
 .side-index .side .side-nav .button {
   width: 150px;
 }
