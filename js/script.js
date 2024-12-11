@@ -93,7 +93,7 @@ $('.end').click(function () {
         const answerElement = $(answerId);
         const animElement = answerElement.find('.anim');
 
-        answerElement.css({ display: 'block', opacity: 0 }).animate({ opacity: 1 }, 500);
+        answerElement.css({ display: 'block', opacity: 1 });
         resetAnimation(animElement);
     }
 });
