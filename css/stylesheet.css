@@ -204,19 +204,19 @@ header .main-nav a {
   margin: 100px;
 }
 .side-index .side {
-  width: 800px;
-  height: 1000px;
+  z-index: 1;
   position: sticky;
 }
 .side-index .side .side-nav {
   list-style: none;
   display: flex;
-  gap: 40px;
+  gap: 50px;
   width: -moz-fit-content;
   width: fit-content;
 }
 .side-index .side .side-nav .button {
-  width: 200px;
+  width: 250px;
+  display: flex;
   background-color: floralwhite;
   color: black;
   border-radius: 30px;
