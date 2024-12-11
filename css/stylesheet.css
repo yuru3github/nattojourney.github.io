@@ -471,12 +471,7 @@ header .main-nav a {
 }
 
 /* 一覧 */
-.side-index .side .side-nav {
-  gap: 30px;
-}
-.side-index .side .side-nav .button {
-  width: 200px;
-}
+
 
 /* 詳細 */
 .side-index .side {
@@ -558,18 +553,12 @@ header .main-nav li {
 }
 
 /* 一覧 */
-.side-index {
-  margin: 50px;
-}
-.side-index .side {
-  top: 100px;
-}
-.side-index .side .side-nav .button {
-  width: 150px;
-}
 .side-index .side ul.side-nav li:hover ul .button {
   font-size: 12px;
   padding: 3px 20px;
+}
+.side-index index {
+  margin: 50px;
 }
 .side-index .index .home .item .content img {
   width: 150px;
@@ -700,11 +689,7 @@ header .main-nav li {
 }
 
 /* 一覧 */
-.side-index .side .side-nav {
-  gap: 10px;
-}
 .side-index .side .side-nav .button {
-  width: 130px;
   border: 1.3px solid;
 }
 .side-index .index .home .item .content img {
