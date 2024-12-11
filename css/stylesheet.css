@@ -559,7 +559,7 @@ header .main-nav li {
   padding: 15px 0;
 }
 .side-index .index {
-  margin: 50px;
+  margin: 50px 70px;
 }
 .side-index .index .home .item .content img {
   width: 150px;
@@ -691,7 +691,7 @@ header .main-nav li {
 
 /* 一覧 */
 .side-index .index {
-  margin: 50px 30px;
+  margin: 50px;
 }
 .side-index .index .home .item .content img {
   width: 120px;
@@ -814,9 +814,6 @@ header .main-nav li {
 /* 一覧 */
 .side-index .side {
   top: 60px;
-}
-.side-index .index {
-  margin: 30px 10px;
 }
 
 /* 詳細 */
