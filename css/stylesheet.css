@@ -215,14 +215,13 @@ header .main-nav a {
 .side-index .side .side-nav {
   list-style: none;
   display: flex;
-  flex-direction: column;
   gap: 20px;
   width: -moz-fit-content;
   width: fit-content;
 }
 .side-index .side .side-nav .button {
   width: 200px;
-  display: inline-flex;
+  display: flex;
   background-color: floralwhite;
   color: black;
   border-radius: 30px;
@@ -701,9 +700,6 @@ header .main-nav li {
 }
 .side-index .index {
   margin: 50px 30px 30px 30px;
-}
-.side-index .index .home .item .content {
-  flex-direction: column;
 }
 .side-index .index .home .item .content img {
   width: 120px;
