@@ -47,11 +47,16 @@ $('.btn').click(function(event) {
 $('.end').click(function() {
     let result = box.join('');
 
-  　function resetAnimation(el) {
-        el.removeClass('spin-in');
-        void el[0].offsetWidth;
-        el.addClass('spin-in');
-    }
+  　document.addEventListener("DOMContentLoaded", function () {
+      const animElements = document.querySelectorAll('.anim');
+
+      animElements.forEach(el => {
+        el.style.opacity = "1";
+        el.classList.remove('spin-in');
+        void el.offsetWidth;
+        el.classList.add('spin-in');
+      });
+    });
   
     if (result === "aceg") {
         let el = $('#answer_01 .anim');
