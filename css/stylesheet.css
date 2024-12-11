@@ -204,17 +204,18 @@ header .main-nav a {
   margin: 0;
 }
 .side-index .side {
-  position: fixed;
+  position: sticky;
   top: 100px;
-  left: 0;
-  right: 0;
   background-color: rgb(90, 180, 120);
   z-index: 5;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 .side-index .side .side-nav {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 0;
   margin: 0;
 }
@@ -229,6 +230,8 @@ header .main-nav a {
   color: black;
   border-radius: 0;
   border: 1px solid;
+  width: 100%;
+  box-sizing: border-box;
 }
 .side-index .side .side-nav ul {
   list-style: none;
