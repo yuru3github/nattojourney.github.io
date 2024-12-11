@@ -206,11 +206,11 @@ header .main-nav a {
 .side-index .side {
   position: sticky;
   top: 100px;
-  display: flex;
-  justify-content: center;
 }
 .side-index .side .side-nav {
   list-style: none;
+  display: flex;
+  justify-content: center;
   gap: 50px;
   width: -moz-fit-content;
   width: fit-content;
