@@ -404,14 +404,6 @@ header .main-nav a {
   padding: 20px;
 }
 
-.spin-in {
-  transform-style: preserve-3d;
-  backface-visibility: hidden;
-  will-change: transform, opacity;
-  animation: spinIn 3s ease-out;
-  -webkit-animation: spinIn 3s ease-out;
-  opacity: 0;
-}
 @keyframes spinIn {
   0% {
     transform: rotateY(1080deg);
@@ -431,6 +423,14 @@ header .main-nav a {
     -webkit-transform: rotateY(0deg);
     opacity: 1;
   }
+}
+.spin-in {
+  animation: spinIn 3s ease-out;
+  -webkit-animation: spinIn 3s ease-out;
+  opacity: 0;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  will-change: transform, opacity;
 }
 
 /* レシピ、参考 */
@@ -868,10 +868,6 @@ header .main-nav li {
 }
 .match div img {
   width: 200px;
-}
-.spin-in {
-    animation: spinIn 3s ease-out;
-    -webkit-animation: spinIn 3s ease-out;
 }
 
 /* レシピ、参考 */
