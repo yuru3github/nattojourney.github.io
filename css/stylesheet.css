@@ -416,16 +416,17 @@ header .main-nav a {
   padding: 20px;
 }
 
-@keyframes rotateCounterClockwise {
+@keyframes rotate3D {
   0% {
-    transform: rotate(0deg);
+    transform: perspective(1000px) rotateY(0deg);
   }
   100% {
-    transform: rotate(-720deg);
+    transform: perspective(1000px) rotateY(-720deg);
   }
 }
 .rotate {
-  animation: rotateCounterClockwise 2s ease-out;
+  animation: rotate3D 2s ease-out;
+  transform-origin: center;
 }
 
 /* レシピ、参考 */
