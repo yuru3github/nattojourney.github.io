@@ -23,7 +23,7 @@ $(document).ready(function () {
         var target = $(hash);
         if (target.length) {
             $('html, body').animate({
-                scrollTop: target.offset().top - 70
+                scrollTop: target.offset().top - 100
             }, 1000);
         }
     }
