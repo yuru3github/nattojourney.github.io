@@ -87,7 +87,7 @@ $('.end').click(function () {
         const animElement = answerElement.find('.anim');
 
         answerElement.css({ display: 'block' });
-        animElement.addClass('fade-in');
+        animElement.addClass('rotate');
     }
 });
 
