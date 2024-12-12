@@ -416,17 +416,16 @@ header .main-nav a {
   padding: 20px;
 }
 
-@keyframes fadeIn {
+@keyframes rotate {
   0% {
-    opacity: 0;
+    transform: rotate(0deg);
   }
   100% {
-    opacity: 1;
+    transform: rotate(720deg);
   }
 }
-.fade-in {
-  animation: fadeIn 3s ease-out forwards;
-  opacity: 0;
+.rotate {
+  animation: rotate 2s linear infinite;
 }
 
 /* レシピ、参考 */
@@ -844,7 +843,7 @@ header .main-nav li {
   width: 200px;
 }
 
-.animate-fade-in {
+.rotate {
   animation: none;
 }
 
