@@ -455,7 +455,6 @@ header .main-nav a {
 }
 .osusumerecipe div {
   display: flex;
-  text-align:center;
 }
 .osusumerecipe .image {
   margin: 10px 10px 0 0;
@@ -463,6 +462,7 @@ header .main-nav a {
   height: auto;
 }
 .osusumerecipe div p {
+  margin: auto 0;
   font-size: smaller;
 }
 
