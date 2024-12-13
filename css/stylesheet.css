@@ -450,9 +450,6 @@ header .main-nav a {
   padding-top: 50px;
   border-top: solid rgba(188, 195, 51, 0.948);
 }
-.recipe h4 {
-  width: 230px;
-}
 .osusumerecipe {
   margin: 10px 0 40px 10px;
 }
@@ -770,6 +767,9 @@ header .main-nav li {
 /* レシピ、参考 */
 .recipe, .pull {
   margin: 50px;
+}
+.recipe h4 {
+  width: 230px;
 }
 
 }
