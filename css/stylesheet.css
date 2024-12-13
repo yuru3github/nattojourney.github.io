@@ -431,7 +431,7 @@ header .main-nav a {
 
 /* レシピ、参考 */
 .recipe, .pull {
-  margin: 100px 200px;
+  margin: 100px 150px;
   overflow-wrap: anywhere;
 }
 .recipe ul, .pull ul {
@@ -455,7 +455,7 @@ header .main-nav a {
 }
 .osusumerecipe .image {
   margin: 10px 0 5px 0;
-  width: 150px;
+  width: 200px;
   height: auto;
 }
 
@@ -511,7 +511,7 @@ header .main-nav a {
 
 /* レシピ、参考 */
 .recipe, .pull {
-  margin: 70px 150px;
+  margin: 70px 100px;
 }
 
 }
@@ -640,7 +640,7 @@ header .main-nav li {
 
 /* レシピ、参考 */
 .recipe, .pull {
-  margin: 50px 100px;
+  margin: 50px 70px;
 }
 .recipe ul, .pull ul {
   margin-top: 30px;
@@ -655,6 +655,9 @@ header .main-nav li {
 .pull .border {
   margin-top: 30px;
   padding-top: 30px;
+}
+.osusumerecipe .image {
+  width: 150px;
 }
 
 }
