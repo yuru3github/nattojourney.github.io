@@ -4,7 +4,7 @@ body {
   background-color: rgb(209, 243, 230);
 }
 p {
-  margin-bottom: 3px;
+  margin-bottom: 5px;
 }
 a {
   text-decoration: none;
@@ -449,6 +449,12 @@ header .main-nav a {
   margin-top: 50px;
   padding-top: 50px;
   border-top: solid rgba(188, 195, 51, 0.948);
+}
+.osusume li {
+  margin-bottom: 40px;
+}
+.osusume img {
+  margin-top: 10px;
 }
 
 
