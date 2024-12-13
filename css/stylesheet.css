@@ -450,13 +450,13 @@ header .main-nav a {
   padding-top: 50px;
   border-top: solid rgba(188, 195, 51, 0.948);
 }
-.osusume li {
-  margin-bottom: 50px;
+.osusume ul li {
+  margin-bottom: 40px;
 }
 .osusume .name {
   margin-bottom: 10px;
 }
-.osusume li img {
+.osusume .image {
   margin: 10px 0 5px 0;
 }
 
@@ -512,7 +512,7 @@ header .main-nav a {
 
 /* レシピ、参考 */
 .recipe, .pull {
-  margin: 100px 150px;
+  margin: 70px 150px;
 }
 
 }
@@ -641,7 +641,7 @@ header .main-nav li {
 
 /* レシピ、参考 */
 .recipe, .pull {
-  margin: 70px 100px;
+  margin: 50px 100px;
 }
 .recipe ul, .pull ul {
   margin-top: 30px;
