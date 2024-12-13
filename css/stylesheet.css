@@ -453,6 +453,9 @@ header .main-nav a {
 .osusumerecipe {
   margin: 10px 0 40px 10px;
 }
+.osusumerecipe div {
+  display: flex;
+}
 .osusumerecipe .image {
   margin: 10px 0 5px 0;
   width: 200px;
