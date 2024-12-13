@@ -462,7 +462,7 @@ header .main-nav a {
   height: auto;
 }
 .osusumerecipe div p {
-  text-align: center;
+  justify-content: center;
   font-size: smaller;
 }
 
