@@ -453,8 +453,11 @@ header .main-nav a {
 .osusume li {
   margin-bottom: 40px;
 }
+.osusume name {
+  margin-bottom: 10px;
+}
 .osusume img {
-  margin-top: 10px;
+  margin: 10px 10px 0 0;
 }
 
 
