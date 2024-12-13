@@ -457,9 +457,13 @@ header .main-nav a {
   display: flex;
 }
 .osusumerecipe .image {
-  margin: 10px 0 5px 0;
+  margin: 10px 10px 0 0;
   width: 200px;
   height: auto;
+}
+.osusumerecipe div p {
+  text-align: center;
+  font-size: smaller;
 }
 
 
