@@ -450,14 +450,13 @@ header .main-nav a {
   padding-top: 50px;
   border-top: solid rgba(188, 195, 51, 0.948);
 }
-.osusume ul li {
-  margin-bottom: 40px;
-}
-.osusume .name {
-  margin-bottom: 10px;
+.osusumerecipe{
+  margin: 10px 0 40px 5px;
 }
 .osusume .image {
   margin: 10px 0 5px 0;
+  width: 150px;
+  height: auto;
 }
 
 
