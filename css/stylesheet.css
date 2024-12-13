@@ -451,9 +451,9 @@ header .main-nav a {
   border-top: solid rgba(188, 195, 51, 0.948);
 }
 .osusumerecipe{
-  margin: 10px 0 40px 5px;
+  margin: 10px 0 40px 10px;
 }
-.osusumerecipe img {
+.osusumerecipe .image {
   margin: 10px 0 5px 0;
   width: 150px;
   height: auto;
