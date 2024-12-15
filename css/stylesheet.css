@@ -770,8 +770,11 @@ header .main-nav li {
 .recipe, .pull {
   margin: 50px;
 }
-.osusume h2 {
-  width: 238px;
+.osusume .max {
+  display: none;
+}
+.osusume .mini {
+  display: block;
 }
 
 }
