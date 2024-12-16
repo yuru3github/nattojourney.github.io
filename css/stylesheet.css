@@ -888,6 +888,8 @@ header .main-nav li {
 /* レシピ、参考 */
 .osusumerecipe .image {
   margin: 10px 10px 0 0;
+  width: 120px;
+}
 
 }
 
