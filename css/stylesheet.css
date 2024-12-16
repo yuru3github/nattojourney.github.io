@@ -792,10 +792,6 @@ header .main-nav li {
 
 @media (max-width: 430px) {
 
-html {
-  scroll-padding-top: 60px;
-}
-
 /* ヘッダー */
 header .logo {
   width: 50px;
