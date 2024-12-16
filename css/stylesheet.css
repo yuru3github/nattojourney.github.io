@@ -307,7 +307,7 @@ header .main-nav a {
 
 /* 詳細 */
 .index-show h2 {
-  margin: 100px 0px 0px 100px;
+  margin: 50px 0px 0px 100px;
 }
 .index-show .item-show {
   overflow-wrap: anywhere;
@@ -325,13 +325,13 @@ header .main-nav a {
   width: 400px;
 }
 .index-show .item-show .left-right .left img {
-  width: 400px;
+  width: 350px;
   height: auto;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .index-show .item-show .left-right .right {
   float: left;
-  margin-left: 70px;
+  margin-left: 50px;
 }
 .index-show .item-show .left-right .right h3 {
   margin: 50px 0px;
@@ -342,12 +342,6 @@ header .main-nav a {
 .index-show .item-show .left-right .right p img {
   width: 20px;
   padding-right: 5px;
-}
-.index-show .item-show .review-show {
-  margin-top: 50px;
-  background-color: floralwhite;
-  border-radius: 20px;
-  padding: 20px;
 }
 
 /* 診断 */
@@ -501,9 +495,6 @@ header .main-nav a {
 .index-show .item-show .left-right .left img {
   width: 300px;
 }
-.index-show .item-show .left-right .right {
-  margin-left: 50px;
-}
 
 /* 診断 */
 .matching::before {
@@ -587,7 +578,7 @@ header .main-nav li {
 
 /* 詳細 */
 .index-show h2 {
-  margin: 70px 0px 0px 70px;
+  margin: 50px 0px 0px 70px;
 }
 .index-show .item-show {
   margin: 30px 50px 70px;
@@ -601,7 +592,6 @@ header .main-nav li {
 }
 .index-show .item-show .left-right .left img {
   width: 250px;
-  margin-top: 30px;
 }
 .index-show .item-show .left-right .right {
   margin-left: 30px;
@@ -738,8 +728,11 @@ header .main-nav li {
 .index-show .item-show .left-right .left p {
   width: 400px;
 }
+.index-show .item-show .left-right .left div {
+  display: flex;
+}
 .index-show .item-show .left-right .left img {
-  width: 300px;
+  width: 200px;
   margin-top: 20px;
 }
 .index-show .item-show .left-right .right {
@@ -855,7 +848,7 @@ header .main-nav li {
   width: 300px;
 }
 .index-show .item-show .left-right .left img {
-  width: 250px;
+  width: 150px;
 }
 .index-show .item-show .left-right .right {
   margin-left: 10px;
