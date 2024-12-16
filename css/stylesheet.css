@@ -451,6 +451,9 @@ header .main-nav a {
 .osusume .mini {
   display: none;
 }
+.osusume ul {
+  margin-top: 50px;
+}
 .osusumerecipe {
   margin: 30px 0 50px 10px;
 }
@@ -858,7 +861,7 @@ header .main-nav li {
   margin: 20px 30px 20px 30px;
 }
 .index-show .item-show .left img {
-  width: 200px;
+  width: 180px;
 }
 .nakami img {
   width: 120px !important;
