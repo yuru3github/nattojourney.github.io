@@ -331,7 +331,7 @@ header .main-nav a {
 }
 .nakami img {
   width: 200px !important;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .index-show .item-show .right {
   float: left;
@@ -742,14 +742,13 @@ header .main-nav li {
 }
 .index-show .image {
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 .index-show .item-show .left img {
   width: 230px;
 }
 .nakami img {
   width: 140px !important;
-  margin-top: 90px;
 }
 .index-show .item-show .right {
   margin-left: 0;
@@ -862,15 +861,11 @@ header .main-nav li {
 .index-show .item-show .left p {
   width: 300px;
 }
-.index-show .image {
-  gap: 10px;
-}
 .index-show .item-show .left img {
   width: 200px;
 }
 .nakami img {
   width: 120px !important;
-  margin-top: 80px;
 }
 
 /* 診断 */
