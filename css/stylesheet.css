@@ -331,7 +331,6 @@ header .main-nav a {
 }
 .nakami img {
   width: 250px !important;
-  margin-left: 100px;
 }
 .index-show .item-show .right {
   float: left;
@@ -505,8 +504,8 @@ header .main-nav a {
 .index-show .item-show .left img {
   width: 300px;
 }
-.nakami {
-  width: 200px;
+.nakami img {
+  width: 200px !important;
 }
 
 /* 診断 */
@@ -607,9 +606,8 @@ header .main-nav li {
   width: 250px;
   margin-top: 20px;
 }
-.nakami {
-  width: 200px;
-  margin-left: 50px;
+.nakami img {
+  width: 200px !important;
 }
 .index-show .item-show .right {
   margin-left: 30px;
@@ -741,16 +739,15 @@ header .main-nav li {
 .index-show .item-show .left p {
   width: 400px;
 }
-.index-show .item-show .left div {
+.index-show .image {
   display: flex;
   gap: 20px;
 }
 .index-show .item-show .left img {
   width: 200px;
 }
-.nakami {
-  width: 150px;
-  margin-left: 0;
+.nakami img {
+  width: 150px !important;
 }
 .index-show .item-show .right {
   margin-left: 0;
@@ -863,14 +860,14 @@ header .main-nav li {
 .index-show .item-show .left p {
   width: 300px;
 }
-.index-show .item-show .left div {
+.index-show .image {
   gap: 10px;
 }
 .index-show .item-show .left img {
   width: 170px;
 }
-.nakami {
-  width: 130px;
+.nakami img {
+  width: 130px !important;
 }
 
 /* 診断 */
