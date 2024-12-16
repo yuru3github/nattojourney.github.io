@@ -329,6 +329,10 @@ header .main-nav a {
   height: auto;
   margin-top: 30px;
 }
+.nakami {
+  width: 250px;
+  float: right;
+}
 .index-show .item-show .left-right .right {
   float: left;
   margin-left: 50px;
@@ -501,6 +505,9 @@ header .main-nav a {
 .index-show .item-show .left-right .left img {
   width: 300px;
 }
+.nakami {
+  width: 200px;
+}
 
 /* 診断 */
 .matching::before {
@@ -599,6 +606,9 @@ header .main-nav li {
 .index-show .item-show .left-right .left img {
   width: 250px;
   margin-top: 20px;
+}
+.nakami {
+  width: 200px;
 }
 .index-show .item-show .left-right .right {
   margin-left: 30px;
@@ -742,6 +752,13 @@ header .main-nav li {
 .index-show .item-show .left-right .left img {
   width: 200px;
 }
+.nakami {
+  width: 150px;
+  float: left;
+}
+.index-show .item-show .left-right .right {
+  margin-left: 0px;
+}
 .index-show .item-show .left-right .right h3 {
   margin: 20px 0px;
 }
@@ -854,7 +871,10 @@ header .main-nav li {
   gap: 10px;
 }
 .index-show .item-show .left-right .left img {
-  width: 150px;
+  width: 170px;
+}
+.nakami {
+  width: 130px;
 }
 
 /* 診断 */
