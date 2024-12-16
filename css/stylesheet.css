@@ -668,6 +668,9 @@ header .main-nav li {
   margin-top: 30px;
   padding-top: 30px;
 }
+.osusumerecipe {
+  margin: 20px 0 50px 10px;
+}
 .osusumerecipe .image {
   margin: 10px 20px 0 0;
   width: 150px;
