@@ -330,7 +330,7 @@ header .main-nav a {
   margin-top: 30px;
 }
 .nakami img {
-  width: 250px;
+  width: 250px !important;
   margin-left: 100px;
 }
 .index-show .item-show .right {
