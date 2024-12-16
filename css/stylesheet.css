@@ -331,7 +331,7 @@ header .main-nav a {
 }
 .nakami.img {
   width: 250px;
-  float: right;
+  margin-left: 100px;
 }
 .index-show .item-show .right {
   float: left;
