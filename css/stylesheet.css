@@ -329,7 +329,7 @@ header .main-nav a {
   height: auto;
   margin-top: 30px;
 }
-.nakami {
+.nakami img {
   width: 250px;
   float: right;
 }
@@ -505,7 +505,7 @@ header .main-nav a {
 .index-show .item-show .left-right .left img {
   width: 300px;
 }
-.nakami {
+.nakami img {
   width: 200px;
 }
 
@@ -607,7 +607,7 @@ header .main-nav li {
   width: 250px;
   margin-top: 20px;
 }
-.nakami {
+.nakami img {
   width: 200px;
 }
 .index-show .item-show .left-right .right {
@@ -752,7 +752,7 @@ header .main-nav li {
 .index-show .item-show .left-right .left img {
   width: 200px;
 }
-.nakami {
+.nakami img {
   width: 150px;
   float: left;
 }
@@ -873,7 +873,7 @@ header .main-nav li {
 .index-show .item-show .left-right .left img {
   width: 170px;
 }
-.nakami {
+.nakami img {
   width: 130px;
 }
 
