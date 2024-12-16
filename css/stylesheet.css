@@ -741,7 +741,7 @@ header .main-nav li {
   flex-direction: column;
 }
 .index-show .item-show .left p {
-  width: 400px;
+  width: auto;
 }
 .index-show .image {
   display: flex;
@@ -856,9 +856,6 @@ header .main-nav li {
 }
 .index-show .item-show {
   margin: 20px 30px 20px 30px;
-}
-.index-show .item-show .left p {
-  width: 300px;
 }
 .index-show .item-show .left img {
   width: 200px;
