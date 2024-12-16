@@ -452,13 +452,13 @@ header .main-nav a {
   display: none;
 }
 .osusumerecipe {
-  margin: 10px 0 40px 10px;
+  margin: 30px 0 50px 10px;
 }
 .osusumerecipe div {
   display: flex;
 }
 .osusumerecipe .image {
-  margin: 10px 20px 0 0;
+  margin: 10px 30px 0 0;
   width: 200px;
   height: auto;
 }
@@ -669,7 +669,7 @@ header .main-nav li {
   padding-top: 30px;
 }
 .osusumerecipe .image {
-  margin: 10px 15px 0 0;
+  margin: 10px 20px 0 0;
   width: 150px;
 }
 
@@ -745,10 +745,10 @@ header .main-nav li {
   gap: 10px;
 }
 .index-show .item-show .left img {
-  width: 230px;
+  width: 250px;
 }
 .nakami img {
-  width: 140px !important;
+  width: 160px !important;
 }
 .index-show .item-show .right {
   margin-left: 0;
