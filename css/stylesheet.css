@@ -770,9 +770,6 @@ header .main-nav li {
   justify-content: center;
   gap: 15px;
 }
-.match h2 {
-  width: 300px;
-}
 .match div img {
   width: 300px;
 }
