@@ -402,6 +402,9 @@ header .main-nav a {
 .match {
   flex-direction: column;
 }
+.match h2 {
+  width: 320px;
+}
 .match h3 {
   margin: 50px 0 30px;
 }
