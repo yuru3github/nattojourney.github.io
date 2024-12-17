@@ -511,10 +511,7 @@ header .main-nav a {
 
 /* 診断 */
 .matching::before {
-  background-size: 520px;
-}
-.matching h4 {
-  margin: 40px 0 80px;
+  background-size: 500px;
 }
 .matching .button {
   width: 250px;
