@@ -638,13 +638,10 @@ header .main-nav li {
   gap: 20px;
 }
 .matching .button {
-  width: 200px;
+  width: 220px;
   padding: 50px;
   border-radius: 70px;
   font-size: 20px;
-}
-.match div img {
-  width: 250px;
 }
 .match div a {
   padding: 15px;
@@ -764,7 +761,7 @@ header .main-nav li {
 
 /* 診断 */
 .matching::before {
-  background-size: 350px;
+  background-size: 380px;
 }
 .matching ul {
   flex-direction: column;
@@ -862,13 +859,13 @@ header .main-nav li {
 
 /* 診断 */
 .matching::before {
-  background-size: 300px;
+  background-size: 320px;
 }
 .matching h4 {
   margin: 20px 0 40px;
 }
 .match div img {
-  width: 220px;
+  width: 230px;
 }
 
 /* レシピ、参考 */
