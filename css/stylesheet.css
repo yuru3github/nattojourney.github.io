@@ -622,10 +622,6 @@ header .main-nav li {
 .index-show .item-show .right p {
   margin-top: 15px;
 }
-.index-show .item-show .right p img {
-  width: 15px;
-  padding-right: 3px;
-}
 
 /* 診断 */
 .matching::before {
