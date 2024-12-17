@@ -508,6 +508,9 @@ header .main-nav a {
 .nakami img {
   width: 180px !important;
 }
+.index-show .item-show .right h3 {
+  margin: 30px 0;
+}
 
 /* 診断 */
 .matching::before {
@@ -621,7 +624,7 @@ header .main-nav li {
   margin-left: 30px;
 }
 .index-show .item-show .right h3 {
-  margin: 30px 0;
+  margin: 20px 0;
 }
 .index-show .item-show .right p {
   margin-top: 15px;
@@ -751,9 +754,6 @@ header .main-nav li {
 }
 .index-show .item-show .right {
   margin-left: 0;
-}
-.index-show .item-show .right h3 {
-  margin: 20px 0;
 }
 .index-show .item-show .right p {
   margin-top: 10px;
