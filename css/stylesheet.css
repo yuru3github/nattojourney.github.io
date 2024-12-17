@@ -881,7 +881,7 @@ header .main-nav li {
 }
 
 .rotate {
-  animation: none;
+  animation: !important;
 }
 
 /* レシピ、参考 */
