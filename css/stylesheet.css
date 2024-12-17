@@ -764,15 +764,12 @@ header .main-nav li {
 
 /* 診断 */
 .matching::before {
-  background-size: 370px;
+  background-size: 350px;
 }
 .matching ul {
   flex-direction: column;
   justify-content: center;
   gap: 15px;
-}
-.match div img {
-  width: 300px;
 }
 
 /* レシピ、参考 */
@@ -865,13 +862,13 @@ header .main-nav li {
 
 /* 診断 */
 .matching::before {
-  background-size: 270px;
+  background-size: 300px;
 }
 .matching h4 {
   margin: 20px 0 40px;
 }
 .match div img {
-  width: 200px;
+  width: 220px;
 }
 
 /* レシピ、参考 */
