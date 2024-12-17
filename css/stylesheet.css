@@ -775,7 +775,7 @@ header .main-nav li {
   gap: 15px;
 }
 .match h2 {
-  width: 320px;
+  width: 310px;
 }
 .match div img {
   width: 300px;
@@ -878,10 +878,6 @@ header .main-nav li {
 }
 .match div img {
   width: 200px;
-}
-
-.rotate {
-  animation: !important;
 }
 
 /* レシピ、参考 */
