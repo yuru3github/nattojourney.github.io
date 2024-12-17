@@ -519,6 +519,13 @@ header .main-nav a {
   border-radius: 85px;
   font-size: 22px;
 }
+.match div img {
+  width: 270px;
+  margin-bottom: 30px;
+}
+.match div a {
+  padding: 18px;
+}
 
 /* レシピ、参考 */
 .recipe, .pull {
