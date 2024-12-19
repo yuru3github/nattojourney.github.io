@@ -269,6 +269,9 @@ header .main-nav a {
 .side-index .index {
   margin: 50px 100px;
 }
+.side-index .index h2 {
+  margin-bottom: 10px;
+}
 .side-index .index .home {
   margin: 30px 0 0;
   padding: 30px 0 0;
