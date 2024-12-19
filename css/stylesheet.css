@@ -666,6 +666,11 @@ header .main-nav li {
 }
 
 /* レシピ、参考 */
+.nattokyara img {
+  width: 200px;
+  top: 25%;
+  right: 10%;
+}
 .recipe, .pull {
   margin: 50px 70px;
 }
@@ -785,6 +790,11 @@ header .main-nav li {
 }
 
 /* レシピ、参考 */
+.nattokyara img {
+  width: 180px;
+  top: 20%;
+  right: 5%;
+}
 .recipe, .pull {
   margin: 50px;
 }
@@ -884,6 +894,11 @@ header .main-nav li {
 }
 
 /* レシピ、参考 */
+.nattokyara img {
+  width: 150px;
+  top: 15%;
+  right: 5%;
+}
 .osusumerecipe .image {
   margin: 20px 10px 0 0;
   width: 120px;
