@@ -87,9 +87,7 @@ $('.end').click(function () {
         const animElement = answerElement.find('.anim');
 
         answerElement.css({ display: 'block' });
-        if (window.innerWidth > 430) {
-            animElement.addClass('rotate');
-        }
+        animElement.addClass('rotate');
     }
 });
 
