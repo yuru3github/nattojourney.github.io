@@ -428,8 +428,8 @@ header .main-nav a {
 }
 
 /* レシピ、参考 */
-.nattokyara {
-  width: 50px;
+.nattokyara img {
+  width: 100px;
   height: auto;
   position: absolute;
   top: 30%;
