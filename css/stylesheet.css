@@ -428,6 +428,13 @@ header .main-nav a {
 }
 
 /* レシピ、参考 */
+.nattokyara {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  top: 20%;
+  right: 10%;
+}
 .recipe, .pull {
   margin: 100px 150px;
   overflow-wrap: anywhere;
