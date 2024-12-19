@@ -429,11 +429,11 @@ header .main-nav a {
 
 /* レシピ、参考 */
 .nattokyara img {
-  width: 230px;
+  width: 200px;
   height: auto;
   position: absolute;
   top: 27%;
-  right: 17%;
+  right: 15%;
 }
 .recipe, .pull {
   margin: 100px 150px;
@@ -542,7 +542,6 @@ header .main-nav a {
 
 /* レシピ、参考 */
 .nattokyara img {
-  width: 200px;
   top: 25%;
   right: 13%;
 }
@@ -668,8 +667,8 @@ header .main-nav li {
 /* レシピ、参考 */
 .nattokyara img {
   width: 180px;
-  top: 23%;
-  right: 13%;
+  top: 20%;
+  right: 10%;
 }
 .recipe, .pull {
   margin: 50px 70px;
@@ -792,7 +791,6 @@ header .main-nav li {
 /* レシピ、参考 */
 .nattokyara img {
   width: 150px;
-  top: 20%;
   right: 7%;
 }
 .recipe, .pull {
