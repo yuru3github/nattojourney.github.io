@@ -429,11 +429,11 @@ header .main-nav a {
 
 /* レシピ、参考 */
 .nattokyara img {
-  width: 80vw;
+  width: 150px;
   height: auto;
   position: absolute;
   top: 20%;
-  right: 30%;
+  right: 20%;
 }
 .recipe, .pull {
   margin: 100px 150px;
