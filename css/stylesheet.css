@@ -432,7 +432,7 @@ header .main-nav a {
   width: 250px;
   height: auto;
   position: absolute;
-  top: 35%;
+  top: 30%;
   right: 20%;
 }
 .recipe, .pull {
@@ -543,7 +543,6 @@ header .main-nav a {
 /* レシピ、参考 */
 .nattokyara img {
   width: 230px;
-  top: 30%;
   right: 15%;
 }
 .recipe, .pull {
@@ -669,7 +668,6 @@ header .main-nav li {
 .nattokyara img {
   width: 200px;
   top: 25%;
-  right: 10%;
 }
 .recipe, .pull {
   margin: 50px 70px;
@@ -792,7 +790,6 @@ header .main-nav li {
 /* レシピ、参考 */
 .nattokyara img {
   width: 180px;
-  top: 20%;
   right: 5%;
 }
 .recipe, .pull {
@@ -896,8 +893,7 @@ header .main-nav li {
 /* レシピ、参考 */
 .nattokyara img {
   width: 150px;
-  top: 15%;
-  right: 5%;
+  top: 20%;
 }
 .osusumerecipe .image {
   margin: 20px 10px 0 0;
