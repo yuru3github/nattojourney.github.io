@@ -739,11 +739,11 @@ header .main-nav li {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-.side-index .side ul.side-nav li {
-  flex-grow: unset;
-}
 .side-index .side ul.side-nav li ul {
   width: 100%;
+}
+.side-index .side ul.side-nav li:hover ul {
+  z-index: 8;
 }
 
 .side-index .index {
