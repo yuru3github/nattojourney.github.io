@@ -350,6 +350,9 @@ header .main-nav a {
   width: 20px;
   padding-right: 5px;
 }
+.margin {
+  margin-right: 15px;
+}
 
 /* 診断 */
 .matching {
