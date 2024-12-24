@@ -735,6 +735,17 @@ header .main-nav li {
 }
 
 /* 一覧 */
+.side-index .side .side-nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.side-index .side ul.side-nav li {
+  flex-grow: unset;
+}
+.side-index .side ul.side-nav li ul {
+  width: 100%;
+}
+
 .side-index .index {
   margin: 50px;
 }
