@@ -745,6 +745,9 @@ header .main-nav li {
 .side-index .side ul.side-nav li:hover ul {
   z-index: 8;
 }
+.side-index .side .side-nav .button {
+  padding: 10px 0;
+}
 
 .side-index .index {
   margin: 50px;
