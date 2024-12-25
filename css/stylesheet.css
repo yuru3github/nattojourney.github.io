@@ -90,6 +90,7 @@ header .main-nav a {
 /* 説明 */
 .top .title {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -160,10 +161,10 @@ header .main-nav a {
 }
 .about h2 img {
   width: 30px;
-  margin-right: 5px;
+  margin: 5px 10px 0 0;
 }
 .about p {
-  margin: 30px 50px 0 30px;
+  padding: 30px 70px 0 50px;
 }
 .about .nattomini-wrapper {
   position: absolute;
@@ -202,8 +203,8 @@ header .main-nav a {
   width: 200px;
   height: auto;
   position: absolute;
-  top: 27%;
-  right: 15%;
+  top: 30%;
+  right: 10%;
 }
 .manual {
   margin: 100px;
@@ -211,7 +212,10 @@ header .main-nav a {
 }
 .manual h2 img {
   width: 30px;
-  margin-right: 5px;
+  margin: 5px 10px 0 0;
+}
+.manual {
+
 }
 .last {
   position: relative;
