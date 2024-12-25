@@ -302,7 +302,8 @@ header .main-nav a {
 }
 .last .title {
   position: absolute;
-  transform: translate(-50%,-50%);
+  text-align: center;
+  transform: translateY(-50%);
   z-index: 2;
 }
 .last h2 {
