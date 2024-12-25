@@ -100,10 +100,12 @@ header .main-nav a {
 }
 .top .title {
   position: absolute;
-  top: 40%;
-  left: 32%;
+  top: auto;
+  left: auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   z-index: 2;
 }
