@@ -109,7 +109,7 @@ header .main-nav a {
 }
 .top .title h1 {
   font-size: 5rem;
-  letter-spacing: 10px;
+  letter-spacing: 7px;
 }
 .top .nattoman img {
   position: absolute;
@@ -193,21 +193,21 @@ header .main-nav a {
   width: 80px;
 }
 .about .nattomini1 {
-  top: 30%;
+  top: 40%;
   left: 2%;
 }
 .about .ito1 {
-  top: 50%;
+  top: 70%;
   left: 0;
   transform: rotate(-20deg);
 }
 .about .nattomini2 {
   top: 10%;
-  right: 2%;
+  left: 90%;
 }
 .about .ito2 {
   top: 30%;
-  right: 5%;
+  left: 80%;
   transform: rotate(-20deg);
 }
 .about .nattokyara img {
@@ -281,7 +281,7 @@ header .main-nav a {
 .last {
   position: relative;
   margin: 100px;
-  height: 700px;
+  height: 800px;
   overflow: hidden;
 }
 .last::before {
@@ -300,8 +300,8 @@ header .main-nav a {
 }
 .last h2 {
   position: absolute;
-  top: 45%;
-  left: 25%;
+  top: 47%;
+  left: 28%;
   font-size: 2rem;
   z-index: 2;
 }
