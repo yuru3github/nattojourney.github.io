@@ -106,7 +106,7 @@ header .main-nav a {
   display: flex;
   flex-direction: column;
   text-align: center;
-  opacity: 1;
+  opacity: 1.0;
   z-index: 2;
 }
 .top .title h1 {
@@ -247,17 +247,9 @@ header .main-nav a {
   position: relative;
   margin: 100px;
   height: 700px;
-}
-.last h2 {
-  position: absolute;
-  top: 50%;
-  left: 30%;
-  z-index: 2;
-  back
-  position: relative;
   overflow: hidden;
 }
-.last h2::before {
+.last::before {
   content: '';
   position: absolute;
   top: 0;
@@ -270,6 +262,12 @@ header .main-nav a {
   background-position: center;
   opacity: 0.5;
   z-index: -1;
+}
+.last h2 {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  z-index: 2;
 }
 .last .nattomini-wrapper {
   position: absolute;
