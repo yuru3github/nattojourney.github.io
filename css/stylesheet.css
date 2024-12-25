@@ -88,8 +88,9 @@ header .main-nav a {
 }
 
 /* 説明 */
-.top {
-  
+.top .title {
+  justify-content: center;
+  align-items: center;
 }
 .top .map-container {
   display: flex;
