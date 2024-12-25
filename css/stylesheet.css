@@ -883,7 +883,7 @@ header .main-nav li {
   margin: 50px;
 }
 .aboutp {
-  margin: 30px 170px 0 80px;
+  margin: 30px 170px 0 100px;
 }
 .about .nattokyara img {
   width: 150px;
@@ -897,15 +897,16 @@ header .main-nav li {
 .manual .left-right {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 .manual .nattokyara img {
   width: 150px;
 }
 .last::before {
-  background-size: 550px;
+  background-size: 520px;
 }
 .last h2 {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 /* 地図 */
@@ -1042,6 +1043,110 @@ header .main-nav li {
 }
 .click img {
   width: 120px;
+}
+
+/* 説明 */
+.top .title h1 {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+}
+.about h2 img {
+  width: 20px;
+}
+.aboutp {
+  margin: 20px 100px 0 50px;
+}
+.about .nattomini {
+  width: 40px;
+}
+.about .ito {
+  width: 60px;
+}
+.about .nattomini1 {
+  top: 40%;
+  left: 2%;
+}
+.about .ito1 {
+  top: 70%;
+  left: 0;
+}
+.about .nattomini2 {
+  top: 10%;
+  left: 85%;
+}
+.about .ito2 {
+  top: 30%;
+  left: 85%;
+}
+.about .nattokyara img {
+  width: 130px;
+  top: 65%;
+  right: 5%;
+}
+.manual h2 img {
+  width: 20px;
+}
+.manual .page {
+  margin: 20px 0 20px 100px;
+}
+.manual .left-right {
+  margin-top: 10px;
+  gap: 10px;
+}
+.manual .nattomini {
+  width: 40px;
+}
+.manual .ito {
+  width: 60px;
+}
+.manual .nattomini1 {
+  top: 15%;
+  left: 5%;
+}
+.manual .ito1 {
+  top: 30%;
+  left: 0;
+}
+.manual .nattomini2 {
+  top: 50%;
+  left: 5%;
+}
+.manual .ito2 {
+  top: 65%;
+  left: 0;
+}
+.manual .nattokyara img {
+  width: 130px;
+  top: 85%;
+  left: 0;
+}
+.last::before {
+  background-size: 400px;
+}
+.last h2 {
+  font-size: 1.2rem;
+}
+.last .nattomini {
+  width: 40px;
+}
+.last .ito {
+  width: 60px;
+}
+.last .nattomini1 {
+  top: 25%;
+  left: 3%;
+}
+.last .ito1 {
+  top: 43%;
+  left: 5%;
+}
+.last .nattomini2 {
+  top: 45%;
+  left: 88%;
+}
+.last .ito2 {
+  top: 63%;
+  left: 85%;
 }
 
 /* 地図 */
