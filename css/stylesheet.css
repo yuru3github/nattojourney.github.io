@@ -102,8 +102,6 @@ header .main-nav a {
   position: absolute;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   z-index: 2;
 }
@@ -305,8 +303,6 @@ header .main-nav a {
 .last .title {
   position: absolute;
   display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   z-index: 2;
 }
@@ -1057,7 +1053,7 @@ header .main-nav li {
 
 /* 説明 */
 .top .title h1 {
-  font-size: 3.2rem;
+  font-size: 2.8rem;
   letter-spacing: 3px;
 }
 .about h2 img {
@@ -1111,10 +1107,10 @@ header .main-nav li {
   left: 0;
 }
 .last .nattomini2 {
-  left: 93%;
+  left: 90%;
 }
 .last .ito2 {
-  left: 88%;
+  left: 87%;
 }
 .last .click {
   top: 65%;
@@ -1248,8 +1244,20 @@ header .main-nav li {
 }
 
 /* 説明 */
-.top .map-center {
-  width: 330px;
+.top .title h1 {
+  font-size: 2.2rem;
+}
+.top .nattoman img {
+  width: 100px;
+}
+.top .map-center img {
+  width: 300px;
+}
+.top .nattomini3 {
+  right: 2%;
+}
+.top .ito3 {
+  right: 5%;
 }
 .about {
   margin: 30px;
@@ -1259,6 +1267,16 @@ header .main-nav li {
 }
 .last::before {
   background-size: 300px;
+}
+.last .nattomini2 {
+  left: 87%;
+}
+.last .ito2 {
+  left: 85%;
+}
+.last .click {
+  top: 60%;
+  right: 35%;
 }
 
 /* 地図 */
