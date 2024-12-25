@@ -102,6 +102,7 @@ header .main-nav a {
   width: 100vw;
   height: 100vh;
   margin: 0;
+  opacity: 0.3;
 }
 .top .nattoman img {
   position: absolute;
@@ -161,10 +162,10 @@ header .main-nav a {
 }
 .about h2 img {
   width: 30px;
-  margin: 5px 10px 0 0;
+  margin: 5px 15px 0 0;
 }
-.about p {
-  padding: 30px 70px 0 50px;
+.aboutp {
+  margin: 30px 70px 0 50px;
 }
 .about .nattomini-wrapper {
   position: absolute;
@@ -203,8 +204,8 @@ header .main-nav a {
   width: 200px;
   height: auto;
   position: absolute;
-  top: 30%;
-  right: 10%;
+  top: 40%;
+  right: 5%;
 }
 .manual {
   margin: 100px;
@@ -212,10 +213,19 @@ header .main-nav a {
 }
 .manual h2 img {
   width: 30px;
-  margin: 5px 10px 0 0;
+  margin: 5px 15px 0 0;
 }
-.manual {
-
+.manual .page {
+  margin: 30px 0 0 50px;
+}
+.manual .left-right {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.manual .left-right img {
+  width: 300px;
+  height: auto;
 }
 .last {
   position: relative;
