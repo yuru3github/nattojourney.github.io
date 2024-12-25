@@ -106,11 +106,14 @@ header .main-nav a {
   display: flex;
   flex-direction: column;
   text-align: center;
-  opacity: 1.0;
   z-index: 2;
 }
 .top .title h1 {
-  font-size: 2rem;
+  font-size: 3rem;
+  opacity: 1;
+}
+.top .title h2 {
+  opacity: 1;
 }
 .top .nattoman img {
   position: absolute;
@@ -268,6 +271,7 @@ header .main-nav a {
   top: 50%;
   left: 30%;
   z-index: 2;
+  font-size: 2.5rem;
 }
 .last .nattomini-wrapper {
   position: absolute;
@@ -313,7 +317,7 @@ header .main-nav a {
   transform: rotate(15deg);
 }
 .last .click img {
-  width: 100px;
+  width: 200px;
   height: auto;
   position: absolute;
   top: 80%;
