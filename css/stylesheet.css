@@ -1247,6 +1247,9 @@ header .main-nav li {
 .top .title h1 {
   font-size: 2.3rem;
 }
+.top .nattoman img {
+  width: 100px;
+}
 .top .map-center img {
   width: 320px;
 }
