@@ -335,11 +335,11 @@ header .main-nav a {
 }
 .last .nattomini2 {
   top: 45%;
-  right: 3%;
+  left: 95%;
 }
 .last .ito2 {
   top: 63%;
-  right: 8%;
+  left: 90%;
   transform: rotate(15deg);
 }
 .last .click {
@@ -765,11 +765,18 @@ header .main-nav a {
 .aboutp {
   margin: 30px 200px 0 100px;
 }
+.about .nattokyara img {
+  width: 180px;
+}
 .manual {
   margin: 70px;
 }
 .manual .page {
   margin: 30px 0 20px 150px;
+}
+.manual .nattokyara img {
+  width: 180px;
+  left: -3%;
 }
 .last::before {
   background-size: 650px;
