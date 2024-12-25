@@ -1263,7 +1263,7 @@ header .main-nav li {
   margin: 30px;
 }
 .aboutp {
-  margin: 30px 70px 0 30px;
+  margin: 30px 70px 0 40px;
 }
 .about .nattomini1 {
   left: 0;
@@ -1279,7 +1279,7 @@ header .main-nav li {
   margin: 30px;
 }
 .manual .page {
-  margin: 30px 0 20px 50px;
+  margin: 30px 0 20px 60px;
 }
 .manual .nattomini1 {
   left: 0;
@@ -1301,7 +1301,7 @@ header .main-nav li {
   background-size: 300px;
 }
 .last h2 {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 .last .nattomini2 {
   left: 88%;
@@ -1311,7 +1311,7 @@ header .main-nav li {
 }
 .last .click {
   top: 60%;
-  right: 50%;
+  left: 70%;
 }
 
 /* 地図 */
