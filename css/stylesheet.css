@@ -92,7 +92,6 @@ header .main-nav a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
 }
 .top .map-container {
   display: flex;
@@ -103,22 +102,15 @@ header .main-nav a {
   height: 100vh;
   margin: 0;
 }
-.top .map-left {
+.top .nattoman img {
   position: absolute;
   top: 13%;
   left: 22%;
-}
-.top .nattoman img {
   width: 130px;
 }
 .top .map-center {
   width: 486px;
   height: auto;
-}
-.top .map-center img.nippon {
-  width: 100%;
-  height: auto;
-  display: block;
 }
 .top .nattomini-wrapper {
   position: absolute;
@@ -164,6 +156,14 @@ header .main-nav a {
 }
 .about {
   margin: 100px;
+  position: relative;
+}
+.about img {
+  width: 30px;
+  margin-right: 5px;
+}
+.about p {
+  margin: 30px 50px 0 30px;
 }
 .about .nattomini-wrapper {
   position: absolute;
@@ -207,9 +207,10 @@ header .main-nav a {
 }
 .manual {
   margin: 100px;
+  position: relative;
 }
 .last {
-  
+  position: relative;
 }
 .last .nattomini-wrapper {
   position: absolute;
