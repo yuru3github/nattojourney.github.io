@@ -883,7 +883,7 @@ header .main-nav li {
   margin: 50px;
 }
 .aboutp {
-  margin: 30px 170px 0 100px;
+  margin: 30px 180px 0 100px;
 }
 .about .nattokyara img {
   width: 150px;
@@ -903,10 +903,16 @@ header .main-nav li {
   width: 150px;
 }
 .last::before {
-  background-size: 500px;
+  background-size: 480px;
 }
 .last h2 {
   font-size: 1.5rem;
+}
+.last .nattomini1 {
+  left: 2%;
+}
+.last .ito1 {
+  left: 3%;
 }
 
 /* 地図 */
@@ -1047,14 +1053,14 @@ header .main-nav li {
 
 /* 説明 */
 .top .title h1 {
-  font-size: 2.7rem;
+  font-size: 3.5rem;
   letter-spacing: 3px;
 }
 .about h2 img {
   width: 25px;
 }
 .aboutp {
-  margin: 20px 70px 0 50px;
+  margin: 20px 100px 0 70px;
 }
 .about .nattomini {
   width: 40px;
@@ -1064,17 +1070,13 @@ header .main-nav li {
 }
 .about .nattokyara img {
   width: 130px;
-  right: 0;
+  right: -5%;
 }
 .manual h2 img {
   width: 25px;
 }
 .manual .page {
-  margin: 20px 0 20px 70px;
-}
-.manual .left-right {
-  margin-top: 15px;
-  gap: 15px;
+  margin: 20px 0 20px 80px;
 }
 .manual .nattomini {
   width: 40px;
@@ -1084,9 +1086,7 @@ header .main-nav li {
 }
 .manual .nattokyara img {
   width: 130px;
-}
-.last {
-  height: 80vh;
+  left: -7%;
 }
 .last::before {
   background-size: 400px;
@@ -1104,17 +1104,17 @@ header .main-nav li {
   left: 0;
 }
 .last .ito1 {
-  left: 2%;
+  left: 0;
 }
 .last .nattomini2 {
-  left: 90%;
+  left: 95%;
 }
 .last .ito2 {
-  left: 87%;
+  left: 90%;
 }
 .last .click {
-  top: 60%;
-  right: 20%;
+  top: 65%;
+  right: 30%;
 }
 
 /* 地図 */
@@ -1241,6 +1241,20 @@ header .main-nav li {
 }
 .click img {
   width: 100px;
+}
+
+/* 説明 */
+.top .map-center {
+  width: 330px;
+}
+.about {
+  margin: 30px;
+}
+.manual {
+  margin: 30px;
+}
+.last::before {
+  background-size: 300px;
 }
 
 /* 地図 */
