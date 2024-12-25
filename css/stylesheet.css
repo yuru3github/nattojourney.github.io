@@ -87,6 +87,99 @@ header .main-nav a {
   width: 200px;
 }
 
+/* 説明 */
+.top {
+  
+}
+.top .map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+.top .map-left {
+  position: absolute;
+  top: 13%;
+  left: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+.top .nattoman {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+.top .nattoman img {
+  width: 130px;
+}
+.top .map-center {
+  width: 486px;
+  height: auto;
+}
+.top .map-center img.nippon {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.top .nattomini-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.top .nattomini {
+  position: absolute;
+  width: 60px;
+}
+.top .ito {
+  position: absolute;
+  width: 80px;
+}
+.top .nattomini1 {
+  top: 25%;
+  left: 5%;
+}
+.top .ito1 {
+  top: 43%;
+  left: 7%;
+  transform: rotate(-20deg);
+}
+.top .nattomini2 {
+  top: 90%;
+  left: 40%;
+}
+.top .ito2 {
+  top: 80%;
+  left: 55%;
+  transform: rotate(30deg);
+}
+.top .nattomini3 {
+  top: 45%;
+  right: 3%;
+}
+.top .ito3 {
+  top: 63%;
+  right: 8%;
+  transform: rotate(15deg);
+}
+.about {
+
+}
+.manual {
+
+}
+.last {
+
+}
+
 /* 地図 */
 .map-container {
   display: flex;
