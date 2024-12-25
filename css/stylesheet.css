@@ -1257,10 +1257,10 @@ header .main-nav li {
   right: 5%;
 }
 .about {
-  margin: 30px;
+  margin: 30px 30px 50px 30px;
 }
 .aboutp {
-  margin: 30px 70px 30px 50px;
+  margin: 30px 70px 0 50px;
 }
 .about .nattomini1 {
   left: -2%;
