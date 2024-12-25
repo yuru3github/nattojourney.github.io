@@ -96,7 +96,6 @@ header .main-nav a {
   width: 100vw;
   height: 100vh;
   margin: 0;
-  opacity: 0.3;
   z-index: 1;
 }
 .top .title {
@@ -109,21 +108,19 @@ header .main-nav a {
   z-index: 2;
 }
 .top .title h1 {
-  font-size: 3rem;
-  opacity: 1;
-}
-.top .title h2 {
-  opacity: 1;
+  font-size: 5rem;
 }
 .top .nattoman img {
   position: absolute;
   top: 13%;
   left: 22%;
   width: 130px;
+  opacity: 0.3;
 }
 .top .map-center {
   width: 486px;
   height: auto;
+  opacity: 0.3;
 }
 .top .nattomini-wrapper {
   position: absolute;
@@ -131,6 +128,7 @@ header .main-nav a {
   left: 0;
   width: 100%;
   height: 100%;
+  opacity: 0.3;
 }
 .top .nattomini {
   position: absolute;
@@ -173,10 +171,10 @@ header .main-nav a {
 }
 .about h2 img {
   width: 30px;
-  margin: 10px 10px 0 0;
+  margin: 20px 10px 0 0;
 }
 .aboutp {
-  margin: 50px 250px 0 100px;
+  margin: 50px 250px 0 150px;
 }
 .about .nattomini-wrapper {
   position: absolute;
@@ -195,27 +193,27 @@ header .main-nav a {
 }
 .about .nattomini1 {
   top: 25%;
-  left: 5%;
+  left: 0;
 }
 .about .ito1 {
-  top: 43%;
-  left: 7%;
+  top: 45%;
+  left: 0;
   transform: rotate(-20deg);
 }
 .about .nattomini2 {
-  top: 90%;
-  left: 40%;
+  top: 10%;
+  right: 5%;
 }
 .about .ito2 {
-  top: 80%;
-  left: 55%;
-  transform: rotate(30deg);
+  top: 20%;
+  right: 5%;
+  transform: rotate(-20deg);
 }
 .about .nattokyara img {
   width: 200px;
   height: auto;
   position: absolute;
-  top: 40%;
+  top: 50%;
   right: 5%;
 }
 .manual {
@@ -224,7 +222,7 @@ header .main-nav a {
 }
 .manual h2 img {
   width: 30px;
-  margin: 10px 10px 0 0;
+  margin: 20px 10px 0 0;
 }
 .manual .page {
   margin: 30px 0 0 200px;
@@ -243,7 +241,7 @@ header .main-nav a {
   width: 200px;
   height: auto;
   position: absolute;
-  top: 80%;
+  top: 90%;
   left: 0;
 }
 .last {
@@ -259,8 +257,8 @@ header .main-nav a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../image/card2.png');
-  background-size: 550px;
+  background-image: url('../image/fuwa.png');
+  background-size: 400px;
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.5;
@@ -268,10 +266,10 @@ header .main-nav a {
 }
 .last h2 {
   position: absolute;
-  top: 50%;
-  left: 30%;
+  top: 40%;
+  left: 20%;
   z-index: 2;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 }
 .last .nattomini-wrapper {
   position: absolute;
