@@ -109,6 +109,9 @@ header .main-nav a {
   opacity: 1;
   z-index: 2;
 }
+.top .title h1 {
+  font-size: 2rem;
+}
 .top .nattoman img {
   position: absolute;
   top: 13%;
