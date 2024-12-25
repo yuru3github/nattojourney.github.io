@@ -302,9 +302,12 @@ header .main-nav a {
 }
 .last h2 {
   position: absolute;
-  top: 47%;
-  left: 30%;
+  top: auto;
+  left: auto;
   font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   z-index: 2;
 }
 .last .nattomini-wrapper {
