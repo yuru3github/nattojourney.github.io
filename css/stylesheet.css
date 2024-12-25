@@ -101,7 +101,7 @@ header .main-nav a {
 .top .title {
   position: absolute;
   top: 40%;
-  left: 30%;
+  left: 32%;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -203,18 +203,18 @@ header .main-nav a {
 }
 .about .nattomini2 {
   top: 10%;
-  left: 90%;
+  left: 85%;
 }
 .about .ito2 {
   top: 30%;
-  left: 80%;
+  left: 85%;
   transform: rotate(-20deg);
 }
 .about .nattokyara img {
   width: 200px;
   height: auto;
   position: absolute;
-  top: 60%;
+  top: 65%;
   right: 5%;
 }
 .manual {
@@ -281,7 +281,7 @@ header .main-nav a {
 .last {
   position: relative;
   margin: 100px;
-  height: 800px;
+  height: 700px;
   overflow: hidden;
 }
 .last::before {
@@ -301,7 +301,7 @@ header .main-nav a {
 .last h2 {
   position: absolute;
   top: 47%;
-  left: 28%;
+  left: 30%;
   font-size: 2rem;
   z-index: 2;
 }
@@ -331,11 +331,11 @@ header .main-nav a {
   transform: rotate(-20deg);
 }
 .last .nattomini2 {
-  top: 95%;
+  top: 92%;
   left: 40%;
 }
 .last .ito2 {
-  top: 90%;
+  top: 87%;
   left: 55%;
   transform: rotate(30deg);
 }
@@ -352,7 +352,7 @@ header .main-nav a {
   width: 200px;
   height: auto;
   position: absolute;
-  top: 75%;
+  top: 70%;
   right: 10%;
   z-index: 2;
 }
