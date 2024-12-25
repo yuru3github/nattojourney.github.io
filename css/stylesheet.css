@@ -234,11 +234,13 @@ header .main-nav a {
   margin-top: 20px;
   display: flex;
   gap: 40px;
-  align-items: center;
 }
 .manual .left-right img {
   width: 200px;
   height: auto;
+}
+.manual .left-right div {
+  align-items: center;
 }
 .manual .nattomini-wrapper {
   position: absolute;
