@@ -306,6 +306,9 @@ header .main-nav a {
   text-align: center;
   z-index: 2;
 }
+.last h2 {
+  font-size: 1.8rem;
+}
 .last .nattomini-wrapper {
   position: absolute;
   top: 0;
@@ -333,11 +336,13 @@ header .main-nav a {
 .last .nattomini2 {
   top: 92%;
   left: 40%;
+  margin-bottom: 30px;
 }
 .last .ito2 {
   top: 87%;
   left: 55%;
   transform: rotate(30deg);
+  margin-bottom: 30px;
 }
 .last .nattomini3 {
   top: 45%;
