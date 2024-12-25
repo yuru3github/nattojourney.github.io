@@ -89,6 +89,7 @@ header .main-nav a {
 
 /* 説明 */
 .top .title {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -105,16 +106,6 @@ header .main-nav a {
   position: absolute;
   top: 13%;
   left: 22%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: left;
-}
-.top .nattoman {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 15px;
 }
 .top .nattoman img {
   width: 130px;
@@ -134,7 +125,6 @@ header .main-nav a {
   left: 0;
   width: 100%;
   height: 100%;
-  pointer-events: none;
 }
 .top .nattomini {
   position: absolute;
@@ -174,11 +164,93 @@ header .main-nav a {
 .about {
 
 }
+.about .nattomini-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.about .nattomini {
+  position: absolute;
+  width: 60px;
+}
+.about .ito {
+  position: absolute;
+  width: 80px;
+}
+.about .nattomini1 {
+  top: 25%;
+  left: 5%;
+}
+.about .ito1 {
+  top: 43%;
+  left: 7%;
+  transform: rotate(-20deg);
+}
+.about .nattomini2 {
+  top: 90%;
+  left: 40%;
+}
+.about .ito2 {
+  top: 80%;
+  left: 55%;
+  transform: rotate(30deg);
+}
+.about .nattokyara img {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 27%;
+  right: 15%;
+}
 .manual {
 
 }
 .last {
-
+  
+}
+.last .nattomini-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.last .nattomini {
+  position: absolute;
+  width: 60px;
+}
+.last .ito {
+  position: absolute;
+  width: 80px;
+}
+.last .nattomini1 {
+  top: 25%;
+  left: 5%;
+}
+.last .ito1 {
+  top: 43%;
+  left: 7%;
+  transform: rotate(-20deg);
+}
+.last .nattomini2 {
+  top: 90%;
+  left: 40%;
+}
+.last .ito2 {
+  top: 80%;
+  left: 55%;
+  transform: rotate(30deg);
+}
+.last .nattomini3 {
+  top: 45%;
+  right: 3%;
+}
+.last .ito3 {
+  top: 63%;
+  right: 8%;
+  transform: rotate(15deg);
 }
 
 /* 地図 */
