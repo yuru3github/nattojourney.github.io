@@ -92,6 +92,7 @@ header .main-nav a {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
 }
 .top .map-container {
   display: flex;
@@ -162,7 +163,7 @@ header .main-nav a {
   transform: rotate(15deg);
 }
 .about {
-
+  margin: 100px;
 }
 .about .nattomini-wrapper {
   position: absolute;
@@ -205,7 +206,7 @@ header .main-nav a {
   right: 15%;
 }
 .manual {
-
+  margin: 100px;
 }
 .last {
   
