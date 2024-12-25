@@ -346,8 +346,8 @@ header .main-nav a {
   width: 200px;
   height: auto;
   position: absolute;
-  top: 70%;
-  right: 10%;
+  top: 60%;
+  right: 20%;
   z-index: 2;
 }
 
@@ -780,10 +780,6 @@ header .main-nav a {
 }
 .last::before {
   background-size: 600px;
-}
-.last .click {
-  top: 60%;
-  right: 20%;
 }
   
 /* 地図 */
