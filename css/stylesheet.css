@@ -238,6 +238,7 @@ header .main-nav a {
 .last {
   position: relative;
   margin: 100px;
+  height: 700px;
 }
 .last h2 {
   display: flex;
