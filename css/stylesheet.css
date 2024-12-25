@@ -102,6 +102,7 @@ header .main-nav a {
   position: absolute;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   text-align: center;
   z-index: 2;
 }
@@ -303,6 +304,7 @@ header .main-nav a {
 .last .title {
   position: absolute;
   display: flex;
+  justify-content: center;
   text-align: center;
   z-index: 2;
 }
