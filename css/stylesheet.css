@@ -781,6 +781,10 @@ header .main-nav a {
 .last::before {
   background-size: 600px;
 }
+.last .click {
+  top: 60%;
+  right: 20%;
+}
   
 /* 地図 */
 .map-left h1 {
@@ -913,10 +917,6 @@ header .main-nav li {
 }
 .last .ito1 {
   left: 3%;
-}
-.last .click {
-  top: 65%;
-  right: 15%;
 }
 
 /* 地図 */
