@@ -241,9 +241,8 @@ header .main-nav a {
   height: 700px;
 }
 .last h2 {
-  display: flex;
   justify-content: center;
-  align-items: center;
+  margin: auto 0;
 }
 .last .nattomini-wrapper {
   position: absolute;
