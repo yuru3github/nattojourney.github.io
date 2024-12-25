@@ -883,7 +883,7 @@ header .main-nav li {
   margin: 50px;
 }
 .aboutp {
-  margin: 30px 180px 0 100px;
+  margin: 40px 180px 0 100px;
 }
 .about .nattokyara img {
   width: 150px;
@@ -892,7 +892,7 @@ header .main-nav li {
   margin: 50px;
 }
 .manual .page {
-  margin: 30px 0 20px 120px;
+  margin: 40px 0 20px 120px;
 }
 .manual .left-right {
   display: flex;
@@ -913,6 +913,10 @@ header .main-nav li {
 }
 .last .ito1 {
   left: 3%;
+}
+.last .click {
+  top: 65%;
+  right: 15%;
 }
 
 /* 地図 */
@@ -1260,7 +1264,7 @@ header .main-nav li {
   margin: 30px;
 }
 .aboutp {
-  margin: 30px 70px 0 40px;
+  margin: 30px 70px 30px 50px;
 }
 .about .nattomini1 {
   left: -2%;
@@ -1276,7 +1280,7 @@ header .main-nav li {
   margin: 30px;
 }
 .manual .page {
-  margin: 30px 0 20px 60px;
+  margin: 30px 0 0 70px;
 }
 .manual .nattomini1 {
   left: 0;
