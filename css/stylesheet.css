@@ -194,7 +194,7 @@ header .main-nav a {
 }
 .about .nattomini1 {
   top: 30%;
-  left: 5%;
+  left: 2%;
 }
 .about .ito1 {
   top: 50%;
@@ -202,12 +202,12 @@ header .main-nav a {
   transform: rotate(-20deg);
 }
 .about .nattomini2 {
-  top: 15%;
-  right: 0;
+  top: 10%;
+  right: 2%;
 }
 .about .ito2 {
-  top: 25%;
-  right: 0;
+  top: 30%;
+  right: 5%;
   transform: rotate(-20deg);
 }
 .about .nattokyara img {
@@ -254,11 +254,11 @@ header .main-nav a {
   width: 80px;
 }
 .manual .nattomini1 {
-  top: 20%;
+  top: 15%;
   left: 5%;
 }
 .manual .ito1 {
-  top: 35%;
+  top: 30%;
   left: 0;
   transform: rotate(-20deg);
 }
