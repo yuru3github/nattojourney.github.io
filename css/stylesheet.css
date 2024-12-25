@@ -88,12 +88,6 @@ header .main-nav a {
 }
 
 /* 説明 */
-.top .title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 .top .map-container {
   display: flex;
   justify-content: center;
@@ -103,6 +97,15 @@ header .main-nav a {
   height: 100vh;
   margin: 0;
   opacity: 0.3;
+  z-index: 1;
+}
+.top .title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
 }
 .top .nattoman img {
   position: absolute;
