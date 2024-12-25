@@ -158,7 +158,7 @@ header .main-nav a {
   margin: 100px;
   position: relative;
 }
-.about img {
+.about h2 img {
   width: 30px;
   margin-right: 5px;
 }
@@ -208,6 +208,10 @@ header .main-nav a {
 .manual {
   margin: 100px;
   position: relative;
+}
+.manual h2 img {
+  width: 30px;
+  margin-right: 5px;
 }
 .last {
   position: relative;
