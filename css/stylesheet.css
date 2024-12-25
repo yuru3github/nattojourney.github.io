@@ -105,6 +105,8 @@ header .main-nav a {
   left: 40%;
   display: flex;
   flex-direction: column;
+  text-align: center;
+  opacity: 1;
   z-index: 2;
 }
 .top .nattoman img {
@@ -245,9 +247,26 @@ header .main-nav a {
 }
 .last h2 {
   position: absolute;
-  top: 40%;
-  left: 40%;
+  top: 50%;
+  left: 30%;
   z-index: 2;
+  back
+  position: relative;
+  overflow: hidden;
+}
+.last h2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../image/card2.png');
+  background-size: 550px;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
+  z-index: -1;
 }
 .last .nattomini-wrapper {
   position: absolute;
