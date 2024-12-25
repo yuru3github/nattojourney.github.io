@@ -100,12 +100,8 @@ header .main-nav a {
 }
 .top .title {
   position: absolute;
-  top: auto;
-  left: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   z-index: 2;
 }
@@ -237,7 +233,7 @@ header .main-nav a {
 }
 .manual .left-right img {
   width: 200px;
-  height: auto;
+  height: 200px;
 }
 .manual .nattomini-wrapper {
   position: absolute;
@@ -301,11 +297,7 @@ header .main-nav a {
 }
 .last .title {
   position: absolute;
-  top: auto;
-  left: auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   z-index: 2;
 }
