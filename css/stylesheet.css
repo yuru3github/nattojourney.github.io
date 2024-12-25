@@ -103,6 +103,7 @@ header .main-nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
   z-index: 2;
 }
@@ -305,6 +306,7 @@ header .main-nav a {
   position: absolute;
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
   z-index: 2;
 }
@@ -1055,7 +1057,7 @@ header .main-nav li {
 
 /* 説明 */
 .top .title h1 {
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   letter-spacing: 3px;
 }
 .about h2 img {
@@ -1103,16 +1105,16 @@ header .main-nav li {
   width: 60px;
 }
 .last .nattomini1 {
-  left: 0;
+  left: 2%;
 }
 .last .ito1 {
   left: 0;
 }
 .last .nattomini2 {
-  left: 95%;
+  left: 93%;
 }
 .last .ito2 {
-  left: 90%;
+  left: 88%;
 }
 .last .click {
   top: 65%;
