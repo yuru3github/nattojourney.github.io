@@ -302,11 +302,10 @@ header .main-nav a {
   opacity: 0.5;
   z-index: -1;
 }
-.last h2 {
+.last .title {
   position: absolute;
   top: auto;
   left: auto;
-  font-size: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
