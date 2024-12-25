@@ -1245,13 +1245,10 @@ header .main-nav li {
 
 /* 説明 */
 .top .title h1 {
-  font-size: 2.2rem;
-}
-.top .nattoman img {
-  width: 100px;
+  font-size: 2.3rem;
 }
 .top .map-center img {
-  width: 300px;
+  width: 320px;
 }
 .top .nattomini3 {
   right: 2%;
@@ -1262,11 +1259,26 @@ header .main-nav li {
 .about {
   margin: 30px;
 }
+.aboutp {
+  margin: 30px 80px 0 50px;
+}
+.about .nattokyara img {
+  right: -10%;
+}
 .manual {
   margin: 30px;
 }
+.manual .page {
+  margin: 30px 0 20px 70px;
+}
+.manual .nattokyara img {
+  left: -10%;
+}
 .last::before {
   background-size: 300px;
+}
+.last h2 {
+  font-size: 1rem;
 }
 .last .nattomini2 {
   left: 87%;
@@ -1276,7 +1288,7 @@ header .main-nav li {
 }
 .last .click {
   top: 60%;
-  right: 35%;
+  right: 40%;
 }
 
 /* 地図 */
