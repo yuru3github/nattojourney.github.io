@@ -347,7 +347,7 @@ header .main-nav a {
   right: 8%;
   transform: rotate(15deg);
 }
-.last .click img {
+.last .click {
   width: 200px;
   height: auto;
   position: absolute;
