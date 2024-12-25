@@ -101,7 +101,7 @@ header .main-nav a {
 .top .title {
   position: absolute;
   top: 40%;
-  left: 20%;
+  left: 25%;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -170,7 +170,7 @@ header .main-nav a {
   position: relative;
 }
 .about h2 img {
-  width: 30px;
+  width: 50px;
   padding: 10px 10px 0 0;
 }
 .aboutp {
@@ -221,8 +221,8 @@ header .main-nav a {
   position: relative;
 }
 .manual h2 img {
-  width: 30px;
-  margin: 20px 10px 0 0;
+  width: 50px;
+  padding: 10px 10px 0 0;
 }
 .manual .page {
   margin: 30px 0 0 200px;
@@ -236,6 +236,39 @@ header .main-nav a {
 .manual .left-right img {
   width: 200px;
   height: auto;
+}
+.manual .nattomini-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.manual .nattomini {
+  position: absolute;
+  width: 60px;
+}
+.manual .ito {
+  position: absolute;
+  width: 80px;
+}
+.manual .nattomini1 {
+  top: 15%;
+  left: 5%;
+}
+.manual .ito1 {
+  top: 30%;
+  left: 0;
+  transform: rotate(-20deg);
+}
+.manual .nattomini2 {
+  top: 45%;
+  left: 5%;
+}
+.manual .ito2 {
+  top: 60%;
+  left: 0;
+  transform: rotate(-20deg);
 }
 .manual .nattokyara img {
   width: 200px;
@@ -258,7 +291,7 @@ header .main-nav a {
   width: 100%;
   height: 100%;
   background-image: url('../image/fuwa.png');
-  background-size: 500px;
+  background-size: 600px;
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.5;
@@ -266,10 +299,10 @@ header .main-nav a {
 }
 .last h2 {
   position: absolute;
-  top: 50%;
-  left: 30%;
+  top: 45%;
+  left: 25%;
   z-index: 2;
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 .last .nattomini-wrapper {
   position: absolute;
