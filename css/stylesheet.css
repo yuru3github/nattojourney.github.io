@@ -109,7 +109,7 @@ header .main-nav a {
 }
 .top .title h1 {
   font-size: 5rem;
-  letter-spacing: 5px;
+  letter-spacing: 10px;
 }
 .top .nattoman img {
   position: absolute;
@@ -226,7 +226,7 @@ header .main-nav a {
   margin: 0 10px 0 0;
 }
 .manual .page {
-  margin: 30px 0 0 200px;
+  margin: 30px 0 20px 200px;
 }
 .manual .left-right {
   margin-top: 20px;
@@ -300,8 +300,8 @@ header .main-nav a {
 }
 .last h2 {
   position: absolute;
-  top: 50%;
-  left: 30%;
+  top: 45%;
+  left: 25%;
   font-size: 2rem;
   z-index: 2;
 }
@@ -331,11 +331,11 @@ header .main-nav a {
   transform: rotate(-20deg);
 }
 .last .nattomini2 {
-  top: 93%;
+  top: 95%;
   left: 40%;
 }
 .last .ito2 {
-  top: 88%;
+  top: 90%;
   left: 55%;
   transform: rotate(30deg);
 }
@@ -352,7 +352,7 @@ header .main-nav a {
   width: 200px;
   height: auto;
   position: absolute;
-  top: 80%;
+  top: 75%;
   right: 10%;
   z-index: 2;
 }
