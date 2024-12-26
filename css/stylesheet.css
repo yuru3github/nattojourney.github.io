@@ -360,7 +360,7 @@ header {
 .side-index {
   margin: 0;
 }
-.side-index .side {
+.side {
   position: sticky;
   top: 100px;
   background-color: rgb(90, 180, 120);
@@ -369,18 +369,18 @@ header {
   padding: 0;
   margin: 0;
 }
-.side-index .side .side-nav {
+.side-nav {
   list-style: none;
   display: flex;
   justify-content: space-between;
   padding: 0;
   margin: 0;
 }
-.side-index .side .side-nav li {
+.side-nav li {
   flex-grow: 1;
   text-align: center;
 }
-.side-index .side .side-nav .button {
+.side-nav .button {
   display: block;
   padding: 20px 0;
   background-color: rgb(90, 180, 120);
@@ -390,7 +390,7 @@ header {
   width: 100%;
   box-sizing: border-box;
 }
-.side-index .side .side-nav ul {
+.side-nav ul {
   list-style: none;
   display: none;
   position: absolute;
@@ -398,14 +398,14 @@ header {
   margin: 0;
   padding: 0;
 }
-.side-index .side ul.side-nav li {
+.side ul.side-nav li {
   position: relative;
 }
-.side-index .side ul.side-nav li:hover ul {
+.side ul.side-nav li:hover ul {
   display: block;
   width: 100%;
 }
-.side-index .side ul.side-nav li:hover ul .button {
+.side ul.side-nav li:hover ul .button {
   font-size: 12px;
   text-align: left;
   flex-grow: 1;
@@ -414,11 +414,11 @@ header {
   background-color: rgb(90, 180, 120);
   width: 100%;
 }
-.side-index .side ul.side-nav li:hover ul li {
+.side ul.side-nav li:hover ul li {
   margin: 0;
   padding: 0;
 }
-.side-index .side ul.side-nav li:hover ul li a {
+.side ul.side-nav li:hover ul li a {
   padding: 3px 20px;
   margin: 0;
   display: block;
@@ -426,39 +426,39 @@ header {
 .side-index .index {
   margin: 50px 100px;
 }
-.side-index .index h2 {
+.side-index h2 {
   margin-bottom: 10px;
 }
-.side-index .index .home {
+.side-index .home {
   margin: 30px 0 0;
   padding: 30px 0 0;
   border-top: solid rgba(188, 195, 51, 0.948);
 }
-.side-index .index .home h3 {
+.side-index h3 {
   font-size: 1.3rem;
 }
-.side-index .index .home .item {
+.side-index .item {
   margin-top: 40px;
 }
-.side-index .index .home .item h4 img {
+.side-index h4 img {
   width: 23px;
   padding: 0 5px 0 0;
 }
-.side-index .index .home .item p {
+.side-index .item p {
   margin-top: 20px;
 }
-.side-index .index .home .item .content {
+.side-index .content {
   display: flex;
 }
-.side-index .index .home .item .content img {
+.side-index .content img {
   width: 150px;
   height: 150px;
   margin: 20px 50px 0 0;
 }
-.side-index .index .home .item .content p {
+.side-index .content p {
   float: left;
 }
-.side-index .index .home .item .content a {
+.side-index .content a {
   float: left;
   margin-top: 20px;
   border: dotted;
@@ -813,16 +813,16 @@ header {
 }
 
 /* 一覧 */
-.side-index .side {
+.side {
   top: 80px;
 }
-.side-index .side .side-nav .button {
+.side-nav .button {
   padding: 15px 0;
 }
 .side-index .index {
   margin: 50px 70px;
 }
-.side-index .index .home .item .content img {
+.side-index .content img {
   width: 150px;
   height: 150px;
   margin: 20px 30px 0 0;
@@ -1004,24 +1004,23 @@ header {
 }
 
 /* 一覧 */
-.side-index .side .side-nav {
+.side-nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-.side-index .side ul.side-nav li ul {
+.side ul.side-nav li ul {
   width: 100%;
 }
-.side-index .side ul.side-nav li:hover ul {
+.side ul.side-nav li:hover ul {
   z-index: 8;
 }
-.side-index .side .side-nav .button {
+.side-nav .button {
   padding: 10px 0;
 }
-
 .side-index .index {
   margin: 50px;
 }
-.side-index .index .home .item .content img {
+.side-index .content img {
   width: 120px;
   height: 120px;
   margin: 20px 20px 0 0;
@@ -1206,7 +1205,7 @@ header {
 }
 
 /* 一覧 */
-.side-index .side {
+.side {
   top: 60px;
 }
 .side-index .index {
