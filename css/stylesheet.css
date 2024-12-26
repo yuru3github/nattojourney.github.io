@@ -234,7 +234,7 @@ header .main-nav a {
 .manual .left-right img {
   width: 300px;
   height: 180px;
-  background-color: rgb(33, 164, 164);
+  background-color: rgb(84, 176, 190);
   padding: 5px;
 }
 .manual .nattomini-wrapper {
@@ -886,10 +886,11 @@ header .main-nav li {
   margin: 50px;
 }
 .aboutp {
-  margin: 40px 180px 0 100px;
+  margin: 40px 150px 0 80px;
 }
 .about .nattokyara img {
   width: 150px;
+  right: 0;
 }
 .manual {
   margin: 50px;
@@ -1063,7 +1064,7 @@ header .main-nav li {
   width: 25px;
 }
 .aboutp {
-  margin: 30px 100px 30px 70px;
+  margin: 30px 80px 30px 50px;
 }
 .about .nattomini {
   width: 20px;
@@ -1073,7 +1074,7 @@ header .main-nav li {
 }
 .about .nattokyara img {
   width: 130px;
-  right: -5%;
+  right: -7%;
 }
 .manual h2 img {
   width: 25px;
@@ -1269,7 +1270,7 @@ header .main-nav li {
   margin: 30px 30px 50px 30px;
 }
 .aboutp {
-  margin: 30px 70px 0 50px;
+  margin: 30px 60px 0 40px;
 }
 .about .nattomini1 {
   left: -2%;
