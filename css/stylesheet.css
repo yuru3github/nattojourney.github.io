@@ -302,11 +302,9 @@ header .main-nav a {
 }
 .last .title {
   padding: 50px;
+  margin: 0 auto;
   position: absolute;
-  text-align: center;
   transform: translateY(-50%);
-  display: flex;
-  justify-content: center;
   z-index: 2;
 }
 .last h2 {
