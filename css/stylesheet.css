@@ -1147,6 +1147,10 @@ header {
 .manual {
   margin: 30px;
 }
+.manual .left-right img {
+  width: 250px;
+  height: 150px;
+}
 .page {
   margin: 30px 0 0 70px;
 }
