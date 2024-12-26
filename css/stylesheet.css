@@ -112,7 +112,6 @@ header {
   position: absolute;
   top: 13%;
   left: 22%;
-  width: 130px;
   opacity: 0.3;
 }
 .map-center {
@@ -284,9 +283,11 @@ header {
   font-size: 1.9rem;
 }
 .last .nattomini2 {
+  top: 45%;
   left: 88%;
 }
 .last .ito2 {
+  top: 63%;
   left: 85%;
 }
 .last .click {
@@ -339,7 +340,7 @@ header {
   border-top: 15px solid floralwhite;
   z-index: 0;
 }
-.map-left .nattoman img {
+.nattoman img {
   width: 130px;
 }
 .map-center img.nippon {
