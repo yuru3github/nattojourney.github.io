@@ -363,11 +363,11 @@ header {
 .map-left .nattoman img {
   width: 130px;
 }
-.map .map-center {
+.map-center {
   width: 486px;
   height: auto;
 }
-.map .map-center img.nippon {
+.map-center img.nippon {
   width: 100%;
   height: auto;
   display: block;
@@ -379,29 +379,29 @@ header {
 .nattomini-wrapper {
   pointer-events: none;
 }
-.map .nattomini1 {
+.nattomini1 {
   top: 25%;
   left: 5%;
 }
-.map .ito1 {
+.ito1 {
   top: 43%;
   left: 7%;
   transform: rotate(-20deg);
 }
-.map .nattomini2 {
+.nattomini2 {
   top: 90%;
   left: 40%;
 }
-.map .ito2 {
+.ito2 {
   top: 80%;
   left: 55%;
   transform: rotate(30deg);
 }
-.map .nattomini3 {
+.nattomini3 {
   top: 45%;
   right: 3%;
 }
-.map .ito3 {
+.ito3 {
   top: 63%;
   right: 8%;
   transform: rotate(15deg);
