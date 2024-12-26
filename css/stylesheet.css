@@ -131,7 +131,7 @@ header .main-nav a {
 }
 .top .nattomini {
   position: absolute;
-  width: 60px;
+  width: 30px;
 }
 .top .ito {
   position: absolute;
@@ -184,7 +184,7 @@ header .main-nav a {
 }
 .about .nattomini {
   position: absolute;
-  width: 60px;
+  width: 30px;
 }
 .about .ito {
   position: absolute;
@@ -244,7 +244,7 @@ header .main-nav a {
 }
 .manual .nattomini {
   position: absolute;
-  width: 60px;
+  width: 30px;
 }
 .manual .ito {
   position: absolute;
@@ -319,7 +319,7 @@ header .main-nav a {
 }
 .last .nattomini {
   position: absolute;
-  width: 60px;
+  width: 30px;
 }
 .last .ito {
   position: absolute;
@@ -430,7 +430,7 @@ header .main-nav a {
 }
 .nattomini {
   position: absolute;
-  width: 60px;
+  width: 30px;
 }
 .ito {
   position: absolute;
@@ -637,7 +637,7 @@ header .main-nav a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../image/card2.png');
+  background-image: url('../image/card.png');
   background-size: 550px;
   background-repeat: no-repeat;
   background-position: center;
