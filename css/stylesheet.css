@@ -232,8 +232,8 @@ header .main-nav a {
   gap: 40px;
 }
 .manual .left-right img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: auto;
 }
 .manual .nattomini-wrapper {
   position: absolute;
