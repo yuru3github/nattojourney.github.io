@@ -124,7 +124,7 @@ header {
 .top .map-center {
   opacity: 0.3;
 }
-.map-center img.nippon {
+.map-center img {
   width: 100%;
   height: auto;
   display: block;
