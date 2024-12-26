@@ -212,7 +212,7 @@ header {
   width: 30px;
   margin: 0 10px 0 0;
 }
-.page {
+.manual .page {
   margin: 40px 0 0 200px;
 }
 .manual .left-right {
@@ -667,7 +667,7 @@ header {
 .manual {
   margin: 70px;
 }
-.page {
+.manual .page {
   margin: 30px 0 20px 150px;
 }
 .manual .nattokyara img {
@@ -783,7 +783,7 @@ header {
 .manual {
   margin: 50px;
 }
-.page {
+.manual .page {
   margin: 40px 0 20px 120px;
 }
 .manual .left-right {
@@ -958,7 +958,7 @@ header {
 .manual h2 img {
   width: 25px;
 }
-.page {
+.manual .page {
   margin: 30px 0 20px 80px;
 }
 .manual .nattokyara img {
@@ -1150,7 +1150,7 @@ header {
 .manual {
   margin: 30px;
 }
-.page {
+.manual .page {
   margin: 30px 0 0 70px;
 }
 .manual .nattomini1 {
