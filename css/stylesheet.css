@@ -124,12 +124,18 @@ header {
 .top .map-center {
   opacity: 0.3;
 }
+.map-center img.nippon {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 .nattomini-wrapper {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  pointer-events: none;
 }
 .top .nattomini-wrapper {
   opacity: 0.3;
@@ -343,17 +349,9 @@ header {
   border-top: 15px solid floralwhite;
   z-index: 0;
 }
-.map-center img.nippon {
-  width: 100%;
-  height: auto;
-  display: block;
-}
 .map-center map area {
   cursor: pointer;
   outline: none;
-}
-.nattomini-wrapper {
-  pointer-events: none;
 }
 
 /* 一覧 */
