@@ -114,6 +114,9 @@ header {
   left: 22%;
   opacity: 0.3;
 }
+.nattoman img {
+  width: 130px;
+}
 .map-center {
   width: 486px;
   height: auto;
@@ -339,9 +342,6 @@ header {
   border-right: 15px solid transparent;
   border-top: 15px solid floralwhite;
   z-index: 0;
-}
-.nattoman img {
-  width: 130px;
 }
 .map-center img.nippon {
   width: 100%;
@@ -652,6 +652,9 @@ header {
 }
 
 /* 説明 */
+.nattoman img {
+  width: 115px;
+}
 .about {
   margin: 70px;
 }
@@ -664,7 +667,7 @@ header {
 .manual {
   margin: 70px;
 }
-.manual .page {
+.page {
   margin: 30px 0 20px 150px;
 }
 .manual .nattokyara img {
@@ -678,9 +681,6 @@ header {
 /* 地図 */
 .map-left h1 {
   font-size: 2rem;
-}
-.map .nattoman img {
-  width: 115px;
 }
 
 /* 一覧 */
@@ -763,9 +763,12 @@ header {
 }
 
 /* 説明 */
-.top .title h1 {
+.top h1 {
   font-size: 4rem;
   letter-spacing: 5px;
+}
+.nattoman img {
+  width: 100px;
 }
 .about {
   margin: 50px;
@@ -807,12 +810,6 @@ header {
 /* 地図 */
 .map-left h1 {
   margin-bottom: 30px;
-}
-.map .nattoman img {
-  width: 100px;
-}
-.map .ito {
-  width: 70px;
 }
 
 /* 一覧 */
@@ -938,21 +935,21 @@ header {
 }
 
 /* 説明 */
-.top .title h1 {
+.top h1 {
   font-size: 2.7rem;
   letter-spacing: 3px;
 }
 .nattomini {
   width: 20px;
 }
+.ito {
+  width: 60px;
+}
 .about h2 img {
   width: 25px;
 }
 .aboutp {
   margin: 30px 80px 30px 50px;
-}
-.about .ito {
-  width: 60px;
 }
 .about .nattokyara img {
   width: 130px;
@@ -963,9 +960,6 @@ header {
 }
 .page {
   margin: 30px 0 20px 80px;
-}
-.manual .ito {
-  width: 60px;
 }
 .manual .nattokyara img {
   width: 130px;
@@ -979,9 +973,6 @@ header {
 }
 .last h2 {
   font-size: 1.2rem;
-}
-.last .ito {
-  width: 60px;
 }
 .last .nattomini1 {
   left: 2%;
@@ -1130,8 +1121,9 @@ header {
 .top .nattoman img {
   width: 100px;
 }
-.top .map-center img {
-  width: 320px;
+.map-center {
+  width: 330px;
+  height: auto;
 }
 .top .nattomini3 {
   right: 2%;
@@ -1203,21 +1195,14 @@ header {
 .nattoman .fukidashi {
   width: 170px;
 }
-.map .nattoman img {
+.map-left .nattoman img {
   width: 80px;
-}
-.map .map-center {
-  width: 330px;
-  height: auto;
 }
 .large-map {
   display: none;
 }
 .small-map {
   display: block;
-}
-.map .ito {
-  width: 60px;
 }
 
 /* 一覧 */
