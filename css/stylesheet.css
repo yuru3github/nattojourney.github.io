@@ -308,8 +308,6 @@ header .main-nav a {
 }
 .last h2 {
   padding: 50px;
-  position: absolute;
-  transform: translateY(-50%);
   font-size: 1.9rem;
 }
 .last .nattomini-wrapper {
