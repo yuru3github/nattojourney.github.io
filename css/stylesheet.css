@@ -12,8 +12,6 @@ a {
 }
 .button {
   color: rgb(253, 253, 253);
-  border-radius: 30px;
-  padding: 20px;
   cursor: pointer;
 }
 a:hover, .button:hover {
@@ -311,7 +309,7 @@ header {
 }
 
 /* 地図 */
-.map .map-container {
+.map-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -333,7 +331,7 @@ header {
   font-size: 2.2rem;
   margin-bottom: 40px;
 }
-.map .nattoman {
+.map-left .nattoman {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -362,7 +360,7 @@ header {
   border-top: 15px solid floralwhite;
   z-index: 0;
 }
-.map .nattoman img {
+.map-left .nattoman img {
   width: 130px;
 }
 .map .map-center {
@@ -378,7 +376,7 @@ header {
   cursor: pointer;
   outline: none;
 }
-.map .nattomini-wrapper {
+.nattomini-wrapper {
   pointer-events: none;
 }
 .map .nattomini1 {
