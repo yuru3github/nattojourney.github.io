@@ -1092,6 +1092,9 @@ header .main-nav li {
 .last::before {
   background-size: 400px;
 }
+.last .title {
+  padding: 30px;
+}
 .last h2 {
   font-size: 1.2rem;
 }
