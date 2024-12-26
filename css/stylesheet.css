@@ -719,7 +719,7 @@ header {
 }
 
 /* レシピ、参考 */
-.nattokyara img {
+.recipe .nattokyara img, .pull .nattokyara img {
   top: 25%;
   right: 13%;
 }
@@ -874,7 +874,7 @@ header {
 }
 
 /* レシピ、参考 */
-.nattokyara img {
+.recipe .nattokyara img, .pull .nattokyara img {
   width: 180px;
   top: 20%;
   right: 10%;
@@ -885,7 +885,7 @@ header {
 .recipe ul, .pull ul {
   margin-top: 30px;
 }
-.recipe ul li, .pull ul li {
+.recipe li, .pull li {
   margin-bottom: 15px;
 }
 .pull .border {
@@ -1068,7 +1068,7 @@ header {
 }
 
 /* レシピ、参考 */
-.nattokyara img {
+.recipe .nattokyara img, .pull .nattokyara img {
   width: 150px;
   right: 7%;
 }
@@ -1236,7 +1236,7 @@ header {
 }
 
 /* レシピ、参考 */
-.nattokyara img {
+.recipe .nattokyara img, .pull .nattokyara img {
   width: 130px;
   top: 18%;
   right: 5%;
