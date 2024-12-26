@@ -279,7 +279,6 @@ header .main-nav a {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align:center;
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -303,8 +302,9 @@ header .main-nav a {
 }
 .last .title {
   padding: 50px;
-  position: absolute;
-  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   z-index: 2;
 }
 .last h2 {
