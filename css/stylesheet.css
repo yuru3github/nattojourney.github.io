@@ -306,6 +306,9 @@ header .main-nav a {
   transform: translateY(-50%);
   z-index: 2;
 }
+.last .title a {
+  padding: 50px;
+}
 .last h2 {
   font-size: 1.9rem;
 }
