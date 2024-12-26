@@ -232,10 +232,10 @@ header .main-nav a {
   gap: 40px;
 }
 .manual .left-right img {
-  width: 250px;
-  height: 150px;
+  width: 280px;
+  height: 170px;
   background-color: rgb(117, 95, 72);
-  padding: 5px;
+  padding: 7px;
 }
 .manual .nattomini-wrapper {
   position: absolute;
