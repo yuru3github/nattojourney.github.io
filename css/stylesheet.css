@@ -311,7 +311,7 @@ header {
 }
 
 /* 地図 */
-.map-container {
+.map .map-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -333,7 +333,7 @@ header {
   font-size: 2.2rem;
   margin-bottom: 40px;
 }
-.nattoman {
+.map .nattoman {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -362,14 +362,14 @@ header {
   border-top: 15px solid floralwhite;
   z-index: 0;
 }
-.nattoman img {
+.map .nattoman img {
   width: 130px;
 }
-.map-center {
+.map .map-center {
   width: 486px;
   height: auto;
 }
-.map-center img.nippon {
+.map .map-center img.nippon {
   width: 100%;
   height: auto;
   display: block;
@@ -378,45 +378,32 @@ header {
   cursor: pointer;
   outline: none;
 }
-.nattomini-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.map .nattomini-wrapper {
   pointer-events: none;
 }
-.nattomini {
-  position: absolute;
-  width: 30px;
-}
-.ito {
-  position: absolute;
-  width: 80px;
-}
-.nattomini1 {
+.map .nattomini1 {
   top: 25%;
   left: 5%;
 }
-.ito1 {
+.map .ito1 {
   top: 43%;
   left: 7%;
   transform: rotate(-20deg);
 }
-.nattomini2 {
+.map .nattomini2 {
   top: 90%;
   left: 40%;
 }
-.ito2 {
+.map .ito2 {
   top: 80%;
   left: 55%;
   transform: rotate(30deg);
 }
-.nattomini3 {
+.map .nattomini3 {
   top: 45%;
   right: 3%;
 }
-.ito3 {
+.map .ito3 {
   top: 63%;
   right: 8%;
   transform: rotate(15deg);
@@ -745,7 +732,7 @@ header {
 .map-left h1 {
   font-size: 2rem;
 }
-.nattoman img {
+.map .nattoman img {
   width: 115px;
 }
 
@@ -805,23 +792,18 @@ header {
 
 @media (max-width: 800px) {
 
-.button {
-  border-radius: 20px;
-  padding: 15px;
-}
-
 /* ヘッダー */
 header {
   border-bottom: 3px solid rgb(79, 168, 107);
 }
-header .logo {
+.logo {
   width: 70px;
   margin: 5px 0 0 70px;
 }
-header .main-nav {
+.main-nav {
   margin: 30px;
 }
-header .main-nav li {
+.main-nav li {
   padding-right: 40px;
 }
 
@@ -851,7 +833,7 @@ header .main-nav li {
 .manual {
   margin: 50px;
 }
-.manual .page {
+.page {
   margin: 40px 0 20px 120px;
 }
 .manual .left-right {
@@ -879,10 +861,10 @@ header .main-nav li {
 .map-left h1 {
   margin-bottom: 30px;
 }
-.nattoman img {
+.map .nattoman img {
   width: 100px;
 }
-.ito {
+.map .ito {
   width: 70px;
 }
 
@@ -990,13 +972,13 @@ header .main-nav li {
 @media (max-width: 600px) {
 
 /* ヘッダー */
-header .logo {
+.logo {
   margin: 10px 0 0 50px;
 }
-header .main-nav {
+.main-nav {
   margin: 30px;
 }
-header .main-nav li {
+.main-nav li {
   padding-right: 20px;
 }
 
@@ -1013,7 +995,7 @@ header .main-nav li {
   font-size: 2.7rem;
   letter-spacing: 3px;
 }
-.top .nattomini {
+.nattomini {
   width: 20px;
 }
 .about h2 img {
@@ -1021,9 +1003,6 @@ header .main-nav li {
 }
 .aboutp {
   margin: 30px 80px 30px 50px;
-}
-.about .nattomini {
-  width: 20px;
 }
 .about .ito {
   width: 60px;
@@ -1035,11 +1014,8 @@ header .main-nav li {
 .manual h2 img {
   width: 25px;
 }
-.manual .page {
+.page {
   margin: 30px 0 20px 80px;
-}
-.manual .nattomini {
-  width: 20px;
 }
 .manual .ito {
   width: 60px;
@@ -1056,9 +1032,6 @@ header .main-nav li {
 }
 .last h2 {
   font-size: 1.2rem;
-}
-.last .nattomini {
-  width: 20px;
 }
 .last .ito {
   width: 60px;
@@ -1090,9 +1063,6 @@ header .main-nav li {
 }
 .nattoman .fukidashi {
   padding: 15px 8px;
-}
-.nattomini {
-  width: 20px;
 }
 
 /* 一覧 */
@@ -1190,14 +1160,14 @@ header .main-nav li {
 @media (max-width: 430px) {
 
 /* ヘッダー */
-header .logo {
+.logo {
   width: 50px;
   margin: 12px 0 0 15px;
 }
-header .main-nav {
+.main-nav {
   margin: 20px 10px 0 15px;
 }
-header .main-nav li {
+.main-nav li {
   padding-right: 12px;
 }
 
@@ -1241,7 +1211,7 @@ header .main-nav li {
 .manual {
   margin: 30px;
 }
-.manual .page {
+.page {
   margin: 30px 0 0 70px;
 }
 .manual .nattomini1 {
@@ -1286,10 +1256,10 @@ header .main-nav li {
 .nattoman .fukidashi {
   width: 170px;
 }
-.nattoman img {
+.map .nattoman img {
   width: 80px;
 }
-.map-center {
+.map .map-center {
   width: 330px;
   height: auto;
 }
@@ -1299,7 +1269,7 @@ header .main-nav li {
 .small-map {
   display: block;
 }
-.ito {
+.map .ito {
   width: 60px;
 }
 
