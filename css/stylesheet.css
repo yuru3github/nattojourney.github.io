@@ -11,7 +11,6 @@ a {
   color: rgb(33, 164, 164);
 }
 .button {
-  background-color: rgb(84, 176, 190);
   color: rgb(253, 253, 253);
   border-radius: 30px;
   padding: 20px;
@@ -33,19 +32,19 @@ header {
   right: 0;
   position: sticky;
 }
-header .logo {
+.logo {
   width: 100px;
   margin: 0 0 0 100px;
 }
-header .main-nav {
+.main-nav {
   margin: 40px;
   list-style: none;
   display: flex;
 }
-header .main-nav li {
+.main-nav li {
   padding-right: 50px;
 }
-header .main-nav a {
+.main-nav a {
   color: rgb(253, 253, 253);
   font-weight: bold;
 }
@@ -105,7 +104,7 @@ header .main-nav a {
   text-align: center;
   z-index: 2;
 }
-.top .title h1 {
+.top h1 {
   font-size: 5rem;
   letter-spacing: 7px;
 }
@@ -121,19 +120,21 @@ header .main-nav a {
   height: auto;
   opacity: 0.3;
 }
-.top .nattomini-wrapper {
+.nattomini-wrapper {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+}
+.top .nattomini-wrapper {
   opacity: 0.3;
 }
-.top .nattomini {
+.nattomini {
   position: absolute;
   width: 30px;
 }
-.top .ito {
+.ito {
   position: absolute;
   width: 80px;
 }
@@ -175,21 +176,6 @@ header .main-nav a {
 .aboutp {
   margin: 50px 250px 0 150px;
 }
-.about .nattomini-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.about .nattomini {
-  position: absolute;
-  width: 30px;
-}
-.about .ito {
-  position: absolute;
-  width: 80px;
-}
 .about .nattomini1 {
   top: 40%;
   left: 2%;
@@ -223,7 +209,7 @@ header .main-nav a {
   width: 30px;
   margin: 0 10px 0 0;
 }
-.manual .page {
+.page {
   margin: 40px 0 0 200px;
 }
 .manual .left-right {
@@ -234,23 +220,8 @@ header .main-nav a {
 .manual .left-right img {
   width: 300px;
   height: 180px;
-  background-color: rgb(74, 166, 180);
+  background-color: rgb(33, 164, 164);
   padding: 5px;
-}
-.manual .nattomini-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.manual .nattomini {
-  position: absolute;
-  width: 30px;
-}
-.manual .ito {
-  position: absolute;
-  width: 80px;
 }
 .manual .nattomini1 {
   top: 15%;
@@ -311,21 +282,6 @@ header .main-nav a {
 }
 .last h2 {
   font-size: 1.9rem;
-}
-.last .nattomini-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.last .nattomini {
-  position: absolute;
-  width: 30px;
-}
-.last .ito {
-  position: absolute;
-  width: 80px;
 }
 .last .nattomini1 {
   top: 25%;
