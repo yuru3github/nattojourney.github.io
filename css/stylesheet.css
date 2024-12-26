@@ -924,7 +924,7 @@ header .main-nav li {
   width: 100px;
 }
 .nattomini {
-  width: 50px;
+  width: 20px;
 }
 .ito {
   width: 70px;
@@ -1064,7 +1064,7 @@ header .main-nav li {
   margin: 30px 100px 30px 70px;
 }
 .about .nattomini {
-  width: 40px;
+  width: 20px;
 }
 .about .ito {
   width: 60px;
@@ -1080,7 +1080,7 @@ header .main-nav li {
   margin: 30px 0 20px 80px;
 }
 .manual .nattomini {
-  width: 40px;
+  width: 20px;
 }
 .manual .ito {
   width: 60px;
@@ -1096,7 +1096,7 @@ header .main-nav li {
   font-size: 1.2rem;
 }
 .last .nattomini {
-  width: 40px;
+  width: 20px;
 }
 .last .ito {
   width: 60px;
@@ -1333,9 +1333,6 @@ header .main-nav li {
 }
 .small-map {
   display: block;
-}
-.nattomini {
-  width: 40px;
 }
 .ito {
   width: 60px;
