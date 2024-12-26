@@ -85,7 +85,7 @@ header {
 }
 
 /* 説明 */
-.top .map-container {
+.map-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,6 +93,8 @@ header {
   width: 100vw;
   height: 100vh;
   margin: 0;
+}
+.top .map-container {
   z-index: 1;
 }
 .top .title {
@@ -113,9 +115,11 @@ header {
   width: 130px;
   opacity: 0.3;
 }
-.top .map-center {
+.map-center {
   width: 486px;
   height: auto;
+}
+.top .map-center {
   opacity: 0.3;
 }
 .nattomini-wrapper {
@@ -136,29 +140,29 @@ header {
   position: absolute;
   width: 80px;
 }
-.top .nattomini1 {
+.nattomini1 {
   top: 25%;
   left: 5%;
 }
-.top .ito1 {
+.ito1 {
   top: 43%;
   left: 7%;
   transform: rotate(-20deg);
 }
-.top .nattomini2 {
+.nattomini2 {
   top: 90%;
   left: 40%;
 }
-.top .ito2 {
+.ito2 {
   top: 80%;
   left: 55%;
   transform: rotate(30deg);
 }
-.top .nattomini3 {
+.nattomini3 {
   top: 45%;
   right: 3%;
 }
-.top .ito3 {
+.ito3 {
   top: 63%;
   right: 8%;
   transform: rotate(15deg);
@@ -181,7 +185,6 @@ header {
 .about .ito1 {
   top: 70%;
   left: 0;
-  transform: rotate(-20deg);
 }
 .about .nattomini2 {
   top: 10%;
@@ -228,7 +231,6 @@ header {
 .manual .ito1 {
   top: 30%;
   left: 0;
-  transform: rotate(-20deg);
 }
 .manual .nattomini2 {
   top: 50%;
@@ -281,23 +283,11 @@ header {
 .last h2 {
   font-size: 1.9rem;
 }
-.last .nattomini1 {
-  top: 25%;
-  left: 5%;
-}
-.last .ito1 {
-  top: 43%;
-  left: 7%;
-  transform: rotate(-20deg);
-}
 .last .nattomini2 {
-  top: 45%;
   left: 88%;
 }
 .last .ito2 {
-  top: 63%;
   left: 85%;
-  transform: rotate(15deg);
 }
 .last .click {
   width: 200px;
@@ -309,22 +299,12 @@ header {
 }
 
 /* 地図 */
-.map-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-}
 .map-left {
   position: absolute;
   top: 13%;
   left: 22%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   text-align: left;
 }
 .map-left h1 {
@@ -334,7 +314,6 @@ header {
 .map-left .nattoman {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 15px;
 }
 .nattoman .fukidashi {
@@ -363,10 +342,6 @@ header {
 .map-left .nattoman img {
   width: 130px;
 }
-.map-center {
-  width: 486px;
-  height: auto;
-}
 .map-center img.nippon {
   width: 100%;
   height: auto;
@@ -378,33 +353,6 @@ header {
 }
 .nattomini-wrapper {
   pointer-events: none;
-}
-.nattomini1 {
-  top: 25%;
-  left: 5%;
-}
-.ito1 {
-  top: 43%;
-  left: 7%;
-  transform: rotate(-20deg);
-}
-.nattomini2 {
-  top: 90%;
-  left: 40%;
-}
-.ito2 {
-  top: 80%;
-  left: 55%;
-  transform: rotate(30deg);
-}
-.nattomini3 {
-  top: 45%;
-  right: 3%;
-}
-.ito3 {
-  top: 63%;
-  right: 8%;
-  transform: rotate(15deg);
 }
 
 /* 一覧 */
