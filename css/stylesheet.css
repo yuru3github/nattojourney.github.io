@@ -307,7 +307,9 @@ header .main-nav a {
   z-index: 2;
 }
 .last h2 {
-  padding: 100px auto;
+  padding: 50px;
+  position: absolute;
+  transform: translateY(-50%);
   font-size: 1.9rem;
 }
 .last .nattomini-wrapper {
