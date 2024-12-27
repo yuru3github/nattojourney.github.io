@@ -137,9 +137,6 @@ header {
   height: 100%;
   pointer-events: none;
 }
-.top .nattomini-wrapper {
-  opacity: 0.3;
-}
 .nattomini {
   position: absolute;
   width: 25px;
@@ -147,6 +144,9 @@ header {
 .ito {
   position: absolute;
   width: 70px;
+}
+.top .nattomini, .top .ito {
+  opacity: 0.3;
 }
 .nattomini1 {
   top: 25%;
@@ -157,6 +157,13 @@ header {
   left: 7%;
   transform: rotate(-20deg);
 }
+.yazirusi {
+  position: absolute;
+  width: px;
+  height: auto;
+  top: 63%;
+  right: 8%;
+}
 .nattomini3 {
   top: 45%;
   right: 3%;
@@ -165,6 +172,13 @@ header {
   top: 63%;
   right: 8%;
   transform: rotate(15deg);
+}
+.click-return {
+  position: absolute;
+  top: 63%;
+  right: 8%;
+  border: dotted;
+  padding: 10px;
 }
 .about {
   padding: 50px 100px 20px;
