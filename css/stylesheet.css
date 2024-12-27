@@ -653,11 +653,11 @@ header {
 }
 
 /* 説明 */
-.nattoman img {
-  width: 115px;
-}
 .click-return a {
   right: 5%;
+}
+.nattoman img {
+  width: 115px;
 }
 .about {
   padding: 50px 70px 20px;
@@ -782,6 +782,10 @@ header {
 .top h1 {
   font-size: 4rem;
   letter-spacing: 5px;
+}
+.click-return a {
+  top: 5%;
+  padding: 15px;
 }
 .nattoman img {
   width: 100px;
