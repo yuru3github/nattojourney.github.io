@@ -176,7 +176,7 @@ header {
   transform: rotate(15deg);
 }
 .about {
-  padding: 100px;
+  padding: 50px 100px;
   position: relative;
 }
 .about h2 img {
@@ -196,11 +196,11 @@ header {
   left: 70%;
 }
 .about .nattomini1 {
-  top: 60%;
+  top: 50%;
   left: 10%;
 }
 .about .ito1 {
-  top: 80%;
+  top: 70%;
   left: 8%;
 }
 .about .nattomini2 {
@@ -213,7 +213,7 @@ header {
   transform: rotate(-20deg);
 }
 .manual {
-  padding: 100px;
+  padding: 50px 100px;
   position: relative;
 }
 .manual h2 img {
@@ -642,7 +642,7 @@ header {
   width: 115px;
 }
 .about {
-  margin: 70px;
+  padding: 50px 70px;
 }
 .aboutp {
   margin: 30px 200px 0 100px;
@@ -651,7 +651,7 @@ header {
   width: 180px;
 }
 .manual {
-  margin: 70px;
+  padding: 50px 70px;
 }
 .page {
   margin: 30px 0 20px 150px;
@@ -757,7 +757,7 @@ header {
   width: 100px;
 }
 .about {
-  margin: 50px;
+  padding: 50px;
 }
 .aboutp {
   margin: 40px 150px 0 80px;
@@ -767,7 +767,7 @@ header {
   right: 0;
 }
 .manual {
-  margin: 50px;
+  padding: 50px;
 }
 .page {
   margin: 40px 0 20px 120px;
