@@ -662,7 +662,7 @@ header {
 }
 .manual .nattokyara img {
   width: 180px;
-  left: -3%;
+  left: 0;
 }
 .last::before {
   background-size: 600px;
