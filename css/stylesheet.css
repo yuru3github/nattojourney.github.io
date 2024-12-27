@@ -157,15 +157,6 @@ header {
   left: 7%;
   transform: rotate(-20deg);
 }
-.nattomini2 {
-  top: 90%;
-  left: 40%;
-}
-.ito2 {
-  top: 80%;
-  left: 55%;
-  transform: rotate(30deg);
-}
 .nattomini3 {
   top: 45%;
   right: 3%;
@@ -343,6 +334,15 @@ header {
 .map-center map area {
   cursor: pointer;
   outline: none;
+}
+.nattomini2 {
+  top: 90%;
+  left: 40%;
+}
+.ito2 {
+  top: 80%;
+  left: 55%;
+  transform: rotate(30deg);
 }
 
 /* 一覧 */
