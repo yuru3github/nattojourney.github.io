@@ -645,7 +645,7 @@ header {
   padding: 50px 70px;
 }
 .aboutp {
-  margin: 30px 200px 0 100px;
+  margin: 30px 180px 0 80px;
 }
 .about .nattokyara img {
   width: 180px;
@@ -654,7 +654,19 @@ header {
   padding: 50px 70px;
 }
 .page {
-  margin: 30px 0 20px 150px;
+  margin: 30px 0 20px 120px;
+}
+.manual .nattomini1 {
+  left: 10%;
+}
+.manual .ito1 {
+  left: 5%;
+}
+.manual .nattomini2 {
+  left: 10%;
+}
+.manual .ito2 {
+  left: 5%;
 }
 .manual .nattokyara img {
   width: 180px;
