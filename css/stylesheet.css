@@ -778,6 +778,12 @@ header {
   width: 150px;
   right: 0;
 }
+.about .nattomini1 {
+  left: 5%;
+}
+.about .ito1 {
+  left: 2%;
+}
 .manual {
   padding: 50px 50px 20px;
 }
@@ -941,11 +947,11 @@ header {
   width: 25px;
 }
 .aboutp {
-  margin: 30px 80px 30px 40px;
+  margin: 30px 90px 30px 40px;
 }
 .about .nattokyara img {
   width: 130px;
-  right: -10%;
+  right: -15%;
 }
 .manual h2 img {
   width: 25px;
