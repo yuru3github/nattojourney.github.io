@@ -108,6 +108,13 @@ header {
   font-size: 5rem;
   letter-spacing: 7px;
 }
+.click-return a {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  border: dotted;
+  padding: 20px;
+}
 .top .nattoman img {
   position: absolute;
   top: 13%;
@@ -173,14 +180,6 @@ header {
   top: 63%;
   right: 8%;
   transform: rotate(15deg);
-}
-.click-return a {
-  position: absolute;
-  top: 10%;
-  right: 10%;
-  border: dotted;
-  padding: 20px;
-  z-index: 5;
 }
 .about {
   padding: 50px 100px 20px;
