@@ -176,8 +176,7 @@ header {
   transform: rotate(15deg);
 }
 .about {
-  margin: 50px;
-  padding: 50px;
+  padding: 100px;
   position: relative;
 }
 .about h2 img {
@@ -214,8 +213,7 @@ header {
   transform: rotate(-20deg);
 }
 .manual {
-  margin: 100px 0;
-  padding: 0 100px;
+  padding: 100px;
   position: relative;
 }
 .manual h2 img {
@@ -644,8 +642,7 @@ header {
   width: 115px;
 }
 .about {
-  margin: 35px;
-  padding: 35px;
+  margin: 70px;
 }
 .aboutp {
   margin: 30px 200px 0 100px;
@@ -654,8 +651,7 @@ header {
   width: 180px;
 }
 .manual {
-  margin: 35px;
-  padding: 35px;
+  margin: 70px;
 }
 .page {
   margin: 30px 0 20px 150px;
@@ -761,8 +757,7 @@ header {
   width: 100px;
 }
 .about {
-  margin: 25px;
-  padding: 25px;
+  margin: 50px;
 }
 .aboutp {
   margin: 40px 150px 0 80px;
@@ -772,8 +767,7 @@ header {
   right: 0;
 }
 .manual {
-  margin: 25px;
-  padding: 25px;
+  margin: 50px;
 }
 .page {
   margin: 40px 0 20px 120px;
