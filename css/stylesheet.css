@@ -173,7 +173,7 @@ header {
   right: 8%;
   transform: rotate(15deg);
 }
-.click-return {
+.click-return a {
   position: absolute;
   top: 63%;
   right: 8%;
