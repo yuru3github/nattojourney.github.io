@@ -176,7 +176,8 @@ header {
   transform: rotate(15deg);
 }
 .about {
-  margin: 100px;
+  margin: 100px 0;
+  padding: 0 100px;
   position: relative;
 }
 .about h2 img {
@@ -185,6 +186,15 @@ header {
 }
 .aboutp {
   margin: 50px 250px 0 150px;
+}
+.nattokyara img {
+  width: 200px;
+  height: auto;
+  position: absolute;
+}
+.about .nattokyara img {
+  top: 65%;
+  right: 5%;
 }
 .about .nattomini1 {
   top: 40%;
@@ -203,17 +213,9 @@ header {
   left: 85%;
   transform: rotate(-20deg);
 }
-.nattokyara img {
-  width: 200px;
-  height: auto;
-  position: absolute;
-}
-.about .nattokyara img {
-  top: 65%;
-  right: 5%;
-}
 .manual {
-  margin: 100px;
+  margin: 100px 0;
+  padding: 0 100px;
   position: relative;
 }
 .manual h2 img {
@@ -289,14 +291,6 @@ header {
 }
 .last h2 {
   font-size: 1.9rem;
-}
-.last .nattomini2 {
-  top: 45%;
-  left: 88%;
-}
-.last .ito2 {
-  top: 63%;
-  left: 85%;
 }
 .last .click {
   width: 200px;
@@ -650,7 +644,8 @@ header {
   width: 115px;
 }
 .about {
-  margin: 70px;
+  margin: 70px 0;
+  padding: 0 70px;
 }
 .aboutp {
   margin: 30px 200px 0 100px;
@@ -659,7 +654,8 @@ header {
   width: 180px;
 }
 .manual {
-  margin: 70px;
+  margin: 70px 0;
+  padding: 0 70px;
 }
 .page {
   margin: 30px 0 20px 150px;
@@ -765,7 +761,8 @@ header {
   width: 100px;
 }
 .about {
-  margin: 50px;
+  margin: 50px 0;
+  padding: 0 50px;
 }
 .aboutp {
   margin: 40px 150px 0 80px;
@@ -775,7 +772,8 @@ header {
   right: 0;
 }
 .manual {
-  margin: 50px;
+  margin: 50px 0;
+  padding: 0 50px;
 }
 .page {
   margin: 40px 0 20px 120px;
@@ -793,12 +791,6 @@ header {
 }
 .last h2 {
   font-size: 1.5rem;
-}
-.last .nattomini1 {
-  left: 2%;
-}
-.last .ito1 {
-  left: 3%;
 }
 
 /* 地図 */
@@ -968,18 +960,6 @@ header {
 .last h2 {
   font-size: 1.2rem;
 }
-.last .nattomini1 {
-  left: 2%;
-}
-.last .ito1 {
-  left: 0;
-}
-.last .nattomini2 {
-  left: 90%;
-}
-.last .ito2 {
-  left: 87%;
-}
 .last .click {
   top: 65%;
   right: 30%;
@@ -1130,18 +1110,19 @@ header {
 .aboutp {
   margin: 30px 60px 0 40px;
 }
+.about .nattokyara img {
+  width: 100px;
+  right: -10%;
+}
 .about .nattomini1 {
   left: -2%;
 }
 .about .ito1 {
   left: -5%;
 }
-.about .nattokyara img {
-  width: 100px;
-  right: -10%;
-}
 .manual {
-  margin: 30px;
+  margin: 30px 0;
+  padding: 0 30px;
 }
 .manual .left-right img {
   width: 250px;
@@ -1173,12 +1154,6 @@ header {
 }
 .last h2 {
   font-size: 0.9rem;
-}
-.last .nattomini2 {
-  left: 88%;
-}
-.last .ito2 {
-  left: 85%;
 }
 .last .click {
   top: 60%;
