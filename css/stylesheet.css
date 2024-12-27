@@ -772,7 +772,7 @@ header {
   padding: 50px;
 }
 .aboutp {
-  margin: 40px 150px 0 80px;
+  margin: 40px 130px 0 50px;
 }
 .about .nattokyara img {
   width: 150px;
@@ -941,11 +941,11 @@ header {
   width: 25px;
 }
 .aboutp {
-  margin: 30px 80px 30px 50px;
+  margin: 30px 80px 30px 40px;
 }
 .about .nattokyara img {
   width: 130px;
-  right: -7%;
+  right: -10%;
 }
 .manual h2 img {
   width: 25px;
@@ -955,7 +955,7 @@ header {
 }
 .manual .nattokyara img {
   width: 130px;
-  left: -7%;
+  left: -3%;
 }
 .last::before {
   background-size: 400px;
