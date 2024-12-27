@@ -168,7 +168,7 @@ header {
   position: absolute;
   width: 70px;
   height: auto;
-  top: 90%;
+  top: 80%;
   left: 45%;
   transform: rotate(-180deg);
 }
