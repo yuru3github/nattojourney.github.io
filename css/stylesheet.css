@@ -1149,7 +1149,7 @@ header {
 }
 .about .nattokyara img {
   width: 80px;
-  right: 0;
+  right: -50%;
 }
 .about .nattomini1 {
   left: 2%;
