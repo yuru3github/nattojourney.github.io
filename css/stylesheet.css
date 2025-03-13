@@ -975,11 +975,11 @@ header {
   width: 25px;
 }
 .aboutp {
-  margin: 30px 120px 30px 40px;
+  margin: 30px 100px 30px 40px;
 }
 .about .nattokyara img {
   width: 120px;
-  right: -20%;
+  right: -30%;
 }
 .manual h2 img {
   width: 25px;
@@ -1149,13 +1149,14 @@ header {
   left: 42%;
 }
 .about {
-  padding: 30px 10px 20px 30px;
+  padding: 30px 30px 20px;
 }
 .aboutp {
   margin: 30px 60px 0 40px;
 }
 .about .nattokyara img {
   width: 80px;
+  right: -50%;
 }
 .about .nattomini1 {
   left: 2%;
