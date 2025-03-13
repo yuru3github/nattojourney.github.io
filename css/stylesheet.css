@@ -169,7 +169,7 @@ header {
   width: 70px;
   height: auto;
   top: 85%;
-  left: 45%;
+  left: 50%;
   transform: rotate(-180deg);
 }
 .nattomini3 {
@@ -968,6 +968,9 @@ header {
 .ito {
   width: 60px;
 }
+.yazirusi {
+  left: 45%;
+}
 .about h2 img {
   width: 25px;
 }
@@ -1140,6 +1143,10 @@ header {
 }
 .top .ito3 {
   right: 5%;
+}
+.yazirusi {
+  top: 80%;
+  left: 42%;
 }
 .about {
   padding: 30px 30px 20px;
