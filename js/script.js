@@ -29,10 +29,6 @@ $(document).ready(function () {
     }
 });
 
-$(document).on("click", ".side-nav ul a", function () {
-  $(".side-nav ul").hide();
-});
-
 let box = [];
 
 $('.btn').click(function(event) {
