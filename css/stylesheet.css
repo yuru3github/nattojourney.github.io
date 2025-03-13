@@ -169,7 +169,7 @@ header {
   width: 70px;
   height: auto;
   top: 85%;
-  left: 50%;
+  left: 48%;
   transform: rotate(-180deg);
 }
 .nattomini3 {
@@ -789,9 +789,6 @@ header {
 }
 .nattoman img {
   width: 100px;
-}
-.yazirusi {
-  left: 47%;
 }
 .about {
   padding: 50px 50px 20px;
