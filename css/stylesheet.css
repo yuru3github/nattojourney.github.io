@@ -242,24 +242,24 @@ header {
 }
 .manual .nattomini1 {
   top: 15%;
-  left: 15%;
+  left: 10%;
 }
 .manual .ito1 {
   top: 30%;
-  left: 10%;
+  left: 5%;
 }
 .manual .nattomini2 {
   top: 50%;
-  left: 15%;
+  left: 10%;
 }
 .manual .ito2 {
   top: 65%;
-  left: 10%;
+  left: 5%;
   transform: rotate(-20deg);
 }
 .manual .nattokyara img {
   top: 85%;
-  left: 5%;
+  left: 2%;
 }
 .last {
   display: flex;
@@ -1156,6 +1156,7 @@ header {
 }
 .about .nattokyara img {
   width: 80px;
+  top: 40%;
   right: -70%;
 }
 .about .nattomini1 {
