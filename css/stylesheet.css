@@ -975,13 +975,14 @@ header {
   width: 25px;
 }
 .about {
-  padding: 50px 20px 20px 50px;
+  padding: 50px 10px 20px 50px;
 }
 .aboutp {
-  margin: 30px 90px 30px 40px;
+  margin: 30px 100px 30px 40px;
 }
 .about .nattokyara img {
   width: 120px;
+  right: -10%;
 }
 .manual h2 img {
   width: 25px;
