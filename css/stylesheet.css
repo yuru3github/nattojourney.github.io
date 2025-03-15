@@ -1016,7 +1016,7 @@ header {
 .side ul.side-nav li ul {
   width: 100%;
 }
-.side ul.side-nav li:active ul {
+.side ul.side-nav li:hover ul {
   z-index: 8;
 }
 .side-nav .button {
