@@ -405,11 +405,11 @@ header {
 .side ul.side-nav li {
   position: relative;
 }
-.side ul.side-nav li:active ul {
+.side ul.side-nav li:hover ul {
   display: block;
   width: 100%;
 }
-.side ul.side-nav li:active ul .button {
+.side ul.side-nav li:hover ul .button {
   font-size: 12px;
   text-align: left;
   flex-grow: 1;
@@ -418,11 +418,11 @@ header {
   background-color: rgb(90, 180, 120);
   width: 100%;
 }
-.side ul.side-nav li:active ul li {
+.side ul.side-nav li:hover ul li {
   margin: 0;
   padding: 0;
 }
-.side ul.side-nav li:active ul li a {
+.side ul.side-nav li:hover ul li a {
   padding: 2px 20px;
   margin: 0;
   display: block;
